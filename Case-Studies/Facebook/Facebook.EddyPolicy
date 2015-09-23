@@ -1,0 +1,110 @@
+SPEC HEADER
+
+    A Facebook-Family > Facebook-Owner
+    A Advertising > Service-Provider
+    A Advertising > Third-Parties
+    A Friends&Followers > Members
+    A Members > Visitors
+    P Account-Service > Account-Information,Public-Activity-or-Profile-Information,Device-Specifications-Information,Device-Locations-Information,Connection-Information
+    P Donation-or-Purchases-Service > Account-Information,Friends-and-Contacts-Information
+    P Contact-Importer-Service > Payment-Information
+    P Advertising-Service > Third-parties-Activity-Information
+    D Account-Information > First-Name,Surname,Email,Mobile-Number,Password,Date-Of-Birth,Gender
+    D Friends-and-Contacts-Information > Name,Email,Other-Contact-Information
+    D Payment-Information > Credit,Other-Card-Information,Account-Information,Billing
+    D Public-Activity-or-Profile-Information > Posts,Photos,Status-Updates,Public-Profile
+    D Device-Specifications-Information > Operating-System,Hardware-Version,Device-Settings,Software-Names-And-Types,Battery-And-Signal-Strength,Device-Identifiers
+    D Device-Locations-Information > Geographic-Locations
+    D Connection-Information > ISP,Browser-Type,Language-And-TimeZone,Mobile-Phone-Number,IP-Address
+    D Third-parties-Activity-Information > Third-party-Information
+
+SPEC POLICY
+
+     P COLLECT Account-Information FOR Account-Service
+     P COLLECT Public-Activity-or-Profile-Information FOR Account-Service
+     P COLLECT Public-Activity-or-Profile-Information FOR Account-Service
+     P COLLECT Payment-Information FOR Account-Service
+     P COLLECT Payment-Information FOR Contact-Importer-Service
+     P COLLECT Friends-and-Contacts-Information FOR Donation-or-Purchases-Service
+     P COLLECT Device-Specifications-Information, Device-Locations-Information, Connection-Information FOR Account-Service
+     P COLLECT Device-Specifications-Information FOR Account-Service
+     P COLLECT Device-Locations-Information FOR Account-Service
+     P COLLECT Connection-Information FOR Account-Service
+     P COLLECT Third-parties-Activity-Information FOR Account-Service
+     P COLLECT Third-parties-Activity-Information FOR Anything
+     P COLLECT Account-Information FOR Anything
+     P COLLECT Public-Activity-or-Profile-Information FOR Account-Service
+     P COLLECT Account-Information FOR Account-Service
+     P COLLECT Account-Information, Public-Activity-or-Profile-Information FOR Account-Service
+     P TRANSFER Account-Information, Public-Activity-or-Profile-Information FROM Facebook-Family FOR Anything
+     P TRANSFER Account-Information, Public-Activity-or-Profile-Information FROM Facebook-Owner FOR Anything
+     R TRANSFER Account-Information FROM Advertising FOR Anything
+     P TRANSFER Public-Activity-or-Profile-Information FROM Advertising FOR Anything
+     P TRANSFER Account-Information FROM Service-Provider FOR Anything
+     P TRANSFER Account-Information FROM Facebook-Family,Third-Parties FOR Anything
+     P TRANSFER Public-Activity-or-Profile-Information FROM Friends&Followers FOR Account-Service
+     P TRANSFER Public-Activity-or-Profile-Information FROM Members FOR Account-Service
+     P TRANSFER Public-Activity-or-Profile-Information FROM Visitors FOR Account-Service
+     P TRANSFER Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P TRANSFER Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P TRANSFER Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P TRANSFER Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P TRANSFER Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P RETAIN Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P RETAIN Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Advertising-Service
+     P RETAIN Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P RETAIN Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Advertising-Service
+     P RETAIN Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P RETAIN Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P RETAIN Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Account-Service
+     P RETAIN Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P RETAIN Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P RETAIN Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P RETAIN Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P USE Public-Activity-or-Profile-Information FOR Anything
+     P USE Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Account-Service
+     P USE Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Advertising-Service
+     P USE Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Advertising-Service
+     P USE Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Account-Service
+     P USE Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Account-Service
+     P USE Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Account-Service
+     P USE Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P USE Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P USE Device-Specifications-Information, Device-Locations-Information, Connection-Information FOR Anything
+     P USE Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P USE Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P USE Account-Information, Friends-and-Contacts-Information, Payment-Information, Public-Activity-or-Profile-Information, Device-Specifications-Information, Device-Locations-Information, Connection-Information, Third-parties-Activity-Information FOR Anything
+     P USE Public-Activity-or-Profile-Information FOR Anything
+     P USE Device-Locations-Information FOR Anything
+     P USE Account-Information, Public-Activity-or-Profile-Information FOR Anything
+     P USE Account-Information, Public-Activity-or-Profile-Information FOR Anything
+     P USE Account-Information, Public-Activity-or-Profile-Information FOR Anything
+     P USE Account-Information FOR Anything
+     P USE Account-Information FOR Anything
+     P USE Account-Information FOR Anything
+     P USE Account-Information FOR Anything
+     P USE Account-Information, Public-Activity-or-Profile-Information FOR Anything
+     P USE Account-Information, Public-Activity-or-Profile-Information FOR Anything
+     P USE Account-Information, Public-Activity-or-Profile-Information FOR Anything
+     P USE Account-Information, Public-Activity-or-Profile-Information FOR Anything
+     P INFORM FOR Anything
+     O INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM Public-Activity-or-Profile-Information FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM Account-Information, Public-Activity-or-Profile-Information FOR Anything
+     P INFORM Account-Information, Public-Activity-or-Profile-Information FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything
+     P INFORM FOR Anything

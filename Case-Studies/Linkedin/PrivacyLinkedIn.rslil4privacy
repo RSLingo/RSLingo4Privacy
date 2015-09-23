@@ -1,0 +1,93 @@
+PrivacyPolicy "LinkedIn" Last revised: 23 Oct 2014;
+
+Collection st_15 { 
+	Description "We receive location data passed to 
+	us from third-party services",
+	Condition "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+	RefersTo PrivateData PD6,
+	Modality Permitted
+};
+
+Retention st_50 {
+	Description "We shall generally delete closed account information 
+	and de-personalize any logs or other backup information through the 
+	deletion process within 30 days of account closure",
+	Condition "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+	Period "30 days",
+	RefersTo PrivateData PD1-PD2-PD6,
+	Modality Obligatory
+};
+
+Usage st_46 {
+	Description "We use personal information from our Services, 
+	including Member profiles, Groups content, and Company Pages, 
+	to inform and refine our search service",
+	Condition "Users must accept Statement of Rights and Responsibilities (including Data Policy)",
+	RefersTo PrivateData PD1-PD2,
+	RefersTo Service S5,
+	Modality Permitted
+};
+
+PrivateData PD1 {
+	Description "Account-Information",
+	Type PersonalInformation,
+	Attribute "Name" Description "Name",
+	Attribute "Email" Description "Email",
+	Attribute "Mobile-Number" Description "Mobile number",
+	Attribute "Password" Description "Password",
+};
+
+PrivateData PD2 { 
+	Description "Additional-Information", 
+	Type PersonalInformation,
+	Attribute "Postal-Code" Description "Postal code",
+	Attribute "Job" Description "Job title",
+	Attribute "Company" Description "Company",
+};
+
+PrivateData PD4 {
+	Description "Friends & Followers",
+	Type PersonalInformation,
+	Attribute "Name-Of-Friends" Description "Name",
+	Attribute "Email-Of-Friends" Description "Email",
+	Attribute "Other-Contact-Information" Description "Other contact information",	
+};
+
+PrivateData PD6 { 
+	Description "Connection-Information",
+	Type UsageInformation,
+	Attribute "Operating-System" Description "Computer operating system details",
+	Attribute "IP-Address" Description "IP address or proxy server",
+	Attribute "Web-Browser-Information" Description "Information loaded in web browser",
+	Attribute "Browser-Type" Description "Browser type",
+	Attribute "Mobile-Operator" Description "Name of your mobile operator or ISP",
+	Attribute "Location-Data" Description "Location data",
+	};
+		
+Recipient R1 { 
+	Name "Owner",
+	Description "Responsible for the management and decision-making regarding LinkedIn.",
+	Scope Internal, 
+	Type Organization
+};
+
+Recipient R2 {
+	Name "LinkedIn-family",
+	Description "Companies that own and manage LinkedIn and its subsidiaries.",
+	PartOf Recipient R1,
+	Scope Internal, 
+	Type Organization
+};
+
+Recipient R3 { 
+	Name "Third-parties",
+	Description "Directly involved in a transaction or agreement.",
+	Scope External,
+	Type Organization
+};
+
+Service S5 {
+	Description "Searching",
+	RefersTo PrivateData PD4,
+};
+
