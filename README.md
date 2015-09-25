@@ -11,7 +11,8 @@ The main goal of this project is to improve privacy by providing companies a set
 
 [FS2013]	D. Ferreira, A. R. Silva,”RSL-IL: An Interlingua for Formally Documenting Requirements”, Third IEEE International Workshop on Model-Driven Requirements Engineering (MoDRE 2013), IEEE Computer Society, 2013.
 
-[FS201a] D. Ferreira, A. R. Silva,”RSL-PL: A Linguistic Pattern Language for Documenting Software Requirements, “Third International Workshop on Requirements Patterns (RePa 2013)”, IEEE Computer Society, 2013.
+[FS2013a] D. Ferreira, A. R. Silva,”RSL-PL: A Linguistic Pattern Language for Documenting Software Requirements, “Third International Workshop on Requirements Patterns (RePa 2013)”, IEEE Computer Society, 2013.
+
 [CS2014] J. Caramujo, A. R. Silva, "Analyzing Privacy Policies based on a Privacy-Aware Profile: the Facebook and LinkedIn case studies", in Proceedings of IEEE CBI'2015, 2015 , IEEE 
 
 [BB2011] T.D. Breaux, D.L. Baumer, “Legally ‘Reasonable’ Security Requirements: A 10-year FTC Retrospective.” Computers & Security, 30(4):178-193. 2011.
