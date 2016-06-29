@@ -1,0 +1,1245 @@
+Package LinkedIn {
+
+PolicyMetadata {
+	PolicyName "LinkedIn"
+	Description "LinkedIn Privacy Policy"
+	Author(s) "LinkedIn Corporation"
+	Organization(s) "LinkedIn"
+	Date 23-Oct-2014
+	Version "7.0.0"
+}
+
+Collection St1 {
+	Description "To create an account on LinkedIn, you must provide us with at least your name, email address and/or mobile number, and a password and agree to our User Agreement and this Privacy Policy."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD1
+	RefersTo Service S1,S2
+	Modality Permitted
+}
+
+Collection St2 {
+	Description "You may provide additional information during the registration flow (for example, your postal code, job title, and company) to help you build your profile and to provide you more customized services (for example: language-specific profile pages, updates, content, more relevant ads and career opportunities)."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD2
+	RefersTo Service S1,S2
+	Modality Permitted
+}
+
+Collection St3 {
+	Description "We may also ask for your credit card details if you purchase certain additional services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD3
+	RefersTo Service S4
+	Modality Permitted
+}
+
+Collection St4 {
+	Description "We also provide the option to register for a SlideShare account, for which you must provide at least your name, email address and/or mobile number, and a password."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD4
+	RefersTo Service S1,S3
+	Modality Permitted
+}
+
+Collection St5 {
+	Description "After you create an account (other than the distinct SlideShare and Pulse accounts), you may choose to provide additional information on your LinkedIn profile, such as descriptions of your skills, professional experience, and educational background."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD2
+	RefersTo Service S1,S2
+	Modality Permitted
+}
+
+Collection St6 {
+	Description "If you grant these products (mobile applications or our other Services that sync external email and calendar services, such as “LinkedIn Connected”) permission to access your email and calendar accounts, they will access and may store some of your email header and calendar history information."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy
++ grant extra permission"
+	RefersTo PrivateData PD5
+	RefersTo Service S5
+	Modality Permitted
+}
+
+Collection St7 {
+	Description "Our products that sync with external email services may also temporarily cache message content for performance reasons, in a way that is unreadable by us and our service providers."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD6
+	RefersTo Service S5
+	Modality Permitted
+}
+
+Collection St8 {
+	Description "When you contact our customer support services (e.g. on our Help Center and SlideShare’s Help Center), we may have to access your InMails, Groups and other contributions to our Services and collect the information we need to categorize your question, respond to it, and, if applicable, investigate any breach of our User Agreement or this Privacy Policy."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD7
+	RefersTo Service S6,S23
+	Modality Permitted
+}
+
+Collection St9 {
+	Description "We collect information when you use (whether as a Member or a Visitor) our websites, applications, our platform technology (such as “Share on LinkedIn” plugins for publishers) or other Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Collection St10 {
+	Description "If you are logged in on LinkedIn.com or one of our cookies on your device identifies you, your usage information and the log data such as your IP address, will be associated by us with your account. Even if you’re not logged into a Service, we log information about devices used to access our Services, including IP address."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD6,PD7,PD8,PD9,PD15
+	Modality Permitted
+}
+
+Collection St11 {
+	Description "When you visit a third-party site that embeds our social plugins (such as “Share on LinkedIn” for publishers) we receive information that those pages have loaded in your web browser."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD15
+	Modality Permitted
+}
+
+Collection St12 {
+	Description "When you visit or leave our Services (whether as a Member or Visitor) by clicking a hyperlink or when you view a third-party site that includes our plugin or cookies (or similar technology), we automatically receive the URL of the site from which you came or the one to which you are directed."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD16
+	Modality Permitted
+}
+
+Collection St14 {
+	Description "We also receive the internet protocol (“IP”) address of your computer or the proxy server that you use to access the web, your computer operating system details, your type of web browser, your mobile device (including your mobile device identifier provided by your mobile device operating system), your mobile operating system (if you are accessing LinkedIn using a mobile device), and the name of your ISP or your mobile carrier."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD8
+	Modality Permitted
+}
+
+Collection St15 {
+	Description "We may also receive location data passed to us from third-party services or GPS-enabled devices that you have set up, which we use to show you local information (for example, Pulse articles about your area or jobs postings in your location) on our mobile applications and for fraud prevention and security purposes."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD9
+	RefersTo Service S8,S9
+	Modality Permitted
+}
+
+Collection St16 {
+	Description "You allow us to receive information when you use your account to log in to a third-party website or application."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Collection St17 {
+	Description "You also allow us to receive information about your visits and interaction with the sites and services of our partners that include our cookies and similar technologies, unless you opt out."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Collection St18 {
+	Description "In the case of our Android apps, you will be provided notice of the types of data (e.g. location) that will be sent to us. If you choose not to become a Member, we will delete this information."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD9
+	Modality Permitted
+}
+
+Disclosure St13 {
+	Description "Advertisers receive the URL of the page that you are on when you click an ad on or through our Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD16
+	RefersTo Service S7
+	Modality Permitted
+}
+
+Disclosure St19 {
+	Description "Please note that when you send an invitation to connect to another individual on our Service (a “connection”) or to join our Service to connect with you, that person may have access to your email address or, for SMS invitations, mobile number because it may be displayed in the invitation."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R1,R2,R3
+	RefersTo PrivateData PD10
+	RefersTo Service S16
+	Modality Permitted
+}
+
+Disclosure St20 {
+	Description "We do not share your personal information with any third-party advertisers or ad networks for advertising without your separate permission."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy + grant extra permission"
+	RefersTo Recipient R4,R5
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	RefersTo Service S7
+	Modality Forbidden
+}
+
+Disclosure St21 {
+	Description "Once you have connected with an individual, regardless of who sent the invitation, your contact information will be shared with that individual."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R1,R2,R3
+	RefersTo PrivateData PD10
+	RefersTo Service S16
+	Modality Permitted
+}
+
+Disclosure St22 {
+	Description "We may share your personal information with our affiliates outside of the LinkedIn entity that is your data controller as reasonably necessary to provide the Services. You are consenting to this sharing."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R4,R6
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	RefersTo Service S8,S10
+	Modality Permitted
+}
+
+Disclosure St23 {
+	Description "We combine information internally across different Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R9
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Disclosure St24 {
+	Description "We may transfer your information and process it outside your country of residence, wherever LinkedIn, its affiliates and service providers operate."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R4,R6,R7,R9
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Disclosure St25 {
+	Description "If you provide any testimonials about our goods or services or place advertisements through the LinkedIn Ads, we may post those testimonials and examples of advertisements you place in connection with our promotion of these services to third parties. Testimonials and advertisements may include your name and other personal information that you have provided."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R4
+	RefersTo PrivateData PD12
+	RefersTo Service S8,S11
+	Modality Permitted
+}
+
+Disclosure St26 {
+	Description "We may also disclose your personal information to a third party as part of a sale of the assets of LinkedIn Corporation, a subsidiary, or division, or as the result of a change in control of the company or one of its affiliates, or in preparation for any of these events."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R4
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	Modality Permitted
+}
+
+Disclosure St27 {
+	Description "We may provide reports containing aggregated impression information to companies hosting our plugins and similar technologies to help them measure traffic to their websites, but no personal data. (Do not use this statement -> stress out in the paper that the definition of aggregated information is ambiguous)"
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Disclosure St28 {
+	Description "Many communications that you initiate through our Services (for example, an invitation sent to a non-Member) will list your name and primary email address in the header of the message. "
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R3
+	RefersTo PrivateData PD10
+	RefersTo Service S17
+	Modality Permitted
+}
+
+Disclosure St29 {
+	Description "Messages you initiate may also provide the recipient with aggregate information about your network (for example, how many people are in your network). Other communications that you initiate through the Services, like a request for an introduction, will list your name as the initiator but will not include your personal email address contact information."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R1,R2,R3,R9
+	RefersTo PrivateData PD13
+	Modality Permitted
+}
+
+Disclosure St30 {
+	Description "We do not rent or sell personal information that you have not posted on our Services, except as described in this Privacy Policy."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R10
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	RefersTo Enforcement En1
+	Modality Forbidden
+}
+
+Disclosure St31 {
+	Description "We will not disclose personal information that is not published to your profile or generated through engagement with our other services, such as Groups and Company Pages, except to carry out your instructions (for example, to process payment information)."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R10
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	Modality Forbidden
+}
+
+Disclosure St32 {
+	Description "We will not disclose personal information that is not published to your profile or generated through engagement with our other services, such as Groups and Company Pages, unless we have your separate consent."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R10
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	Modality Forbidden
+}
+
+Disclosure St33 {
+	Description "We will not disclose personal information that is not published to your profile or generated through engagement with our other services, such as Groups and Company Pages, unless we have a good faith belief that disclosure is permitted by law."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R10
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	Modality Forbidden
+}
+
+Disclosure St34 {
+	Description "We will not disclose personal information that is not published to your profile or generated through engagement with our other services, such as Groups and Company Pages, unless is reasonably necessary to comply with a legal requirement or process, including, but not limited to, civil and criminal subpoenas, court orders or other compulsory disclosures."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R10
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	Modality Forbidden
+}
+
+Disclosure St35 {
+	Description "We will not disclose personal information that is not published to your profile or generated through engagement with our other services, such as Groups and Company Pages, unless is reasonably necessary to enforce this Privacy Policy or our User Agreement."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R10
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	Modality Forbidden
+}
+
+Disclosure St36 {
+	Description "We will not disclose personal information that is not published to your profile or generated through engagement with our other services, such as Groups and Company Pages, unless to respond to claims of a violation of the rights of third parties."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R10
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	Modality Forbidden
+}
+
+Disclosure St37 {
+	Description "We will not disclose personal information that is not published to your profile or generated through engagement with our other services, such as Groups and Company Pages, unless to respond to Member service inquiries."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R10
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	Modality Forbidden
+}
+
+Disclosure St38 {
+	Description "We will not disclose personal information that is not published to your profile or generated through engagement with our other services, such as Groups and Company Pages, unless to protect the rights, property, or safety of LinkedIn, our Services, our Members, Visitors, or the public."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R10
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	Modality Forbidden
+}
+
+Disclosure St39 {
+	Description "It is possible that we may need to disclose personal information, profile information, or information about your activities as a Member or Visitor when required by law, subpoena, or other legal process."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R10
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD7,PD10,PD11,PD12,PD14
+	RefersTo Service S18
+	Modality Permitted
+}
+
+Disclosure St40 {
+	Description "We may employ third party companies and individuals to facilitate our Services (e.g. maintenance, analysis, audit, marketing and development). These third parties have limited access to your information only to perform these tasks on our behalf and are obligated to LinkedIn not to disclose or use it for other purposes."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R4
+	RefersTo PrivateData All
+	RefersTo Service S8,S12
+	Modality Permitted
+}
+
+Disclosure St41 {
+	Description "If you participate in Groups, share content on your network update stream, or import a blog or other content, you should be aware that any information you choose to disclose using these services can be read, collected, and used by other Members in these forums, developers, and other third parties, including advertisers."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R2,R4,R5
+	RefersTo PrivateData PD7
+	Modality Permitted
+}
+
+Disclosure St42 {
+	Description "Third-party search engines may not automatically update their caches, which may contain old public profile information."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R4
+	RefersTo PrivateData PD2
+	Modality Permitted
+}
+
+Disclosure St43 {
+	Description "Content distributed through our sharing features and third-party integrations may result in displaying some of your personal information outside of our Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R4
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	RefersTo Service S19
+	Modality Permitted
+}
+
+Disclosure St44 {
+	Description "We offer customized people-search functionality along with organizational and communications tools (including activity alerts) as part of our talent recruiting, marketing and sales solutions. These services allow subscribers - generally, enterprises and professional organizations - to export limited information from Members’ public profiles, such as name, headline, current company, current title, and location (for example, San Francisco Bay Area), in order to effectively manage candidate sourcing."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R8
+	RefersTo PrivateData PD14
+	RefersTo Service S20
+	Modality Permitted
+}
+
+Disclosure St45 {
+	Description "Certain pages on the Services are public (e.g., company and college pages), and any communications or information shared through them will be accessible by the entity that created them. If you follow a person or organization, you will be listed among its followers, which can be viewed by others including the page owner."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Recipient R2
+	RefersTo PrivateData PD2,PD14
+	Modality Permitted
+}
+
+Retention St46 {
+	Description "If you close your account(s), your information will generally be removed from the Service within 24 hours."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Period "24 hours after account closure"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Retention St47 {
+	Description "We generally delete closed account information and will de-personalize any logs or other backup information through the deletion process within 30 days of account closure."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Period "30 days after account closure"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Retention St48 {
+	Description "We retain the personal information you provide while your account is in existence or as needed to provide you services. "
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Period "While account is in existence"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	RefersTo Service S8,S10
+	Modality Permitted
+}
+
+Retention St49 {
+	Description "We may retain your personal information even after you have closed your account if retention is reasonably necessary to comply with our legal obligations."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Period "After account closure if reasonably necessary to comply with legal obligations"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	RefersTo Service S18
+	Modality Permitted
+}
+
+Retention St50 {
+	Description "Our Customer Service may retain information for as long as is necessary to provide support-related reporting and trend analysis only, but we generally delete or de-personalize closed account data."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Period "As long as necessary to provide support-related reporting and trend analysis"
+	RefersTo PrivateData All
+	RefersTo Service S21
+	Modality Permitted
+}
+
+Retention St51 {
+	Description "In the case of our plugin impression data (i.e., the information that you visited on sites carrying our social plugin, but which you did not click on), we de-personalize it within 7 days by creating aggregate data sets that cannot be traced back to individuals."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Period "7 days"
+	RefersTo PrivateData PD15,PD16
+	Modality Permitted
+}
+
+Usage St52 {
+	Description "You may use our address book or “contacts” importer (or other similar features) to upload your address book into our Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD11
+	RefersTo Enforcement En3
+	Modality Permitted
+}
+
+Usage St53 {
+	Description "We store your address book (including phone numbers) and use it to help you manage and leverage your contacts in connection with our Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD11
+	Modality Permitted
+}
+
+Usage St54 {
+	Description "We also use your address book to enhance your experience with our Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD11
+	RefersTo Service S22
+	Modality Permitted
+}
+
+Usage St55 {
+	Description "We may also use your address book to show you and other Members that you share the same uploaded contacts who may or may not be Members."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD11
+	RefersTo Service S8,S13
+	Modality Permitted
+}
+
+Usage St56 {
+	Description "We also use the information collected by the Customer Service for handling questions to track potential problems and trends and customize our support responses to better serve you."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD7
+	RefersTo Service S8,S13
+	Modality Permitted
+}
+
+Usage St57 {
+	Description "We do not use the information collected by the Customer Service for handling questions for advertising."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD7
+	RefersTo Service S8,S9
+	Modality Forbidden
+}
+
+Usage St58 {
+	Description "If you are logged in as a Member when you visit sites with our plugins, we use information that third-party sites have loaded in your web browser to recommend tailored content to you."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD15,PD16
+	RefersTo Service S7
+	Modality Permitted
+}
+
+Usage St59 {
+	Description " We will use information that third-party sites have loaded in your web browser to personalize the functionality we provide on third-party sites, including providing you insights from your professional network and allowing you to share information with your network."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD15,PD16
+	RefersTo Service S8,S9
+	Modality Permitted
+}
+
+Usage St60 {
+	Description "We use information and content that you and other Members provide to us to conduct research and development for the improvement of our Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S8,S9
+	Modality Permitted
+}
+
+Usage St61 {
+	Description "We use personal information from our Services, including Member profiles, Groups content, and Company Pages, to inform and refine our search service."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD7,PD10,PD11,PD12,PD14
+	RefersTo Service S8,S14
+	Modality Permitted
+}
+
+Usage St62 {
+	Description "We use aggregate information about followers and viewers to provide data about such pages’ performance (for example, visits and updates)."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD7,PD10,PD11,PD12,PD14
+	RefersTo Service S8,S15
+	Modality Permitted
+}
+
+Usage St63 {
+	Description "Some third parties may target advertisements to you on the results page based on your answers in the poll."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD17
+	Modality Permitted
+}
+
+Usage St64 {
+	Description "If the delivery of incentives requires your contact information, you may be asked to provide personal information to the third party fulfilling the incentive offer, which will be used only for the purpose of delivering incentives and verifying your contact information."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	RefersTo Service S7
+	Modality Permitted
+}
+
+Usage St65 {
+	Description "Providing additional account information also enables us to serve you ads and other relevant content on and off of our Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD2
+	RefersTo Service S24
+	Modality Permitted
+}
+
+Informative St66 {
+	Description "We maintain 30 days worth of webserver logs for security, debugging, and site stability purposes only."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Service S7
+	Modality Permitted
+}
+
+Informative St67 {
+	Description "You can request your personal information that is not viewable on your profile or readily accessible to you (for example, your IP access logs) through LinkedIn‘s Help Center. "
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD14
+	RefersTo Enforcement En2
+	Modality Permitted
+}
+
+Informative St68 {
+	Description "Polls and Surveys may be conducted by us, Members, or third parties."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St69 {
+	Description "We may use third parties to deliver incentives to you to participate in surveys or polls."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St70 {
+	Description "Third parties (for example, your email provider) may give you the option to upload certain information in your contacts stored with us onto their own service."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St71 {
+	Description "If you have any concern about providing information to us or having such information displayed on our Services or otherwise used in any manner permitted in this Privacy Policy and the User Agreement, you should not become a Member, visit our websites, apps or otherwise use our Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St72 {
+	Description "Providing additional information enables you to derive more benefit from our Services by helping you express your professional identity; find other professionals, opportunities, and information; and help recruiters and business opportunities find you."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD2
+	Modality Permitted
+}
+
+Informative St73 {
+	Description "We make other tools available to sync information with our Services, and may also develop additional features that allow Members to use their account in conjunction with other third-party services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Service S5
+	Modality Permitted
+}
+
+Informative St74 {
+	Description "Any information that you upload or sync with our Services is covered by the User Agreement and this Privacy Policy."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Service S5
+	Modality Permitted
+}
+
+Informative St75 {
+	Description "You can remove your information at your convenience using the features we make available."
+	Condition ""
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Informative St76 {
+	Description "We use cookies and similar technologies, including mobile application identifiers, to help us recognize you across different Services, learn about your interests both on and off our Services, improve your experience, increase security, measure use and effectiveness of our Services, and serve advertising."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Enforcement En4
+	Modality Permitted
+}
+
+Informative St77 {
+	Description "By visiting our Services, you consent to the placement of cookies and beacons in your browser and HTML-based emails in accordance with this Privacy Policy, which incorporates by reference our Cookie Policy."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Enforcement En5
+	Modality Permitted
+}
+
+Informative St78 {
+	Description "We target (and measure the performance of) ads to Members, Visitors and others both on and off of our Services through a variety of ad networks and ad exchanges"
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St79 {
+	Description "We may show you sponsored content in your network update stream (NUS), which will be designated as sponsored content and will behave like other NUS updates."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St80 {
+	Description "We adhere to the Digital Advertising Alliance’s self-regulatory principles for online behavioral advertising."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Service S7
+	RefersTo Enforcement En6
+	Modality Permitted
+}
+
+Informative St81 {
+	Description "If we start collecting substantially new types of personal information and materially change how we handle your data, we will modify this Privacy Policy and notify you."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St82 {
+	Description "The personal information that you provide to us may reveal or allow others to identify aspects of your life that are not expressly stated on your profile (for example, your picture or your name may reveal your gender)."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St83 {
+	Description "By providing personal information to us when you create or update your account and profile, you are expressly and voluntarily accepting the terms and conditions of our User Agreement and freely accepting and agreeing to our processing of your personal information in ways set out by this Privacy Policy."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St84 {
+	Description "We communicate with you through email, notices posted on the LinkedIn websites or apps, messages to your LinkedIn inbox, and other means available through the Services, including mobile text messages and push notifications."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St85 {
+	Description "These messages will be sent to you based on your profile information and messaging preferences."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St86 {
+	Description "You may change your email and contact preferences at any time by signing into your account and changing your LinkedIn or SlideShare email settings."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St87 {
+	Description "You can also opt out of promotional messages by sending a request to LinkedIn Help Center. Please be aware that you cannot opt out of receiving service messages from us."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St88 {
+	Description "We use automatic scanning technology to help protect you and other Members."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Enforcement En7
+	Modality Permitted
+}
+
+Informative St89 {
+	Description "We offer a “public profile” feature that allows you as a Member to publish portions of your professional profile to the public Internet."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo PrivateData PD2,PD14
+	Modality Permitted
+}
+
+Informative St90 {
+	Description "You can search for Members, employment opportunities, information about companies, and community content from Groups on our Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St91 {
+	Description "If you reside in the United States, then the personal information provided to or collected by our Services is controlled by LinkedIn Corporation."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Enforcement En8
+	Modality Permitted
+}
+
+Informative St92 {
+	Description "If you reside outside the United States, then the personal information provided to or collected by our Services is controlled by LinkedIn Ireland."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Enforcement En9
+	Modality Permitted
+}
+
+Informative St93 {
+	Description "You have a right to (1) access, modify, correct, or delete your personal information controlled by LinkedIn regarding your profile, (2) change or remove your content, and (3) close your account. "
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Enforcement En10
+	Modality Permitted
+}
+
+Informative St94 {
+	Description "LinkedIn.com and SlideShare.net have been awarded TRUSTe's Privacy Seal signifying that this Privacy Policy and its practices have been reviewed by TRUSTe for compliance with TRUSTe's program requirements."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Enforcement En11
+	Modality Permitted
+}
+
+Informative St95 {
+	Description "We comply with the U.S.-E.U. and U.S.-Swiss Safe Harbor Frameworks as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal data from European Union member countries and Switzerland."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Enforcement En12
+	Modality Permitted
+}
+
+Informative St96 {
+	Description "We may change this Privacy Policy from time to time. If we make significant changes in the way we treat your personal information, or to the Privacy Policy, we will provide notice to you on the Services or by some other means, such as email."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St97 {
+	Description "California Civil Code Section 1798.83, known as the “Shine The Light” law, permits our customers who are California residents to request and obtain from us a list of what personal information (if any) we disclosed to third parties for direct marketing purposes in the preceding calendar year and the names and addresses of those third parties."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Enforcement En13
+	Modality Permitted
+}
+
+Informative St98 {
+	Description "We have implemented security safeguards designed to protect the personal information that you provide in accordance with industry standards."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Service S23
+	Modality Permitted
+}
+
+Informative St99 {
+	Description "Advertising partners may associate personal information collected by the advertiser directly from you with our cookies and similar technologies. In such instances, we contractually require such advertisers to obtain your explicit opt-in consent before doing so."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Service S7
+	Modality Permitted
+}
+
+Informative St100 {
+	Description "We often introduce new features, some of which may result in the collection of new information (for example, when the Endorsements feature launched, we began collecting information about skills for which Members were endorsed and the individuals who endorsed them)."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St101 {
+	Description "You can withdraw or modify your consent to our collection and processing of the information you provide at any time, in accordance with the terms of this Privacy Policy and the User Agreement, by changing your account settings or your profile on LinkedIn or SlideShare, or by closing yourLinkedIn, SlideShare and Pulse accounts."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	RefersTo Enforcement En14
+	Modality Permitted
+}
+
+Informative St102 {
+	Description "We also customize your experience and the experiences of others on our Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St103 {
+	Description "The visibility of your professional profile to other Members depends on your degree of connection with the viewing Member, the subscriptions they may have, their usage of the Services, access channels and search types (e.g. by name or by keyword)."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St104 {
+	Description "We support middleware providers that offer archiving solutions to firms subject to legal and regulatory archiving requirements, which, with your permission, facilitate the archiving of your communications and other activity by a third party for compliance purposes."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St105 {
+	Description "We collaborate with and allow third parties to use our developer platform to offer services and functionality in conjunction with our Services."
+	Condition "Users must agree to LinkedIn's User Agreement and Privacy Policy"
+	Modality Permitted
+}
+
+PrivateData PD1 {
+	Description "Basic Account Information"
+	Type PersonalInformation
+	Attribute "Name,email,mobile number,password" {
+		Description "Name,email,mobile number,password"
+	}
+}
+
+PrivateData PD2 {
+	Description "Additional Account Information"
+	Type PersonalInformation
+	Attribute "Postal code,job title,company,descriptions of skills,professional experience,educational background,other information depending on the user's consent" {
+		Description "Postal code,job title,company,descriptions of skills,professional experience,educational background,other information depending on the user's consent"
+	}
+}
+
+PrivateData PD3 {
+	Description "Purchases Information"
+	Type PersonalInformation
+	Attribute "Credit card details" {
+		Description "Credit card details"
+	}
+}
+
+PrivateData PD4 {
+	Description "Slideshare Account"
+	Type PersonalInformation
+	Attribute "Name,email address,mobile number,password" {
+		Description "Name,email address,mobile number,password"
+	}
+}
+
+PrivateData PD5 {
+	Description "Email and Calendar"
+	Type PersonalInformation
+	Attribute "Email header,calendar history information" {
+		Description "Email header,calendar history information"
+	}
+}
+
+PrivateData PD6 {
+	Description "Messages"
+	Type UsageInformation
+	Attribute "Message content" {
+		Description "Message content"
+	}
+}
+
+PrivateData PD7 {
+	Description "User Activity"
+	Type UsageInformation
+	Attribute "InMails, Groups and other contributions to LinkedIn Services" {
+		Description "InMails, Groups and other contributions to LinkedIn Services"
+	}
+}
+
+PrivateData PD8 {
+	Description "Log Data"
+	Type UsageInformation
+	Attribute "IP address,computer operating system details,type of web browser,mobile device,mobile operating system,name of ISP or mobile carrier" {
+		Description "IP address,computer operating system details,type of web browser,mobile device,mobile operating system,name of ISP or mobile carrier"
+	}
+}
+
+PrivateData PD9 {
+	Description "User Location"
+	Type UsageInformation
+	Attribute "Location data" {
+		Description "Location data"
+	}
+}
+
+PrivateData PD10 {
+	Description "Invitation Information"
+	Type PersonalInformation
+	Attribute "Name,email address,mobile number" {
+		Description "Name,email address,mobile number"
+	}
+}
+
+PrivateData PD11 {
+	Description "Address Book"
+	Type PersonalInformation
+	Attribute "Phone numbers" {
+		Description "Phone numbers"
+	}
+}
+
+PrivateData PD12 {
+	Description "Testimonials and Advertisements"
+	Type PersonalInformation
+	Attribute "Name,other personal information" {
+		Description "Name,other personal information"
+	}
+}
+
+PrivateData PD13 {
+	Description "Communication Messages"
+	Type UsageInformation
+	Attribute "Name,aggregate information about user's network" {
+		Description "Name,aggregate information about user's network"
+	}
+}
+
+PrivateData PD14 {
+	Description "Limited Public Profile"
+	Type PersonalInformation
+	Attribute "Name,headline,current company,current title,location" {
+		Description "Name,headline,current company,current title,location"
+	}
+}
+
+PrivateData PD15 {
+	Description "Third-parties Activity"
+	Type UsageInformation
+	Attribute "Information about pages loaded in users' web browser" {
+		Description "Information about pages loaded in users' web browser"
+	}
+}
+
+PrivateData PD16 {
+	Description "Hyperlink Information"
+	Type UsageInformation
+	Attribute "URL contained in an hyperlink" {
+		Description "URL contained in an hyperlink"
+	}
+}
+
+PrivateData PD17 {
+	Description "User Answers"
+	Type UsageInformation
+	Attribute "Poll answers" {
+		Description "Poll answers"
+	}
+}
+
+Recipient R1 {
+	Name "People on and off LinkedIn Services"
+	Description "People on and off LinkedIn Services"
+	Scope Internal/External
+	Type Individual
+}
+
+Recipient R2 {
+	Name "Members"
+	Description "Members"
+	Recipient_Part R1
+	Scope Internal
+	Type Individual
+}
+
+Recipient R3 {
+	Name "Non-Members"
+	Description "Non-Members"
+	Recipient_Part R1
+	Scope External
+	Type Individual
+}
+
+Recipient R4 {
+	Name "Third parties"
+	Description "Third parties"
+	Scope External
+	Type Organization
+}
+
+Recipient R5 {
+	Name "Third-party advertisers or ad networks for advertising"
+	Description "Third-party advertisers or ad networks for advertising"
+	Recipient_Part R4
+	Scope External
+	Type Organization
+}
+
+Recipient R6 {
+	Name "LinkedIn affiliates"
+	Description "LinkedIn affiliates"
+	Recipient_Part R4
+	Scope External
+	Type Organization
+}
+
+Recipient R7 {
+	Name "Service providers"
+	Description "Service providers"
+	Recipient_Part R4
+	Scope External
+	Type Organization
+}
+
+Recipient R8 {
+	Name "Subscribers"
+	Description "Subscribers"
+	Recipient_Part R4
+	Scope External
+	Type Organization
+}
+
+Recipient R9 {
+	Name "LinkedIn Services"
+	Description "LinkedIn Services"
+	Scope Internal
+	Type Organization
+}
+
+Recipient R10 {
+	Name "Anyone"
+	Description "Anyone"
+	Scope Internal/External
+	Type Individual/Organization
+}
+
+Service S1 {
+	Name "Account"
+	Description ""
+	RefersTo PrivateData PD1,PD2,PD4
+}
+
+Service S2 {
+	Name "LinkedIn"
+	Description "create and manage LinkedIn account"
+	RefersTo PrivateData PD1,PD2
+	Service_Part S1
+}
+
+Service S3 {
+	Name "Slideshare/Pulse"
+	Description "create and manage Slideshare/Pulse account"
+	RefersTo PrivateData PD4
+	Service_Part S1
+}
+
+Service S4 {
+	Name "Financial"
+	Description "purchases"
+	RefersTo PrivateData PD3
+}
+
+Service S5 {
+	Name "Content Synchronization"
+	Description "email and calendar sync"
+	RefersTo PrivateData PD5,PD6
+}
+
+Service S6 {
+	Name "Customer Support Service"
+	Description "communications between users and help centers"
+	RefersTo PrivateData PD7
+}
+
+Service S7 {
+	Name "Advertising"
+	Description "handle questions for advertising, serve ads"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD7,PD10,PD11,PD12,PD13,PD14,PD16,PD17
+}
+
+Service S8 {
+	Name "Development"
+	Description ""
+	RefersTo PrivateData All
+}
+
+Service S9 {
+	Name "Customization of Services"
+	Description "show local information, customize support responses, tailor content, personalize third-party sites functionality"
+	RefersTo PrivateData PD7,PD9,PD15,PD16
+	Service_Part S8
+}
+
+Service S10 {
+	Name "Delivery of Services"
+	Description "deliver services"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD13,PD14
+	Service_Part S8
+}
+
+Service S11 {
+	Name "Promotion of Services"
+	Description "promote services"
+	RefersTo PrivateData PD12
+	Service_Part S8
+}
+
+Service S12 {
+	Name "Facilitation of Services"
+	Description "maintenance, analysis, audit, marketing and development"
+	RefersTo PrivateData All
+	Service_Part S8
+}
+
+Service S13 {
+	Name "Experience enhancing"
+	Description "enhance user experience with LinkedIn Services"
+	RefersTo PrivateData PD11
+	Service_Part S8
+}
+
+Service S14 {
+	Name "Improvement"
+	Description "conduct research and development"
+	RefersTo PrivateData All
+	Service_Part S8
+}
+
+Service S15 {
+	Name "Search Service"
+	Description "inform and refine our search service"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD7,PD10,PD11,PD12,PD13,PD14
+	Service_Part S8
+}
+
+Service S16 {
+	Name "Connection"
+	Description "connect users"
+	RefersTo PrivateData PD10
+}
+
+Service S17 {
+	Name "Communication"
+	Description "user-initiated communications within LinkedIn"
+	RefersTo PrivateData PD10,PD13
+}
+
+Service S18 {
+	Name "Legal"
+	Description "law, subpoena, or other legal process"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD7,PD10,PD11,PD12,PD13,PD14
+}
+
+Service S19 {
+	Name "Content Distribution"
+	Description "distribute content"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD13,PD14
+}
+
+Service S20 {
+	Name "Candidate Sourcing"
+	Description "manage candidate sourcing"
+	RefersTo PrivateData PD14
+}
+
+Service S21 {
+	Name "Reporting and Analysis"
+	Description "support-related reporting, trend analysis"
+	RefersTo PrivateData All
+}
+
+Service S22 {
+	Name "User Contacts Management"
+	Description "manage and leverage user contacts"
+	RefersTo PrivateData PD11
+}
+
+Service S23 {
+	Name "Security"
+	Description "Investigations, safeguards"
+	RefersTo PrivateData PD7
+}
+
+Service S24 {
+	Name "Delivery of Incentives"
+	Description "deliver incentives"
+	RefersTo PrivateData PD1,PD2,PD3,PD4,PD5,PD10,PD11,PD12,PD13,PD14
+}
+
+Enforcement En1 {
+	Name "Disclosure of personal information"
+	Description "We do not rent or sell personal information that you have not posted on our Services, except as described in this Privacy Policy."
+	Type Action
+}
+
+Enforcement En2 {
+	Name "Request personal information"
+	Description "You can request your personal information that is not viewable on your profile or readily accessible to you (for example, your IP access logs) through LinkedIn‘s Help Center. "
+	Type Action
+}
+
+Enforcement En3 {
+	Name "Purpose of Webserver Logs"
+	Description "We maintain 30 days worth of webserver logs for security, debugging, and site stability purposes only."
+	Type Action
+}
+
+Enforcement En4 {
+	Name "Purpose of Cookies"
+	Description "We use cookies and similar technologies, including mobile application identifiers, to help us recognize you across different Services, learn about your interests both on and off our Services, improve your experience, increase security, measure use and effectiveness of our Services, and serve advertising."
+	Type Config
+}
+
+Enforcement En5 {
+	Name "Cookies and Beacons Consent"
+	Description "By visiting our Services, you consent to the placement of cookies and beacons in your browser and HTML-based emails in accordance with this Privacy Policy, which incorporates by reference our Cookie Policy."
+	Type Config
+}
+
+Enforcement En6 {
+	Name "Principles for Online Behavioral Advertising"
+	Description "We adhere to the Digital Advertising Alliance’s self-regulatory principles for online behavioral advertising."
+	Type Action
+}
+
+Enforcement En7 {
+	Name "Scanning for Protection"
+	Description "We use automatic scanning technology to help protect you and other Members."
+	Type Config
+}
+
+Enforcement En8 {
+	Name "Control of information for US-residents"
+	Description "If you reside in the United States, then the personal information provided to or collected by our Services is controlled by LinkedIn Corporation."
+	Type Action
+}
+
+Enforcement En9 {
+	Name "Control of information for non US-residents"
+	Description "If you reside outside the United States, then the personal information provided to or collected by our Services is controlled by LinkedIn Ireland."
+	Type Action
+}
+
+Enforcement En10 {
+	Name "User Rights"
+	Description "You have a right to (1) access, modify, correct, or delete your personal information controlled by LinkedIn regarding your profile, (2) change or remove your content, and (3) close your account. "
+	Type Action
+}
+
+Enforcement En11 {
+	Name "Certification"
+	Description "LinkedIn.com and SlideShare.net have been awarded TRUSTe's Privacy Seal signifying that this Privacy Policy and its practices have been reviewed by TRUSTe for compliance with TRUSTe's program requirements."
+	Type Action
+}
+
+Enforcement En12 {
+	Name "Compliance"
+	Description "We comply with the U.S.-E.U. and U.S.-Swiss Safe Harbor Frameworks as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal data from European Union member countries and Switzerland."
+	Type Action
+}
+
+Enforcement En13 {
+	Name "Legal"
+	Description "California Civil Code Section 1798.83, known as the “Shine The Light” law, permits our customers who are California residents to request and obtain from us a list of what personal information (if any) we disclosed to third parties for direct marketing purposes in the preceding calendar year and the names and addresses of those third parties."
+	Type Action
+}
+
+Enforcement En14 {
+	Name "User Options regarding Information"
+	Description "You can withdraw or modify your consent to our collection and processing of the information you provide at any time, in accordance with the terms of this Privacy Policy and the User Agreement, by changing your account settings or your profile on LinkedIn or SlideShare, or by closing your LinkedIn, SlideShare and Pulse accounts."
+	Type Action
+}
+}

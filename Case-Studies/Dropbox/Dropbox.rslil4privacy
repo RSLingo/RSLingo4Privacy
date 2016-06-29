@@ -1,0 +1,534 @@
+Package Dropbox {
+
+PolicyMetadata {
+	PolicyName "Dropbox"
+	Description "Dropbox Privacy Policy"
+	Author(s) "Dropbox, Inc."
+	Organization(s) "Dropbox"
+	Date 12-Feb-2016
+	Version "2.0.0"
+}
+
+Collection St1 {
+	Description "We collect, and associate with your account, information like your name, email address, phone number, payment info, and physical address."
+	Condition ""
+	RefersTo PrivateData PD1
+	Modality Permitted
+}
+
+Collection St2 {
+	Description "We collect information from and about the devices you use to access the Services, including things like IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, and identifiers associated with your devices."
+	Condition ""
+	RefersTo PrivateData PD2
+	Modality Permitted
+}
+
+Collection St3 {
+	Description "Your devices (depending on their settings) may also transmit location information to the Services."
+	Condition ""
+	RefersTo PrivateData PD3
+	Modality Permitted
+}
+
+Disclosure St4 {
+	Description "Some of our services let you access your accounts and your information with other service providers."
+	Condition ""
+	RefersTo Recipient R1
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Disclosure St5 {
+	Description "When you use our Services, we transmit your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos)."
+	Condition ""
+	RefersTo Recipient R7
+	RefersTo PrivateData PD4,PD5
+	RefersTo Service S1,S3
+	Modality Permitted
+}
+
+Disclosure St6 {
+	Description "Dropbox's trusted third parties will access your information only to perform tasks on our behalf and in compliance with this Privacy Policy."
+	Condition ""
+	RefersTo Recipient R2
+	RefersTo PrivateData All
+	RefersTo Service S1,S2
+	Modality Permitted
+}
+
+Disclosure St7 {
+	Description "Our Services display information like your name and email address to other users in places like your user profile and sharing notifications."
+	Condition ""
+	RefersTo Recipient R3
+	RefersTo PrivateData PD6
+	Modality Permitted
+}
+
+Disclosure St8 {
+	Description "You can also give third parties access to your information and account - for example, via Dropbox APIs."
+	Condition ""
+	RefersTo Recipient R2
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Disclosure St9 {
+	Description "If you are not a Dropbox for Business user but interact with a Dropbox for Business user (by, for example, joining a shared folder or accessing stuff shared by that user), members of that organization may be able to view the name, email address and IP address that were associated with your account at the time of that interaction."
+	Condition ""
+	RefersTo Recipient R4
+	RefersTo PrivateData PD7
+	Modality Permitted
+}
+
+Disclosure St10 {
+	Description "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to comply with the law."
+	Condition ""
+	RefersTo Recipient R5
+	RefersTo PrivateData All
+	RefersTo Service S5,S6
+	Modality Permitted
+}
+
+Disclosure St11 {
+	Description "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to protect any person from death or serious bodily injury."
+	Condition ""
+	RefersTo Recipient R5
+	RefersTo PrivateData All
+	RefersTo Service S9,S11
+	Modality Permitted
+}
+
+Disclosure St12 {
+	Description "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to prevent fraud or abuse of Dropbox or our users."
+	Condition ""
+	RefersTo Recipient R5
+	RefersTo PrivateData All
+	RefersTo Service S9,S10
+	Modality Permitted
+}
+
+Disclosure St13 {
+	Description "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to protect Dropbox's property rights."
+	Condition ""
+	RefersTo Recipient R5
+	RefersTo PrivateData All
+	RefersTo Service S5,S7
+	Modality Permitted
+}
+
+Disclosure St14 {
+	Description "To provide you with the Services, we may transmit information in locations around the world - including those outside your country."
+	Condition ""
+	RefersTo Recipient R7
+	RefersTo PrivateData All
+	RefersTo Service S1,S4
+	Modality Permitted
+}
+
+Disclosure St15 {
+	Description "If we are involved in a reorganization, merger, acquisition or sale of our assets, your information may be transferred as part of that deal."
+	Condition ""
+	RefersTo Recipient R6
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Retention St16 {
+	Description "When you use our Services, we store your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos)."
+	Condition ""
+	Period "As long as it is necessary"
+	RefersTo PrivateData PD4,PD5
+	RefersTo Service S1,S3
+	Modality Permitted
+}
+
+Retention St17 {
+	Description "If you give us access to your contacts, we'll store those contacts on our servers for you to use."
+	Condition ""
+	Period "As long as it is necessary"
+	RefersTo PrivateData PD8
+	Modality Permitted
+}
+
+Retention St18 {
+	Description "We'll retain information you store on our Services for as long as we need it to provide you the Services."
+	Condition ""
+	Period "As long as it is necessary"
+	RefersTo PrivateData All
+	RefersTo Service S1,S4
+	Modality Permitted
+}
+
+Retention St19 {
+	Description "If you delete your account, we'll also delete the information you store on our Services."
+	Condition ""
+	Period "As long as it is necessary"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Retention St20 {
+	Description "We may retain the information you store on our Services if necessary to comply with our legal obligations, resolve disputes, or enforce our agreements."
+	Condition ""
+	Period "As long as it is necessary"
+	RefersTo PrivateData All
+	RefersTo Service S5,S6,S8
+	Modality Permitted
+}
+
+Retention St21 {
+	Description "To provide you with the Services, we may store information in locations around the world - including those outside your country."
+	Condition ""
+	Period "As long as it is necessary"
+	RefersTo PrivateData All
+	RefersTo Service S1,S4
+	Modality Permitted
+}
+
+Retention St22 {
+	Description "Information may also be stored locally on the devices you use to access the Services."
+	Condition ""
+	Period "As long as it is necessary"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Usage St23 {
+	Description "When you use our Services, we process your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos)."
+	Condition ""
+	RefersTo PrivateData PD4,PD5
+	RefersTo Service S1,S3
+	Modality Permitted
+}
+
+Usage St24 {
+	Description "To provide you with the Services, we may process information in locations around the world - including those outside your country."
+	Condition ""
+	RefersTo PrivateData All
+	RefersTo Service S1,S4
+	Modality Permitted
+}
+
+Informative St25 {
+	Description "This will make it easy for you to do things like share your stuff, send emails, and invite others to use the Services."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St26 {
+	Description "We use technologies like cookies and pixel tags to provide, improve, protect and promote our Services."
+	Condition ""
+	RefersTo Enforcement En1
+	Modality Permitted
+}
+
+Informative St27 {
+	Description " You can set your browser to not accept cookies, but this may limit your ability to use the Services."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St28 {
+	Description "We won't sell information to advertisers or other third-parties."
+	Condition ""
+	RefersTo PrivateData All
+	RefersTo Enforcement En2
+	Modality Forbidden
+}
+
+Informative St29 {
+	Description "Dropbox uses certain trusted third parties to help us provide, improve, protect, and promote our Services."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St30 {
+	Description "Certain features let you make additional information available to other users."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St31 {
+	Description "The use of your information by third parties will be governed by their privacy policies and terms."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St32 {
+	Description "If you are a Dropbox for Business user, your administrator may have the ability to access and control your Dropbox for Business account. Please refer to your employer's internal policies if you have questions about this."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St33 {
+	Description "Stewardship of your data is critical to us and a responsibility that we embrace."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St34 {
+	Description "We believe that our users' data should receive the same legal protections regardless of whether it's stored on our services or on their home computer's hard drive."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St35 {
+	Description "When receiving, scrutinizing and responding to government requests for our users' data, we must be transparent, fight blanket requests, protect all users, and provide trusted services."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St36 {
+	Description "We have a team dedicated to keeping your information secure and testing for vulnerabilities."
+	Condition ""
+	RefersTo Enforcement En3
+	Modality Permitted
+}
+
+Informative St37 {
+	Description "We also continue to work on features to keep your information safe in addition to things like two-factor authentication, encryption of files at rest, and alerts when new devices and apps are linked to your account."
+	Condition ""
+	RefersTo Enforcement En4
+	Modality Permitted
+}
+
+Informative St38 {
+	Description "There might be some latency in deleting the information you store on our Services from our servers and back-up storage"
+	Condition ""
+	Modality Permitted
+}
+
+Informative St39 {
+	Description "Dropbox complies with the EU-U.S. and Swiss-U.S. Safe Harbor ('Safe Harbor') frameworks and principles."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St40 {
+	Description "We will notify you (for example, via a message to the email address associated with your account) of any reorganization, merger, acquisition or sale of our assets and outline your choices in that event."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St41 {
+	Description "We may revise this Privacy Policy from time to time, and will post the most current version on our website."
+	Condition ""
+	Modality Permitted
+}
+
+Informative St42 {
+	Description "If a revision meaningfully reduces your rights, we will notify you."
+	Condition ""
+	Modality Permitted
+}
+
+PrivateData PD1 {
+	Description "Account Information"
+	Type PersonalInformation
+	Attribute "Name, email, phone number, payment info, physical address" {
+		Description "Name, email, phone number, payment info, physical address"
+	}
+}
+
+PrivateData PD2 {
+	Description "Device Information"
+	Type UsageInformation
+	Attribute "IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, identifiers associated with your devices." {
+		Description "IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, identifiers associated with your devices."
+	}
+}
+
+PrivateData PD3 {
+	Description "Location Information"
+	Type UsageInformation
+	Attribute "Location information" {
+		Description "Location information"
+	}
+}
+
+PrivateData PD4 {
+	Description "Files"
+	Type PersonalInformation
+	Attribute "Photos, structured data, emails" {
+		Description "Photos, structured data, emails"
+	}
+}
+
+PrivateData PD5 {
+	Description "File-related Information"
+	Type PersonalInformation
+	Attribute "Location tags in photos" {
+		Description "Location tags in photos"
+	}
+}
+
+PrivateData PD6 {
+	Description "Basic Public Information"
+	Type PersonalInformation
+	Attribute "Name, email address" {
+		Description "Name, email address"
+	}
+}
+
+PrivateData PD7 {
+	Description "Complete Public Information"
+	Type PersonalInformation
+	Attribute "Name, email address, IP address" {
+		Description "Name, email address, IP address"
+	}
+}
+
+PrivateData PD8 {
+	Description "Contacts"
+	Type PersonalInformation
+	Attribute "User contacts" {
+		Description "User contacts"
+	}
+}
+
+Recipient R1 {
+	Name "Service providers"
+	Description "Service providers"
+	Scope Internal/External
+	Type Organization
+}
+
+Recipient R2 {
+	Name "Dropbox's trusted third parties"
+	Description "Dropbox's trusted third parties"
+	Scope External
+	Type Organization
+}
+
+Recipient R3 {
+	Name "Members"
+	Description "Members"
+	Scope Internal
+	Type Individual/Organization
+}
+
+Recipient R4 {
+	Name "Dropbox for Business users"
+	Description "Dropbox for Business users"
+	Scope Internal/External
+	Type Individual
+}
+
+Recipient R5 {
+	Name "Third parties"
+	Description "Third parties"
+	Scope External
+	Type Organization
+}
+
+Recipient R6 {
+	Name "Owner"
+	Description "Owner"
+	Scope Internal
+	Type Organization
+}
+
+Recipient R7 {
+	Name "Anyone"
+	Description "Anyone"
+	Scope Internal/External
+	Type Individual/Organization
+}
+
+Service S1 {
+	Name "Account"
+	Description ""
+	RefersTo PrivateData All
+}
+
+Service S2 {
+	Name "Managing Account"
+	Description "perform tasks on our behalf and in compliance with this Privacy Policy"
+	RefersTo PrivateData All
+	Service_Part S1
+}
+
+Service S3 {
+	Name "Interaction With Services"
+	Description "use our Services"
+	RefersTo PrivateData PD4,PD5
+	Service_Part S1
+}
+
+Service S4 {
+	Name "Provide Services"
+	Description "provide you with the Services"
+	RefersTo PrivateData All
+	Service_Part S1
+}
+
+Service S5 {
+	Name "Legal"
+	Description ""
+	RefersTo PrivateData All
+}
+
+Service S6 {
+	Name "Compliance"
+	Description "comply with the law, legal obligation, enforce our agreements"
+	RefersTo PrivateData All
+	Service_Part S5
+}
+
+Service S7 {
+	Name "Rights"
+	Description "protect Dropbox's property rights"
+	RefersTo PrivateData All
+	Service_Part S5
+}
+
+Service S8 {
+	Name "Disputes"
+	Description "resolve disputes"
+	Service_Part S5
+}
+
+Service S9 {
+	Name "Security"
+	Description ""
+	RefersTo PrivateData All
+}
+
+Service S10 {
+	Name "Handle Prohibited Activities"
+	Description "prevent fraud or abuse of Dropbox or our users"
+	RefersTo PrivateData All
+	Service_Part S9
+}
+
+Service S11 {
+	Name "Protection"
+	Description "protect any person from death or serious bodily injury"
+	RefersTo PrivateData All
+	Service_Part S9
+}
+
+Enforcement En1 {
+	Name "Cookies and Other Technologies"
+	Description "We use technologies like cookies and pixel tags to provide, improve, protect and promote our Services."
+	Type Tool
+}
+
+Enforcement En2 {
+	Name "Selling Information"
+	Description "We won't sell information to advertisers or other third-parties."
+	Type Action
+}
+
+Enforcement En3 {
+	Name "Team for Managing Information"
+	Description "We have a team dedicated to keeping your information secure and testing for vulnerabilities."
+	Type Action
+}
+
+Enforcement En4 {
+	Name "Feature Improvement"
+	Description "We also continue to work on features to keep your information safe in addition to things like two-factor authentication, encryption of files at rest, and alerts when new devices and apps are linked to your account."
+	Type Algorithm
+}
+}

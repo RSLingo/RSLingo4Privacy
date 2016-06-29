@@ -1,0 +1,1635 @@
+Package Zynga {
+
+PolicyMetadata {
+	PolicyName "Zynga"
+	Description "Zynga Privacy Policy"
+	Author(s) "Zynga Inc."
+	Organization(s) "Zynga"
+	Date 10-May-2015
+	Version "2.0.0"
+}
+
+Collection St1 {
+	Description "If you play Zynga’s games or access any of our other Services on a social network like Facebook, Zynga receives certain information about you from the social network automatically."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD1
+	RefersTo Service S1,S2
+	Modality Permitted
+}
+
+Collection St2 {
+	Description "Zynga may collect some or all of the information provided by the social network like your first and last name, your profile picture or its URL, your social network ID number (like your Facebook ID number), which is linked to publicly-available information like your name and profile photo, the social network ID numbers and other public data for your friends, the login e-mail you provided to that social network when you registered with it, your physical location and that of the devices you use to access our Services, your gender, your birthday and/or age range, other publicly-available information on the social network and/or any other information that you or the social networks share with Zynga."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD1
+	Modality Permitted
+}
+
+Collection St3 {
+	Description "We and our service providers use these log files, tags, and tracking technologies to collect and analyze certain kinds of technical information, including IP addresses, the type of computer or mobile device you are using, your operating system version, your mobile device’s identifiers, like your MAC Address, Identifier For Advertising (IDFA), and/or International Mobile Equipment Identity (IMEI), your browser types, your browser language, referring and exit pages, and URLs, platform type, the number of clicks on a page or feature, domain names, landing pages, pages viewed and the order of those pages, the amount of time spent on particular pages and game state and the date and time of activity on our websites or games."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD2
+	Modality Permitted
+}
+
+Collection St4 {
+	Description "If you play Zynga games on your mobile device, in addition to your device identifiers, we may also collect the name you have associated with your device, your telephone number, your country and with your permission, your specific geolocation and your mobile contacts."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD3
+	RefersTo Service S1,S2
+	Modality Permitted
+}
+
+Collection St5 {
+	Description "When you use our Services (whether through a social network or through Zynga directly), you may give us information directly (like when you’re setting up your account) and we will store that on our systems and use it for the purposes described in this Privacy Policy."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD4
+	RefersTo Service S1,S2
+	Modality Permitted
+}
+
+Collection St6 {
+	Description "Some games or parts of our Services may use a more traditional registration or account set-up process where you may be asked to give us your age or birthday, your first and last names, your e-mail address, a password and other information that helps us make sure it’s you accessing your account or helps us improve our services. "
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD4
+	RefersTo Service S1,S3
+	Modality Permitted
+}
+
+Collection St7 {
+	Description "Your player profile may include information like a profile photo, game username(s), your gender, biographic details (like your age or age range), approximate location information that you provide, links to your profiles on various social network, details about the games you play and a Zynga player ID number that is created by Zynga and used to identify your profile. "
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD4
+	Modality Permitted
+}
+
+Collection St8 {
+	Description "We may also get information about you from other Zynga users importing or entering their contacts."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD8
+	Modality Permitted
+}
+
+Collection St9 {
+	Description "If you purchase a license to use in-game virtual currency or virtual items in a game you play on Zynga.com, our third party payment processor will collect the billing and financial information it needs to process your charges."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD6
+	RefersTo Service S6,S7
+	Modality Permitted
+}
+
+Collection St10 {
+	Description "Billing and financial information may include your postal address, e-mail address and financial information."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD6
+	Modality Permitted
+}
+
+Collection St11 {
+	Description "Zynga does not collect your financial information, like credit card numbers."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD6
+	Modality Forbidden
+}
+
+Collection St12 {
+	Description "Zynga may also obtain the billing and payment information that you provide when your purchase is processed by someone else (like Facebook, Apple or Google) such as when you purchase something in a game you play on a social network or that you downloaded on your mobile device."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD6
+	Modality Permitted
+}
+
+Collection St13 {
+	Description "When you ask for help from our Customer Support team, we will collect the contact information you give them (generally, your name and e-mail address), information about your game play or activity on our Services, and your Zynga player and/or social network ID number."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD8,PD11,PD12,PD13
+	Modality Permitted
+}
+
+Collection St14 {
+	Description "The Toolbar itself may collect information like your social network ID."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD10
+	Modality Permitted
+}
+
+Collection St15 {
+	Description "Our websites and games are not for children under the age of 13 and we do not knowingly collect any personal information from children under 13."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD1,PD3,PD4,PD5,PD6,PD8,PD14,PD15,PD18
+	RefersTo Enforcement En1
+	Modality Forbidden
+}
+
+Collection St16 {
+	Description "We receive the information you provide, including your mobile telephone number, when you choose to sign up to receive SMS messages."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD14
+	Modality Permitted
+}
+
+Collection St17 {
+	Description "When advertisers or ad networks place ads in our Services, they may collect performance data, aggregated and/or de-identified information about you and other players collectively that is not
+intended to specifically identify you, certain technical information, your social network ID and other contextual data about your game play."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD7
+	RefersTo Service S6,S9
+	Modality Permitted
+}
+
+Disclosure St18 {
+	Description "Certain information in your Zynga profile will be publicly accessible on Zynga’s websites that offer direct access to Zynga games, including Zynga player ID, first and last names, and player profile picture."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R2,R6
+	RefersTo PrivateData PD5
+	Modality Permitted
+}
+
+Disclosure St19 {
+	Description "You may be able to take part in certain activities on our Service that let you communicate or share information not just with Zynga, but also with other Zynga players."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R1,R2
+	RefersTo PrivateData PD10
+	Modality Permitted
+}
+
+Disclosure St20 {
+	Description "Zynga’s payment processors may share non-financial information with us related to your purchases, like your name, billing address and the items purchased in order to fulfill your order."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R5
+	RefersTo PrivateData PD6
+	RefersTo Service S6,S7
+	Modality Permitted
+}
+
+Disclosure St21 {
+	Description "We may disclose or publish aggregated information (information about you and other players collectively that is not intended to specifically identify you, for example, players between the ages of 21 and 25 who live San Francisco) and other non-personal information about our players for industry analysis, demographic profiling, marketing, analytics, and advertising, and other business purposes."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD7
+	RefersTo Service S6,S10
+	Modality Permitted
+}
+
+Disclosure St22 {
+	Description "In addition, we will share your information (which may include personal information) with third parties (in other words, parties other than Zynga) or allow third parties to collect this information from our Services."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R3
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Disclosure St23 {
+	Description "With your consent, we may share your information with third parties or allow them to collect your information from our Services in some ways not specifically described in this Privacy Policy."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R3
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Disclosure St24 {
+	Description "In most Zynga games, if you play through a social network or register through a social network (for example, Facebook Connect), your social network friends will see your name, profile photo and descriptions of your game activity."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R11
+	RefersTo PrivateData PD5
+	RefersTo Service S1,S2,S3
+	Modality Permitted
+}
+
+Disclosure St25 {
+	Description "In many Zynga games friends and other players will be able to see your game profile, which may include your name or a “game name” and your profile photo, which in certain cases can reveal your social network ID or Zynga player ID."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R2
+	RefersTo PrivateData PD5,PD13
+	Modality Permitted
+}
+
+Disclosure St26 {
+	Description "Access to a social network ID or Zynga player ID may allow others to view the public information associated with your related social network profile or Zynga account."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD5,PD13
+	Modality Permitted
+}
+
+Disclosure St27 {
+	Description "We do not actively share personal information with third party advertisers for their direct marketing purposes unless you give us your consent."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R4
+	RefersTo PrivateData PD1,PD3,PD4,PD5,PD6,PD8,PD14,PD15,PD18
+	RefersTo Service S6,S9
+	Modality Forbidden
+}
+
+Disclosure St28 {
+	Description "When advertisers or ad networks place ads in our Services, they may share performance data, aggregated and/or de-identified information about you and other players collectively that is not intended to specifically identify you, certain technical information, your social network ID and other contextual data about your game play."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R4
+	RefersTo PrivateData PD7
+	Modality Permitted
+}
+
+Disclosure St29 {
+	Description "Your information, and the contents of all of your online communications in our Services and between You and Zynga may be disclosed when we have a good faith belief that we have to disclose the information in response to legal process (for example, a court order, search warrant or subpoena)."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S6,S11
+	Modality Permitted
+}
+
+Disclosure St30 {
+	Description "Your information, and the contents of all of your online communications in our Services and between You and Zynga may be disclosed to satisfy any laws or regulations that apply."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S11
+	Modality Permitted
+}
+
+Disclosure St31 {
+	Description "Your information, and the contents of all of your online communications in our Services and between You and Zynga may be disclosed where we believe in our sole discretion that the Service is being used in committing a crime, including to report such criminal activity or to share information with other companies and organizations for the purposes of fraud protection, credit risk reduction, and other security precautions."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S12,S13,S14
+	Modality Permitted
+}
+
+Disclosure St32 {
+	Description "Your information, and the contents of all of your online communications in our Services and between You and Zynga may be disclosed when we have a good faith belief that there is an emergency that poses a threat to the health and/or safety of you, another person or the public generally."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S12,S15
+	Modality Permitted
+}
+
+Disclosure St33 {
+	Description "Your information, and the contents of all of your online communications in our Services and between You and Zynga may be disclosed to protect the rights or property of Zynga and other applicable third parties, including to enforce our Terms of Service. "
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Disclosure St34 {
+	Description "To properly credit player accounts and to prevent fraud, a unique identifier, in some cases your social network ID or Zynga player ID, will be shared with the offer wall provider."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R6
+	RefersTo PrivateData PD12,PD13
+	RefersTo Service S6,S7,S12,S14
+	Modality Permitted
+}
+
+Disclosure St35 {
+	Description "We will share your information with third party companies to perform services on our behalf, like processing payments, analyzing data, optimizing game play, e-mail delivery, hosting services, customer service and to help us in our marketing efforts, including managing and delivering contextual and tailored advertisements."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R3
+	RefersTo PrivateData All
+	RefersTo Service S1,S5,S6,S7,S9,S17,S18,S19
+	Modality Permitted
+}
+
+Disclosure St36 {
+	Description "In the event that Zynga undergoes a business transition, like a merger, acquisition by another company, or sale of all or part its assets (like selling a game), we may transfer all of your information, including personal information, to the successor organization in the transition."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R7
+	RefersTo PrivateData All
+	RefersTo Service S6,S8
+	Modality Permitted
+}
+
+Disclosure St37 {
+	Description "When you use Our Services, your data may be sent to the United States and possibly other countries."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R8
+	RefersTo PrivateData All
+	RefersTo Service S1,S2
+	Modality Permitted
+}
+
+Disclosure St38 {
+	Description "As part of our international operations, we may transfer data to our Affiliates from time to time for our legitimate business purposes."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R9
+	RefersTo PrivateData All
+	RefersTo Service S6,S10
+	Modality Permitted
+}
+
+Disclosure St39 {
+	Description "Personal data collected within Switzerland and the European Economic Area (“EEA”) may be transferred to a destination outside of Switzerland and the EEA."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Recipient R8
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Retention St41 {
+	Description "We and service providers acting on our behalf, like Google Analytics, store log files and use tracking technologies such as cookies, web beacons, ttracking pixels and local shared objects."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData PD17
+	Modality Permitted
+}
+
+Retention St42 {
+	Description "We store information about players and visitors to its sites on servers located in the United States, and we may also store this information on servers and equipment in other countries."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Retention St43 {
+	Description "Zynga may store some or all of the information provided by the social network like your first and last name, your profile picture or its URL, your social network ID number (like your Facebook ID number), which is linked to publicly-available information like your name and profile photo, the social network ID numbers and other public data for your friends, the login e-mail you provided to that social network when you registered with it, your physical location and that of the devices you use to access our Services, your gender, your birthday and/or age range, other publicly-available information on the social network and/or any other information that you or the social networks share with Zynga."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData PD1
+	Modality Permitted
+}
+
+Retention St44 {
+	Description "We may store this contact information to help you and your contacts connect through our Services."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData PD8
+	RefersTo Service S1,S4
+	Modality Permitted
+}
+
+Retention St45 {
+	Description "If you need to enter a password to allow us to access your address book, we will not store that password."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData PD15
+	RefersTo Service S1,S4
+	Modality Permitted
+}
+
+Retention St46 {
+	Description "We record and store archives of these communications, comments, photos and drawings on Zynga's servers to protect the safety and well-being of our players and Zynga's rights and property in connection with our Services and you acknowledge and agree to that."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData PD10
+	RefersTo Service S12,S15,S16
+	Modality Permitted
+}
+
+Retention St47 {
+	Description "Zynga does not store your financial information, like credit card numbers."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "None"
+	RefersTo PrivateData PD6
+	Modality Forbidden
+}
+
+Retention St48 {
+	Description "When you ask for help from our Customer Support team, we will store the contact information you give them (generally, your name and e-mail address), information about your game play or activity on our Services, and your Zynga player and/or social network ID number."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData PD8
+	Modality Permitted
+}
+
+Retention St49 {
+	Description "We will also store the communications you have with the Customer Service team and any information in those communications in order to provide support."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData PD18
+	RefersTo Service S1,S5
+	Modality Permitted
+}
+
+Retention St50 {
+	Description "We store the information you provide, including your mobile telephone number, when you choose to sign up to receive SMS messages."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData PD14
+	Modality Permitted
+}
+
+Retention St51 {
+	Description "We may also keep statistics regarding how players use the toolbar on an aggregated basis."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData PD16
+	Modality Permitted
+}
+
+Retention St52 {
+	Description "Once Zynga receives your information from a social network or your mobile device, that information is stored by Zynga in accordance with this Privacy Policy."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData PD1,PD2,PD3
+	Modality Permitted
+}
+
+Retention St53 {
+	Description "Please note that certain records, for example those relating to payments or customer service matters, will be held for legal and accounting purposes."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData PD6
+	RefersTo Service S6,S11
+	Modality Permitted
+}
+
+Retention St54 {
+	Description "If we learn that we have inadvertently gathered personal information from a child under 13, we will take reasonable measures to promptly remove that information from our records."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Until we learn that we have inadvertently gathered personal information from a child under 13"
+	RefersTo PrivateData PD1,PD3,PD4,PD5,PD6,PD8,PD14,PD15,PD18
+	RefersTo Enforcement En1
+	Modality Permitted
+}
+
+Retention St55 {
+	Description "Personal data collected within Switzerland and the European Economic Area (“EEA”) may be stored at a destination outside of Switzerland and the EEA."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Retention St56 {
+	Description "How long we retain your information depends on why we collected it and how we use it."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "Unlimited"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Retention St57 {
+	Description "We will not retain your personal information for longer than is necessary for our business purposes or for legal requirements."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Period "For no longer than is necessary for our business purposes or for legal requirements."
+	RefersTo PrivateData PD1,PD3,PD4,PD5,PD6,PD8,PD14,PD15,PD18
+	RefersTo Service S6,S10,S11
+	Modality Forbidden
+}
+
+Usage St58 {
+	Description "Your information, and the contents of all of your online communications in our Services and between You and Zynga may be accessed and monitored as needed to provide our Service."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S17,S18
+	Modality Permitted
+}
+
+Usage St59 {
+	Description "In some cases, we will connect the technical device information with your social network ID or Zynga user ID."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD2
+	Modality Permitted
+}
+
+Usage St60 {
+	Description "We use this contact information to help you and your contacts connect through our Services."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD8
+	RefersTo Service S1,S4
+	Modality Permitted
+}
+
+Usage St61 {
+	Description "We use the information from other sources along with information you provide us directly, for example, to help you and your friends connect or to serve you advertising more tailored to your interests."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S1,S4,S6,S9
+	Modality Permitted
+}
+
+Usage St62 {
+	Description "The main use of the information we collect and store is to provide a better gaming experience."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S17,S19
+	Modality Permitted
+}
+
+Usage St63 {
+	Description "We use the information we collect and store to operate, improve and optimize our Services and our players’ experiences."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S17,S18,S19
+	Modality Permitted
+}
+
+Usage St64 {
+	Description "We use the information we collect and store to create your game accounts and allow you to play our games."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S1,S2,S3
+	Modality Permitted
+}
+
+Usage St65 {
+	Description "We use the information we collect and store to identify and suggest connections with other Zynga players and personalize our Services to you."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S17,S20
+	Modality Permitted
+}
+
+Usage St66 {
+	Description "We use the information we collect and store to enable players to communicate with each other."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S21,S22
+	Modality Permitted
+}
+
+Usage St67 {
+	Description "We use the information we collect and store to provide technical support and respond to player inquiries."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S1,S5
+	Modality Permitted
+}
+
+Usage St68 {
+	Description "We use the information we collect and store to help create a safer and more trusted environment for our players by preventing fraud or potentially illegal activities, and enforcing our Terms of Service."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S6,S11,S12,S14,S16
+	Modality Permitted
+}
+
+Usage St69 {
+	Description "We use the information we collect and store to manage and deliver contextual and behavioral advertising."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S6,S9
+	Modality Permitted
+}
+
+Usage St70 {
+	Description "We use the information we collect and store to notify players of in-game updates, new products or promotional offers."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S17,S18,S21,S23
+	Modality Permitted
+}
+
+Usage St71 {
+	Description "We use the information we collect and store to administer rewards, surveys, sweepstakes, contests, or other promotional activities or events sponsored or managed by us or our business partners."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Usage St72 {
+	Description "We use the information we collect and store to comply with our legal obligations, resolve any disputes we may have with you or other players, and to enforce our agreements with third parties"
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S6,S11
+	Modality Permitted
+}
+
+Usage St73 {
+	Description "We use the information we collect and store to conduct research. "
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S17,S19
+	Modality Permitted
+}
+
+Usage St74 {
+	Description "One important use of your information is communication."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S21,S22,S23
+	Modality Permitted
+}
+
+Usage St75 {
+	Description "If you have provided your e-mail address to Zynga, we willl use it to respond to customer support inquiries, and keep you informed of your in-game activity, including comments from friends, let you know about in-game status such as “crops ready” as well as tell you about gift and neighbor requests."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD8
+	RefersTo Service S1,S5,S21,S22,S23
+	Modality Permitted
+}
+
+Usage St76 {
+	Description "The information collected may be used to measure how effective ads are, to offer you targeted advertising in order to personalize your experience by showing you advertisements for products and services that are more likely to appeal to you and/or undertake web analytics."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Service S6,S9,S17,S19
+	Modality Permitted
+}
+
+Usage St77 {
+	Description "Once Zynga receives your information from a social network or your mobile device, that information is used by Zynga in accordance with this Privacy Policy."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD1,PD2,PD3
+	Modality Permitted
+}
+
+Usage St78 {
+	Description "The data we hold may also be processed by employees operating outside of Switzerland and the EEA who work for us or one of our Affiliates or for one of our vendors."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Informative St40 {
+	Description "We may also let you create a player profile, separate from your social networking site profile (for example, your Facebook profile), that other Zynga players can see."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD4
+	Modality Permitted
+}
+
+Informative St79 {
+	Description "If you have sent content through or posted content on the Service, we may not be able to delete it."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St80 {
+	Description "If you have previously allowed us to access your geolocation data, you can stop making geolocation available to us by visiting your mobile device's settings for the relevant application or the “settings” page for the relevant game."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD9
+	Modality Permitted
+}
+
+Informative St81 {
+	Description "Advertisers or ad networks may collect this information through the use of tracking technologies like browser cookies and web beacons, and they may use a single tracking technology or multiple tracking technologies at the same time."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD7
+	Modality Permitted
+}
+
+Informative St82 {
+	Description "The information we receive depends on the Zynga game you’re playing, the social network, and your privacy settings and your friends’ privacy settings on that social network."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St83 {
+	Description "If you access our Services from a social network, you should also read that social network’s Terms of Service and Privacy Policy."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St84 {
+	Description "If you are unclear about what information a social network is sharing with us, please go to the social networks where you play our games to find out more about their privacy settings."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St85 {
+	Description "Please note that companies delivering advertisements on our Services may also use cookies or other technologies as described below in Third Party Advertising Including Tailored Advertising and Analytics, and those practices are subject to those companies’ own policies."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St86 {
+	Description "Your Zynga player ID number used to identify your account and player profile will appear in the URL of your profile page."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD5,PD13
+	Modality Permitted
+}
+
+Informative St87 {
+	Description "The URL of your profile page will only allow access to information you make public in your settings."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD5
+	Modality Permitted
+}
+
+Informative St88 {
+	Description "We may give you the ability to import your address book contacts or manually enter them so that you can locate your contacts on Zynga and invite them to join you in our games or other aspects of our Services."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St89 {
+	Description "You are responsible for getting your contacts' permission when you opt to give their contact details to us."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St90 {
+	Description "If you want to remove your contacts stored by us, follow the instructions provided in the game to request that we remove them from our systems."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St91 {
+	Description "Certain activities on our Service include participating in player forums and message boards, posting public comments to other players’ profiles or gameboards, sending private messages or invitations to other players, either directly on our websites or to their e-mail accounts, chatting with other players and/or posting photos or drawings. "
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St92 {
+	Description "Please note that purchases of third party credits or currencies may also be subject to those parties’ policies."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St93 {
+	Description "You may have installed a Zynga-branded toolbar (the 'Toolbar') when playing various games. The Toolbar is based on technology provided by Conduit, a third party."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Enforcement En2
+	Modality Permitted
+}
+
+Informative St94 {
+	Description "The Toolbar will automatically update on your browser with improvements."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Enforcement En3
+	Modality Permitted
+}
+
+Informative St95 {
+	Description "Some Toolbar features may let you provide personal information (for example, Contact form, Tell-a-friend)."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Enforcement En2
+	Modality Permitted
+}
+
+Informative St96 {
+	Description "We may collect or receive information about you from other sources like third party information providers."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St97 {
+	Description "Some messages, like invites for friends to join you in a game, may include your name and profile photo."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St98 {
+	Description "We may also send promotional e-mail messages and promotional SMS messages (e.g. text messages) ('Promotional Communications') directly or in partnership with other parties, in accordance with your marketing preferences."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Service S21,S23
+	Modality Permitted
+}
+
+Informative St99 {
+	Description "Each Promotional Communication will offer you choices about receiving additional messages."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St100 {
+	Description "The Service supports and often encourages you to interact with other players."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St101 {
+	Description "Other players may also be able to send you game requests or even friend requests through the related social network’s communication channels."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Service S21,S22
+	Modality Permitted
+}
+
+Informative St102 {
+	Description "We have advertising on our Services so we can continue to offer many of our Services for free."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St103 {
+	Description "Please note, after clicking on a third party advertisement, you may no longer be on a site hosted by Zynga or the social network through which you are playing Zynga’s games."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St104 {
+	Description "Zynga games or their purchase pages may display an “offer wall” that is hosted by an offer wall provider."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St105 {
+	Description "The offer wall allows third party advertisers to provide virtual currency to players in exchange for interacting with an advertisement or for completing a marketing offer that may include signing up for an account with one of those advertisers."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St106 {
+	Description "These offers are not made by Zynga and may be shown to you based on certain technical information, like your geographic area or de-identified demographic information."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD9
+	Modality Permitted
+}
+
+Informative St107 {
+	Description "After clicking on one of these offers, you will no longer be on a site hosted by Zynga or the social network through which you are playing Zynga’s games."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St108 {
+	Description "We contractually require these third party service providers to maintain the confidentiality of the information we share with them."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Informative St109 {
+	Description "We contractually require these third party service providers not use your information for anything other than to provide services on our behalf."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Informative St110 {
+	Description "We will make reasonable efforts to let you and other players know (in the way described in Changes to Our Privacy Policy) of the business transition before transferring your personal information."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD1,PD3,PD4,PD5,PD6,PD8,PD14,PD15,PD18
+	Modality Permitted
+}
+
+Informative St111 {
+	Description "To manage the information Zynga receives about you from a social network, like Facebook, where you play our games, you will need to follow the instructions at that site for updating your information and changing your privacy settings."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St112 {
+	Description "To review and update information associated with your Zynga game profile in certain games, visit the “settings” page in that game."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD4
+	Modality Permitted
+}
+
+Informative St113 {
+	Description "You also can manage some aspects of information collection and use by visiting the “settings” page of your mobile device and reviewing the permissions of each application or “app.”"
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St114 {
+	Description "If you want to review, delete, or change the information Zynga has about you or have additional questions, e-mail us at privacy@zynga.com."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Enforcement En8
+	Modality Permitted
+}
+
+Informative St115 {
+	Description "We will respond to your request within thirty days."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St116 {
+	Description "If you no longer want Zynga to make active use of your information, you may send an e-mail to privacy@zynga.com ."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	RefersTo Enforcement En8
+	Modality Permitted
+}
+
+Informative St117 {
+	Description "Place 'Delete My Account' in the subject line and include your first name, last name, e-mail address and your social network ID for the social network from which you access our Services (if applicable) in the body of the e-mail (for example, your Facebook user ID)."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Enforcement En8
+	Modality Permitted
+}
+
+Informative St118 {
+	Description "If you want to stop receiving promotional e-mails from Zynga, click on the 'unsubscribe' link in any promotional email from Zynga or visit the e-mail preference page."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St119 {
+	Description "Please note that once we receive your request, it may take an additional period of time for your opt-out to become effective."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St120 {
+	Description "Your unsubscribe or e-mail preference change will be processed promptly, and in no event longer than ten business days."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St121 {
+	Description "You can opt out of receiving SMS messages (for example, text messages) by texting back STOP to the number we send the text from for that particular SMS message program."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Enforcement En5
+	Modality Permitted
+}
+
+Informative St122 {
+	Description "In some cases a preferences management page will also be available."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Enforcement En5
+	Modality Permitted
+}
+
+Informative St123 {
+	Description "When we receive an opt-out message from you for SMS messages, we may send a message confirming our receipt of your opt-out."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Enforcement En5
+	Modality Permitted
+}
+
+Informative St124 {
+	Description "When you install our apps on your mobile device you can choose to receive push notifications, which are messages an app sends you on your mobile device even when the app is not on."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St125 {
+	Description "You can turn off notifications by visiting your mobile device’s “settings” page."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St126 {
+	Description "Note that if you opt-out of our Promotional Communications or other forms of communication, we may still e-mail or communicate with you from time to time if we need to provide you with information about the Service or if we need to request information from you
+with respect to a transaction initiated by you or for other legitimate non-marketing reasons, for example, if we update this Privacy Policy or our Terms of Service."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St127 {
+	Description "If you are interested in more information about tailored advertising and your choices to prevent third parties from delivering tailored web and mobile web advertising you may visit some external websites."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St128 {
+	Description "These opt-out tools are provided by third parties, not Zynga. Zynga does not control or operate these tools or the choices that advertisers and others provide through these tools."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St129 {
+	Description "In addition, if you do not want to receive tailored in-application advertisements from third parties that relate to your interests in apps on your mobile device, you may opt-out by adjusting the ad tracking settings on your device."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St130 {
+	Description "In addition, you can reset the “Advertising Identifier” (like an IDFA) from your mobile device’s settings page, which will prevent continued use of existing behavioral data tied to the previous “Advertising Identifier.”"
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St131 {
+	Description "Please note that you may still receive in-app advertisements even if you opt-out of tailored advertising but they will not be based on your activity across unrelated web sites or apps."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St132 {
+	Description "You can set your web browser to warn you about attempts to place cookies on your computer or limit the type of cookies you allow."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Enforcement En7
+	Modality Permitted
+}
+
+Informative St133 {
+	Description "Flash cookies operate differently than browser cookies and cookie management tools available in a web browser may not remove flash cookies."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St134 {
+	Description "To learn more about and manage flash cookies you can visit the Adobe website and make changes at the Global Privacy Settings Panel."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St135 {
+	Description "If you disable cookies, you may lose some of the features and functionality of our Services because Zynga cookies are necessary to track and enhance your game activities."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St136 {
+	Description "At this time, there is no general agreement on how companies like Zynga should interpret Do Not Track signals."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St137 {
+	Description "Zynga does not currently respond to Do Not Track signals, whether that signal is received on a computer or on a mobile device."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St138 {
+	Description "Our websites and games may contain advertisements from Third Party Services, which are companies other than Zynga that may link to their own websites, online services or mobile applications."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St139 {
+	Description "We are not responsible for the privacy practices or the content of these Third Party Services."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St140 {
+	Description "If you have any questions about how these Third Party Services use your information, you should review their policies and contact them directly."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Informative St141 {
+	Description "Children under 13 should not use our websites or games at any time."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Enforcement En1
+	Modality Permitted
+}
+
+Informative St142 {
+	Description "If you don’t live in the United States, Zynga Game Ireland Ltd. and Zynga Luxembourg S.a.r.l. jointly control your personal data through December 31, 2014 and Zynga Game Ireland Ltd. alone will control your personal data from January 1, 2015 onwards."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Informative St143 {
+	Description "This staff may be engaged in, among other things, (i) the processing of transactions and your payment details and (ii) the provision of support services."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St144 {
+	Description "When we transfer your personal information internationally we will take reasonable steps to ensure that your personal information is treated securely, lawfully and in the manner we describe here."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD1,PD3,PD4,PD5,PD6,PD8,PD14,PD15,PD18
+	Modality Permitted
+}
+
+Informative St145 {
+	Description "Please note that laws vary from jurisdiction to jurisdiction, and so the privacy laws applicable to the places where your information is transferred to or stored, used or processed in, may be different from the privacy laws applicable to the place where you are resident."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Informative St146 {
+	Description "We comply with the U.S.-EU Safe Harbor Framework and the U.S.-Swiss Safe Harbor Framework as set forth by the U.S. Department of Commerce regarding the collection, use, and retention of personal information from European Union member countries and Switzerland."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St147 {
+	Description "We have certified that we adheres to the Safe Harbor Privacy Principles of notice, choice, onward transfer, security, data integrity, access, and enforcement."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St148 {
+	Description "We implement appropriate security measures to protect the security of your information both online and offline, and we are committed to the protection of customer information."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Informative St149 {
+	Description "We will take reasonable steps to ensure that your data is treated securely and in accordance with this Privacy Policy."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData All
+	Modality Permitted
+}
+
+Informative St150 {
+	Description "If you have an account registered directly with Zynga, your profile information is protected by the password you use to access your Zynga account."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St151 {
+	Description "It is important that you protect and maintain your Zynga account’s security and that you immediately tell us of any unauthorized use of your account."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St152 {
+	Description "If you forget the password to your Zynga account, the Service allows you to request that instructions be sent to you that explain how to reset your password."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St153 {
+	Description "If you access our Services through a social network and your social network account is hacked, this may lead to someone playing your Zynga games without your permission."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St154 {
+	Description "So, be careful to keep your social network account information, including your social network account password, secure as well."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD1
+	Modality Permitted
+}
+
+Informative St155 {
+	Description "We urge you to log out of your Zynga account and any social network account you have used to access our Services after you use it."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St156 {
+	Description "When you sign into your Zynga account or enter payment information, we or our third party payment processor use secure socket layer technology ('SSL') to encrypt the transmission of that information."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD6
+	RefersTo Enforcement En4
+	Modality Permitted
+}
+
+Informative St157 {
+	Description "While we take reasonable precautions against possible security breaches of our Services and our customer databases and records, no website or Internet transmission is completely secure."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St158 {
+	Description "Although we strive to protect your personal information, we cannot guarantee that unauthorized access, hacking, data loss, or other breaches will never occur, we cannot guarantee the security of your information while it is being transmitted to our Service."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo PrivateData PD1,PD3,PD4,PD5,PD6,PD8,PD14,PD15,PD18
+	Modality Permitted
+}
+
+Informative St159 {
+	Description "Any transmission is at your own risk."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St160 {
+	Description "If we decide to make material changes to our Privacy Policy, we will tell you and other players by placing a notice on Zynga.com or its equivalent in-game, or by sending you a notice to the e-mail address we have on file for you prior
+to the change becoming effective."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	RefersTo Enforcement En6
+	Modality Permitted
+}
+
+Informative St161 {
+	Description "We may supplement this process by placing notices on game blogs, social network pages, and/or forums and on other Zynga websites."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St162 {
+	Description "You should periodically check www.zynga.com and this privacy page for updates."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St163 {
+	Description "If you have any questions, comments or concerns regarding our Privacy Policy and/or practices, please send an e-mail to privacy@zynga.com."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St164 {
+	Description "All other inquiries should be directed to Zynga's Support Page."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St165 {
+	Description "If you are not satisfied with our response you can contact TRUSTe."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St166 {
+	Description "When submitting a watchdog complaint, please put www.zynga.com as the website and note the game and/or feature within the details."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+Informative St167 {
+	Description "The TRUSTe program only covers information that is collected through Zynga websites and applications (games), and does not cover information that may be collected through any software downloaded from Zynga websites."
+	Condition "Users must read and agree to Terms of Service and Privacy Policy"
+	Modality Permitted
+}
+
+PrivateData PD1 {
+	Description "Social Network Account"
+	Type PersonalInformation
+	Attribute "First name, last name, profile picture or its URL social network ID number, e-mail, physical location, gender, birthday, age range, other publicly-available information, other information shared with Zynga" {
+		Description "First name, last name, profile picture or its URL social network ID number, e-mail, physical location, gender, birthday, age range, other publicly-available information, other information shared with Zynga"
+	}
+}
+
+PrivateData PD2 {
+	Description "Technical Device Information"
+	Type UsageInformation
+	Attribute "IP address, type of computer or mobile device, operating system version, mobile device’s identifiers, browser types, browser language" {
+		Description "IP address, type of computer or mobile device, operating system version, mobile device’s identifiers, browser types, browser language"
+	}
+	Attribute "Referring and exit pages, and URLs, platform type, number of clicks on a page or feature, domain names, landing pages, pages viewed and the order of those pages, the amount of time spent on particular pages game state and the date and time of activity on our websites or games" {
+		Description "Referring and exit pages, and URLs, platform type, number of clicks on a page or feature, domain names, landing pages, pages viewed and the order of those pages, the amount of time spent on particular pages game state and the date and time of activity on our websites or games"
+	}
+}
+
+PrivateData PD3 {
+	Description "Additional Device Information"
+	Type PersonalInformation
+	Attribute "Name associated with device, telephone number, country, specific geolocation (with extra permission), mobile contacts (with extra permission)" {
+		Description "Name associated with device, telephone number, country, specific geolocation (with extra permission), mobile contacts (with extra permission)"
+	}
+}
+
+PrivateData PD4 {
+	Description "Zynga Player Profile"
+	Type PersonalInformation
+	Attribute "Profile photo, game username(s), gender, biographic details (age or age range), approximate location information, links to your profiles on various social network, details about the games played Zynga player ID number" {
+		Description "Profile photo, game username(s), gender, biographic details (age or age range), approximate location information, links to your profiles on various social network, details about the games played Zynga player ID number"
+	}
+}
+
+PrivateData PD5 {
+	Description "Zynga Public Player Profile"
+	Type PersonalInformation
+	Attribute "Zynga player ID number, first name, last name, player profile picture" {
+		Description "Zynga player ID number, first name, last name, player profile picture"
+	}
+}
+
+PrivateData PD6 {
+	Description "Billing Information"
+	Type PersonalInformation
+	Attribute "Postal address, e-mail address, financial information" {
+		Description "Postal address, e-mail address, financial information"
+	}
+}
+
+PrivateData PD7 {
+	Description "Advertisement-purpose Information"
+	Type UsageInformation
+	Attribute "Performance data, aggregated and/or de-identified information about users, certain technical information (connect with element 2), social network ID, other contextual data about users' game play" {
+		Description "Performance data, aggregated and/or de-identified information about users, certain technical information (connect with element 2), social network ID, other contextual data about users' game play"
+	}
+}
+
+PrivateData PD8 {
+	Description "Contact Information"
+	Type PersonalInformation
+	Attribute "Name, email, other contact information" {
+		Description "Name, email, other contact information"
+	}
+}
+
+PrivateData PD9 {
+	Description "Technical Information"
+	Type UsageInformation
+	Attribute "Geographic area, de-identified demographic information" {
+		Description "Geographic area, de-identified demographic information"
+	}
+}
+
+PrivateData PD10 {
+	Description "Zynga Activity"
+	Type UsageInformation
+	Attribute "Communications, comments, photos, drawings" {
+		Description "Communications, comments, photos, drawings"
+	}
+}
+
+PrivateData PD11 {
+	Description "Gaming Status"
+	Type UsageInformation
+	Attribute "Game play or activity" {
+		Description "Game play or activity"
+	}
+}
+
+PrivateData PD12 {
+	Description "Social Network ID Number"
+	Type UsageInformation
+	Attribute "Social network ID number" {
+		Description "Social network ID number"
+	}
+}
+
+PrivateData PD13 {
+	Description "Zynga Player ID  Number"
+	Type UsageInformation
+	Attribute "Zynga player ID number" {
+		Description "Zynga player ID number"
+	}
+}
+
+PrivateData PD14 {
+	Description "Mobile Number"
+	Type PersonalInformation
+	Attribute "Mobile number" {
+		Description "Mobile number"
+	}
+}
+
+PrivateData PD15 {
+	Description "Address Book Access Password"
+	Type PersonalInformation
+	Attribute "Address book access password" {
+		Description "Address book access password"
+	}
+}
+
+PrivateData PD16 {
+	Description "Toolbar Usage"
+	Type UsageInformation
+	Attribute "Statistics regarding how players use the toolbar" {
+		Description "Statistics regarding how players use the toolbar"
+	}
+}
+
+PrivateData PD17 {
+	Description "Log Files"
+	Type UsageInformation
+	Attribute "Log files with information regarding players' activity on Zynga" {
+		Description "Log files with information regarding players' activity on Zynga"
+	}
+}
+
+PrivateData PD18 {
+	Description "Communications"
+	Type PersonalInformation
+	Attribute "Communications you have with the Customer Service team and any information in those communications " {
+		Description "Communications you have with the Customer Service team and any information in those communications "
+	}
+}
+
+Recipient R1 {
+	Name "Zynga"
+	Description "Zynga"
+	Scope Internal
+	Type Organization
+}
+
+Recipient R2 {
+	Name "Zynga players"
+	Description "Zynga players"
+	Recipient_Part R1
+	Scope Internal
+	Type Individual
+}
+
+Recipient R3 {
+	Name "Third parties"
+	Description "Third parties"
+	Scope External
+	Type Organization
+}
+
+Recipient R4 {
+	Name "Third party advertisers"
+	Description "Third party advertisers"
+	Recipient_Part R3
+	Scope External
+	Type Organization
+}
+
+Recipient R5 {
+	Name "Zynga's payment processors"
+	Description "Zynga's payment processors"
+	Recipient_Part R3
+	Scope External
+	Type Organization
+}
+
+Recipient R6 {
+	Name "Offer wall provider"
+	Description "Offer wall provider"
+	Recipient_Part R3
+	Scope External
+	Type Organization
+}
+
+Recipient R7 {
+	Name "Successor organization"
+	Description "Successor organization"
+	Scope External
+	Type Organization
+}
+
+Recipient R8 {
+	Name "Companies located overseas"
+	Description "Companies located overseas"
+	Scope External
+	Type Organization
+}
+
+Recipient R9 {
+	Name "Zynga's Affiliates"
+	Description "Zynga's Affiliates"
+	Scope Internal/External
+	Type Organization
+}
+
+Recipient R10 {
+	Name "Visitors"
+	Description "Visitors"
+	Scope External
+	Type Individual
+}
+
+Recipient R11 {
+	Name "Social network friends"
+	Description "Social network friends"
+	Scope External
+	Type Individual
+}
+
+Service S1 {
+	Name "Account"
+	Description ""
+	RefersTo PrivateData PD1,PD4,PD5,PD6,PD7
+}
+
+Service S2 {
+	Name "Interaction With Services"
+	Description "play Zynga’s games or access any of our other Services on a social network, use our Services (whether through a social network or through Zynga directly), play through a social network, play Zynga games on your mobile device, allow you to play our games"
+	RefersTo PrivateData PD1,PD2
+	Service_Part S1
+}
+
+Service S3 {
+	Name "Registration"
+	Description "a more traditional registration or account set-up process, register through a social network (for example, Facebook Connect), create your game accounts"
+	RefersTo PrivateData PD8
+	Service_Part S1
+}
+
+Service S4 {
+	Name "Contacts Connection"
+	Description "help you and your contacts connect through our Services, access your address book"
+	RefersTo PrivateData All
+	Service_Part S1
+}
+
+Service S5 {
+	Name "Provide Support"
+	Description "provide support, provide technical support and respond to player inquiries,  respond to customer support inquiries, customer service"
+	RefersTo PrivateData All
+	Service_Part S1
+}
+
+Service S6 {
+	Name "Financial"
+	Description ""
+	RefersTo PrivateData All
+}
+
+Service S7 {
+	Name "Purchases"
+	Description "process your charges, purchases, fulfill your order, properly credit player accounts, processing payments"
+	RefersTo PrivateData All
+	Service_Part S6
+}
+
+Service S8 {
+	Name "Business Transition"
+	Description "merger, acquisition by another company, or sale of all or part its assets (like selling a game)"
+	RefersTo PrivateData All
+	Service_Part S6
+}
+
+Service S9 {
+	Name "Advertising"
+	Description "place ads in our Services, direct marketing purposes, serve you advertising more tailored to your interests,  manage and deliver contextual and behavioral advertising, measure how effective ads are, to offer you targeted advertising in order to personalize your experience by showing you advertisements for products and services that are more likely to appeal to you, managing and delivering contextual and tailored advertisements"
+	RefersTo PrivateData All
+}
+
+Service S10 {
+	Name "Business Purposes"
+	Description "industry analysis, demographic profiling, marketing, analytics, and advertising, and other business purposes, legitimate business processes"
+	RefersTo PrivateData All
+}
+
+Service S11 {
+	Name "Legal"
+	Description "response to legal process (for example, a court order, search warrant or subpoena), satisfy any laws or regulations that apply, legal and accounting purposes, legal requirements, create a safer and more trusted environment for our players by preventing potential illegal activities, legal obligations, resolve any disputes we may have with you or other players, and to enforce our agreements with third parties"
+	RefersTo PrivateData All
+}
+
+Service S12 {
+	Name "Security"
+	Description ""
+	RefersTo PrivateData All
+}
+
+Service S13 {
+	Name "Criminal Activity"
+	Description "report such criminal activity"
+	RefersTo PrivateData All
+	Service_Part S12
+}
+
+Service S14 {
+	Name "Financial Protection"
+	Description "fraud protection, credit risk reduction, and other security precautions, prevent fraud, create a safer and more trusted environment for our players by preventing fraud activities"
+	RefersTo PrivateData All
+	Service_Part S12
+}
+
+Service S15 {
+	Name "Health Protection"
+	Description "emergency that poses a threat to the health and/or safety of you, another person or the public generally, protect the safety and well-being of our players"
+	RefersTo PrivateData All
+	Service_Part S12
+}
+
+Service S16 {
+	Name "Rights"
+	Description "protect Zynga's rights and property in connection with our Services, enforcing our Terms of Service"
+	RefersTo PrivateData All
+	Service_Part S12
+}
+
+Service S17 {
+	Name "Development"
+	Description ""
+	RefersTo PrivateData All
+}
+
+Service S18 {
+	Name "Provide Services"
+	Description "provide our Service, operate, administer rewards, surveys, sweepstakes, contests, or other promotional activities or events sponsored or managed by us or our business partners, e-mail delivery, hosting services"
+	RefersTo PrivateData All
+	Service_Part S17
+}
+
+Service S19 {
+	Name "Improve Services"
+	Description "provide a better gaming experience, improve and optimize our Services and our players’ experiences, conduct research, undertake web analytics, analyzing data, optimizing game play"
+	RefersTo PrivateData All
+	Service_Part S17
+}
+
+Service S20 {
+	Name "Personalize Services"
+	Description "identify and suggest connections with other Zynga players and personalize our Services to you"
+	RefersTo PrivateData All
+	Service_Part S17
+}
+
+Service S21 {
+	Name "Communication"
+	Description ""
+	RefersTo PrivateData All
+}
+
+Service S22 {
+	Name "Between Players"
+	Description "enable players to communicate with each other, keep you informed of your in-game activity, including comments from friends, let you know about in-game status such as “crops ready”, game requests or even friend requests from other players"
+	RefersTo PrivateData All
+	Service_Part S22
+}
+
+Service S23 {
+	Name "Notifications"
+	Description " notify players of in-game updates, new products or promotional offers, tell you about gift and neighbor requests, send promotional e-mail messages and promotional SMS messages"
+	RefersTo PrivateData All
+	Service_Part S22
+}
+
+Enforcement En1 {
+	Name "Children Advisoring"
+	Description "Zynga's services are not for children and Zynga does not collect their information on purpose; if it ends up happening, such information will be quickly removed as soon as the company is aware."
+	Type Action
+}
+
+Enforcement En2 {
+	Name "Toolbar"
+	Description "Users may install a toolbar (the 'Toolbar') when playing games. It intends to provide a better user experience."
+	Type Tool
+}
+
+Enforcement En3 {
+	Name "Toolbar Updates"
+	Description "The Toolbar updates automatically."
+	Type Config
+}
+
+Enforcement En4 {
+	Name "Payment Information Encryption"
+	Description "Payment information is encrypted using secure socket layer technology ('SSL') by the processors (Zynga or others)."
+	Type Algorithm
+}
+
+Enforcement En5 {
+	Name "Stop SMS Messages"
+	Description "The user just needs to reply STOP to the number that sends SMS messages to cancel such service. "
+	Type Process
+}
+
+Enforcement En6 {
+	Name "Policy changes notification"
+	Description "Users are notified regarding changes to the privacy policy on Zynga.com or its equivalent in-game, or by receiving a notice to the e-mail address Zynga has of the user prior to the change becoming effective."
+	Type Action
+}
+
+Enforcement En7 {
+	Name "Cookies"
+	Description "You can set your web browser to warn you about attempts to place cookies on your computer or limit
+the type of cookies you allow."
+	Type Config
+}
+
+Enforcement En8 {
+	Name "Information management"
+	Description "By emailing Zynga, you can review in any way the use of your information."
+	Type Action
+}
+}
