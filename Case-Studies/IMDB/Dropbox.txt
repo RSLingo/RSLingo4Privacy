@@ -1,0 +1,180 @@
+Dropbox Privacy Policy
+----------------------------------------
+
+#Enforcement
+------------------
+En1.Cookies and Other Technologies(Tool):
+We use technologies like cookies and pixel tags to provide, improve, protect and promote our Services.,
+En2.Selling Information(Action):
+We won't sell information to advertisers or other third-parties.,
+En3.Team for Managing Information(Action):
+We have a team dedicated to keeping your information secure and testing for vulnerabilities.,
+En4.Feature Improvement(Algorithm):
+We also continue to work on features to keep your information safe in addition to things like two-factor authentication, encryption of files at rest, and alerts when new devices and apps are linked to your account.,
+
+#Service
+------------------
+Account:,
+	Refers To PrivateData: All,
+Managing Account:perform tasks on our behalf and in compliance with this Privacy Policy,
+	Service_Part: S1,
+	Refers To PrivateData: All,
+Interaction With Services:use our Services,
+	Service_Part: S1,
+	Refers To PrivateData: PD4, PD5,
+Provide Services:provide you with the Services,
+	Service_Part: S1,
+	Refers To PrivateData: All,
+Legal:,
+	Refers To PrivateData: All,
+Compliance:comply with the law, legal obligation, enforce our agreements,
+	Service_Part: S5,
+	Refers To PrivateData: All,
+Rights:protect Dropbox's property rights,
+	Service_Part: S5,
+	Refers To PrivateData: All,
+Disputes:resolve disputes,
+	Service_Part: S5,
+Security:,
+	Refers To PrivateData: All,
+Handle Prohibited Activities:prevent fraud or abuse of Dropbox or our users,
+	Service_Part: S9,
+	Refers To PrivateData: All,
+Protection:protect any person from death or serious bodily injury,
+	Service_Part: S9,
+	Refers To PrivateData: All,
+
+#Recipients
+------------------
+R1.Service providers(Internal/External-Organization):
+   Service providers, 
+R2.Dropbox's trusted third parties(External-Organization):
+   Dropbox's trusted third parties, 
+R3.Members(Internal-Individual/Organization):
+   Members, 
+R4.Dropbox for Business users(Internal/External-Individual):
+   Dropbox for Business users, 
+R5.Third parties(External-Organization):
+   Third parties, 
+R6.Owner(Internal-Organization):
+   Owner, 
+R7.Anyone(Internal/External-Individual/Organization):
+   Anyone, 
+
+#PrivateData
+------------------
+PD1(PersonalInformation): Account Information,
+	Attribute: Name, email, phone number, payment info, physical address(Name, email, phone number, payment info, physical address)
+PD2(UsageInformation): Device Information,
+	Attribute: IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, identifiers associated with your devices.(IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, identifiers associated with your devices.)
+PD3(UsageInformation): Location Information,
+	Attribute: Location information(Location information)
+PD4(PersonalInformation): Files,
+	Attribute: Photos, structured data, emails(Photos, structured data, emails)
+PD5(PersonalInformation): File-related Information,
+	Attribute: Location tags in photos(Location tags in photos)
+PD6(PersonalInformation): Basic Public Information,
+	Attribute: Name, email address(Name, email address)
+PD7(PersonalInformation): Complete Public Information,
+	Attribute: Name, email address, IP address(Name, email address, IP address)
+PD8(PersonalInformation): Contacts,
+	Attribute: User contacts(User contacts)
+
+#Collection
+------------------
+St1(Permitted): We collect, and associate with your account, information like your name, email address, phone number, payment info, and physical address.,
+Refers To PrivateData: PD1,
+St2(Permitted): We collect information from and about the devices you use to access the Services, including things like IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, and identifiers associated with your devices.,
+Refers To PrivateData: PD2,
+St3(Permitted): Your devices (depending on their settings) may also transmit location information to the Services.,
+Refers To PrivateData: PD3,
+
+#Disclosure
+------------------
+St4(Permitted): Some of our services let you access your accounts and your information with other service providers.,
+Refers To Recipient: R1,
+St5(Permitted): When you use our Services, we transmit your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos).,
+Refers To Recipient: R7,
+Refers To Service: S1, S3,
+St6(Permitted): Dropbox's trusted third parties will access your information only to perform tasks on our behalf and in compliance with this Privacy Policy.,
+Refers To Recipient: R2,
+Refers To Service: S1, S2,
+St7(Permitted): Our Services display information like your name and email address to other users in places like your user profile and sharing notifications.,
+Refers To Recipient: R3,
+St8(Permitted): You can also give third parties access to your information and account - for example, via Dropbox APIs.,
+Refers To Recipient: R2,
+St9(Permitted): If you are not a Dropbox for Business user but interact with a Dropbox for Business user (by, for example, joining a shared folder or accessing stuff shared by that user), members of that organization may be able to view the name, email address and IP address that were associated with your account at the time of that interaction.,
+Refers To Recipient: R4,
+St10(Permitted): We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to comply with the law.,
+Refers To Recipient: R5,
+Refers To Service: S5, S6,
+St11(Permitted): We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to protect any person from death or serious bodily injury.,
+Refers To Recipient: R5,
+Refers To Service: S9, S11,
+St12(Permitted): We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to prevent fraud or abuse of Dropbox or our users.,
+Refers To Recipient: R5,
+Refers To Service: S9, S10,
+St13(Permitted): We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to protect Dropbox's property rights.,
+Refers To Recipient: R5,
+Refers To Service: S5, S7,
+St14(Permitted): To provide you with the Services, we may transmit information in locations around the world - including those outside your country.,
+Refers To Recipient: R7,
+Refers To Service: S1, S4,
+St15(Permitted): If we are involved in a reorganization, merger, acquisition or sale of our assets, your information may be transferred as part of that deal.,
+Refers To Recipient: R6,
+
+#Retention
+------------------
+St16(Permitted-As long as it is necessary): When you use our Services, we store your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos).,
+Refers To Service: S1, S3,
+Refers To PrivateData: PD4, PD5,
+St17(Permitted-As long as it is necessary): If you give us access to your contacts, we'll store those contacts on our servers for you to use.,
+Refers To PrivateData: PD8,
+St18(Permitted-As long as it is necessary): We'll retain information you store on our Services for as long as we need it to provide you the Services.,
+Refers To Service: S1, S4,
+Refers To PrivateData: All,
+St19(Permitted-As long as it is necessary): If you delete your account, we'll also delete the information you store on our Services.,
+Refers To PrivateData: All,
+St20(Permitted-As long as it is necessary): We may retain the information you store on our Services if necessary to comply with our legal obligations, resolve disputes, or enforce our agreements.,
+Refers To Service: S5, S6, S8,
+Refers To PrivateData: All,
+St21(Permitted-As long as it is necessary): To provide you with the Services, we may store information in locations around the world - including those outside your country.,
+Refers To Service: S1, S4,
+Refers To PrivateData: All,
+St22(Permitted-As long as it is necessary): Information may also be stored locally on the devices you use to access the Services.,
+Refers To PrivateData: All,
+
+#Usage
+------------------
+St23(Permitted): When you use our Services, we process your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos).,
+Refers To Service: S1, S3,
+Refers To PrivateData: PD4, PD5,
+St24(Permitted): To provide you with the Services, we may process information in locations around the world - including those outside your country.,
+Refers To Service: S1, S4,
+Refers To PrivateData: All,
+
+#Informative
+------------------
+St25(Permitted): This will make it easy for you to do things like share your stuff, send emails, and invite others to use the Services.,
+St26(Permitted): We use technologies like cookies and pixel tags to provide, improve, protect and promote our Services.,
+Refers To Enforcement: En1,
+St27(Permitted):  You can set your browser to not accept cookies, but this may limit your ability to use the Services.,
+St28(Forbidden): We won't sell information to advertisers or other third-parties.,
+Refers To PrivateData: All,
+Refers To Enforcement: En2,
+St29(Permitted): Dropbox uses certain trusted third parties to help us provide, improve, protect, and promote our Services.,
+St30(Permitted): Certain features let you make additional information available to other users.,
+St31(Permitted): The use of your information by third parties will be governed by their privacy policies and terms.,
+St32(Permitted): If you are a Dropbox for Business user, your administrator may have the ability to access and control your Dropbox for Business account. Please refer to your employer's internal policies if you have questions about this.,
+St33(Permitted): Stewardship of your data is critical to us and a responsibility that we embrace.,
+St34(Permitted): We believe that our users' data should receive the same legal protections regardless of whether it's stored on our services or on their home computer's hard drive.,
+St35(Permitted): When receiving, scrutinizing and responding to government requests for our users' data, we must be transparent, fight blanket requests, protect all users, and provide trusted services.,
+St36(Permitted): We have a team dedicated to keeping your information secure and testing for vulnerabilities.,
+Refers To Enforcement: En3,
+St37(Permitted): We also continue to work on features to keep your information safe in addition to things like two-factor authentication, encryption of files at rest, and alerts when new devices and apps are linked to your account.,
+Refers To Enforcement: En4,
+St38(Permitted): There might be some latency in deleting the information you store on our Services from our servers and back-up storage,
+St39(Permitted): Dropbox complies with the EU-U.S. and Swiss-U.S. Safe Harbor ('Safe Harbor') frameworks and principles.,
+St40(Permitted): We will notify you (for example, via a message to the email address associated with your account) of any reorganization, merger, acquisition or sale of our assets and outline your choices in that event.,
+St41(Permitted): We may revise this Privacy Policy from time to time, and will post the most current version on our website.,
+St42(Permitted): If a revision meaningfully reduces your rights, we will notify you.,

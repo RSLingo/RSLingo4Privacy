@@ -1,0 +1,91 @@
+SPEC HEADER
+	ATTR NAMESPACE "http://gaius.isri.cmu.edu/example2.owl"
+	ATTR DESC "Facebook Privacy Policy"
+	A Facebook-family-companies > Facebook-services-owner
+	A Advertising-measurement-or-analytics-partners > Business-Supporter-Partner
+	A Vendors-service-providers > Business-Supporter-Partner
+	A Advertising-measurement-or-analytics-partners > Third-parties
+	A Vendors-service-providers > Third-parties
+	P Handle-Illegal-Activities > Security
+	P Protection > Security
+	P Prevention-of-Harm > Security
+	P Account-Verification > Security
+	P Requests > Legal
+	P Investigations > Legal
+	P Marketing-Communications > Communication
+	P General-Communication > Communication
+	P Policy/Terms-News > Communication
+	P Delivery-of-Services > Development
+	P Content-Personalization > Development
+	P Suggestions-and-Shortcuts > Development
+	P Customization-of-Services > Development
+	P General-Improvement-and-Evaluation > Development
+	P General-Development > Development
+	P Audits-and-Troubleshooting > Development
+	P Advertising-Improvement > Development
+	D Facebook-Account > First-name,Surname,Email,Mobile-number,Password,Date-of-birth,Gender
+	D Payment-Information > Credit-or-debit-card-number,Other-card-information,Account-and-authentication-information,Billing-shipping-and-contact-details
+	D Friends-and-Contacts > Name,Email,Other-contact-information
+	D Public-Activity-or-Profile > Posts,Photos,Status-updates,Public-profile
+	D Device-Specifications > Operating-system,Hardware-version,Device-settings,File-and-software-names-and-types,Battery-and-signal-strength,Device-identifiers
+	D Device-Locations > Specific-geographic-locations-through-GPS-Bluetooth-or-WiFi-signals
+	D Connection-Information > Name-of-your-mobile-operator-or-ISP,Browser-type,Language-and-time-zone,Mobile-phone-number,IP-address
+	D Third-parties-Activity > Information-gathered-while-visiting-third-party-websites-and-apps
+	D ALL-Information > Facebook-Account,Payment-Information,Friends-and-Contacts,Public-Activity-or-Profile,Device-Specifications,Device-Locations,Connection-Information,Third-parties-Activity
+SPEC POLICY
+	P COLLECT Facebook-Account FOR Account
+	P COLLECT Public-Activity-or-Profile FOR Account
+	P COLLECT Public-Activity-or-Profile FOR Account
+	P COLLECT Friends-and-Contacts FOR Account
+	P COLLECT Friends-and-Contacts FOR anything
+	P COLLECT Payment-Information FOR Financial
+	P COLLECT Device-Specifications, Device-Locations, Connection-Information FOR Account
+	P COLLECT Device-Specifications FOR Account
+	P COLLECT Device-Locations FOR Account
+	P COLLECT Connection-Information FOR Account
+	P COLLECT Third-parties-Activity FOR Account
+	P COLLECT Third-parties-Activity FOR anything
+	P COLLECT Facebook-Account FOR anything
+	P COLLECT Public-Activity-or-Profile FOR Account
+	P COLLECT Facebook-Account FOR Account
+	P COLLECT Public-Activity-or-Profile FOR anything
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER ALL-Information FOR anything
+	R TRANSFER Facebook-Account, Payment-Information FOR anything
+	P TRANSFER Public-Activity-or-Profile FOR Advertising
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER Public-Activity-or-Profile FOR anything
+	P TRANSFER Public-Activity-or-Profile FOR anything
+	P TRANSFER Public-Activity-or-Profile FOR anything
+	P TRANSFER ALL-Information FOR Legal, Requests
+	P TRANSFER ALL-Information FOR Security, Handle-Illegal-Activities
+	P TRANSFER ALL-Information FOR Security, Protection, Legal, Investigations
+	P TRANSFER ALL-Information FOR Security, Prevention-of-Harm
+	P TRANSFER ALL-Information FOR Security, Handle-Illegal-Activities
+	P USE Public-Activity-or-Profile FOR anything
+	P USE ALL-Information FOR Legal, Requests
+	P USE ALL-Information FOR Security, Handle-Illegal-Activities
+	P USE ALL-Information FOR Security, Protection, Legal, Investigations
+	P USE ALL-Information FOR Security, Prevention-of-Harm
+	P USE ALL-Information FOR Legal, Requests
+	P USE ALL-Information FOR Legal, Investigations
+	P USE ALL-Information FOR Security, Handle-Illegal-Activities
+	P USE ALL-Information FOR Security, Prevention-of-Harm
+	P USE Device-Specifications, Device-Locations, Connection-Information FOR anything
+	P USE Public-Activity-or-Profile FOR Development, Delivery-of-Services
+	P USE Public-Activity-or-Profile FOR Development, Content-Personalization
+	P USE Public-Activity-or-Profile FOR Development, Suggestions-and-Shortcuts
+	P USE ALL-Information FOR Development, Suggestions-and-Shortcuts
+	P USE Device-Locations FOR Development, Customization-of-Services
+	P USE ALL-Information FOR Development, General-Improvement-and-Evaluation
+	P USE ALL-Information FOR Development, General-Development
+	P USE ALL-Information FOR Development, Audits-and-Troubleshooting
+	P USE ALL-Information FOR Communication, Marketing-Communications
+	P USE ALL-Information FOR Communication, General-Communication
+	P USE ALL-Information FOR anything
+	P USE ALL-Information FOR Communication, Policy/Terms-News
+	P USE ALL-Information FOR Development, Advertising-Improvement
+	P USE ALL-Information FOR Development, Advertising-Improvement
+	P USE ALL-Information FOR Security, Account-Verification
+	P USE ALL-Information FOR Security, Protection

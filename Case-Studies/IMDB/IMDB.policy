@@ -1,0 +1,52 @@
+SPEC HEADER
+	ATTR NAMESPACE "http://gaius.isri.cmu.edu/example2.owl"
+	ATTR DESC "IMDb Privacy Policy"
+	P Interaction-With-Services > Account
+	P Perform-Functions > Account
+	P New-Ownership > Account
+	P Commercial > Account
+	P Compliance > Legal
+	P Rights > Legal
+	P Protection > Security
+	P Financial > Security
+	P Improve-E-mails > Development
+	P Improve-Services > Development
+	P Provide-Services > Development
+	D Account-Information > Name-e-mail-address-physical-address-zip-code-phone-number-your-age-gender-the-movies-and-actors-you-like-or-dislike-and-your-general-movie-preferences
+	D User-IMDb-Interaction-Information > IP-address-used-to-connect-your-computer-to-the-Internet-login-password-computer-and-connection-information-such-as-browser-type-and-version-operating-system-and-platform-purchase-history-the-full-URL-clickstream-to-through-and-from-our-Web-site-including-date-and-time-cookie-number-and-pages-you-viewed-or-searched-for
+	D Session-Information > Page-response-times-download-errors-length-of-visits-to-certain-pages-page-interaction-information-such-as-scrolling-clicks-and-mouse-overs
+	D Email-Confirmation > Email-confirmation
+	D Location-Information > Location
+	D Device-Information > Unique-identifier-for-your-device
+	D Received-Information > Updated-delivery-and-address-information
+	D Basic-Account-Information > Name-and-e-mail-address
+	D Basic-Device-Information > IP-address
+	D Movie-Information > Information-you-submit-to-us-about-movies-you-own-or-have-watched
+	D ALL-Information > Account-Information,User-IMDb-Interaction-Information,Session-Information,Email-Confirmation,Location-Information,Device-Information,Received-Information,Basic-Account-Information,Basic-Device-Information,Movie-Information
+SPEC POLICY
+	P COLLECT ALL-Information FOR Account, Interaction-With-Services
+	P COLLECT Account-Information FOR anything
+	P COLLECT User-IMDb-Interaction-Information FOR Account, Interaction-With-Services
+	P COLLECT Session-Information FOR anything
+	P COLLECT Email-Confirmation FOR Development, Improve-E-mails
+	P COLLECT Location-Information, Device-Information FOR Account, Interaction-With-Services
+	P COLLECT Received-Information FOR anything
+	R TRANSFER Account-Information, Location-Information, Received-Information, Basic-Account-Information FOR anything
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER Account-Information, Location-Information, Received-Information, Basic-Account-Information FOR Account, Perform-Functions
+	R TRANSFER Basic-Account-Information FOR anything
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER ALL-Information FOR Account, New-Ownership
+	P TRANSFER Account-Information, Location-Information, Received-Information, Basic-Account-Information FOR Security, Financial
+	R TRANSFER Account-Information, Location-Information, Received-Information, Basic-Account-Information FOR Account, Commercial
+	R TRANSFER Account-Information, Location-Information, Received-Information, Basic-Account-Information FOR anything
+	P TRANSFER Basic-Device-Information FOR Security, Advertising
+	P USE ALL-Information FOR Development, Improve-Services
+	P USE ALL-Information FOR anything
+	P USE ALL-Information FOR Development, Improve-Services
+	P USE ALL-Information FOR Development, Improve-Services
+	P USE ALL-Information FOR Account, Interaction-With-Services
+	P USE Location-Information, Device-Information FOR Development, Provide-Services
+	P USE Received-Information FOR Development, Provide-Services
+	P USE Movie-Information FOR Account, Interaction-With-Services

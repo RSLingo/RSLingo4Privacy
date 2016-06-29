@@ -1,0 +1,102 @@
+SPEC HEADER
+	ATTR NAMESPACE "http://gaius.isri.cmu.edu/example2.owl"
+	ATTR DESC "Zynga Privacy Policy"
+	A Zynga-players > Zynga
+	A Third-party-advertisers > Third-parties
+	A Zynga's-payment-processors > Third-parties
+	A Offer-wall-provider > Third-parties
+	P Interaction-With-Services > Account
+	P Registration > Account
+	P Contacts-Connection > Account
+	P Provide-Support > Account
+	P Purchases > Financial
+	P Business-Transition > Financial
+	P Criminal-Activity > Security
+	P Financial-Protection > Security
+	P Health-Protection > Security
+	P Rights > Security
+	P Provide-Services > Development
+	P Improve-Services > Development
+	P Personalize-Services > Development
+	P Between-Players > Between-Players
+	P Notifications > Between-Players
+	D Social-Network-Account > First-name-last-name-profile-picture-or-its-URL-social-network-ID-number-e-mail-physical-location-gender-birthday-age-range-other-publicly-available-information-other-information-shared-with-Zynga
+	D Technical-Device-Information > IP-address-type-of-computer-or-mobile-device-operating-system-version-mobile-device’s-identifiers-browser-types-browser-language,Referring-and-exit-pages-and-URLs-platform-type-number-of-clicks-on-a-page-or-feature-domain-names-landing-pages-pages-viewed-and-the-order-of-those-pages-the-amount-of-time-spent-on-particular-pages-game-state-and-the-date-and-time-of-activity-on-our-websites-or-games
+	D Additional-Device-Information > Name-associated-with-device-telephone-number-country-specific-geolocation-with-extra-permission-mobile-contacts-with-extra-permission
+	D Zynga-Player-Profile > Profile-photo-game-usernames-gender-biographic-details-age-or-age-range-approximate-location-information-links-to-your-profiles-on-various-social-network-details-about-the-games-played-Zynga-player-ID-number
+	D Zynga-Public-Player-Profile > Zynga-player-ID-number-first-name-last-name-player-profile-picture
+	D Billing-Information > Postal-address-e-mail-address-financial-information
+	D Advertisement-purpose-Information > Performance-data-aggregated-and/or-de-identified-information-about-users-certain-technical-information-connect-with-element-2-social-network-ID-other-contextual-data-about-users'-game-play
+	D Contact-Information > Name-email-other-contact-information
+	D Technical-Information > Geographic-area-de-identified-demographic-information
+	D Zynga-Activity > Communications-comments-photos-drawings
+	D Gaming-Status > Game-play-or-activity
+	D Social-Network-ID-Number > Social-network-ID-number
+	D Zynga-Player-ID--Number > Zynga-player-ID-number
+	D Mobile-Number > Mobile-number
+	D Address-Book-Access-Password > Address-book-access-password
+	D Toolbar-Usage > Statistics-regarding-how-players-use-the-toolbar
+	D Log-Files > Log-files-with-information-regarding-players'-activity-on-Zynga
+	D Communications > Communications-you-have-with-the-Customer-Service-team-and-any-information-in-those-communications-
+	D ALL-Information > Social-Network-Account,Technical-Device-Information,Additional-Device-Information,Zynga-Player-Profile,Zynga-Public-Player-Profile,Billing-Information,Advertisement-purpose-Information,Contact-Information,Technical-Information,Zynga-Activity,Gaming-Status,Social-Network-ID-Number,Zynga-Player-ID--Number,Mobile-Number,Address-Book-Access-Password,Toolbar-Usage,Log-Files,Communications
+SPEC POLICY
+	P COLLECT Social-Network-Account FOR Account, Interaction-With-Services
+	P COLLECT Social-Network-Account FOR anything
+	P COLLECT Technical-Device-Information FOR anything
+	P COLLECT Additional-Device-Information FOR Account, Interaction-With-Services
+	P COLLECT Zynga-Player-Profile FOR Account, Interaction-With-Services
+	P COLLECT Zynga-Player-Profile FOR Account, Registration
+	P COLLECT Zynga-Player-Profile FOR anything
+	P COLLECT Contact-Information FOR anything
+	P COLLECT Billing-Information FOR Financial, Purchases
+	P COLLECT Billing-Information FOR anything
+	R COLLECT Billing-Information FOR anything
+	P COLLECT Billing-Information FOR anything
+	P COLLECT Contact-Information, Gaming-Status, Social-Network-ID-Number, Zynga-Player-ID--Number FOR anything
+	P COLLECT Zynga-Activity FOR anything
+	R COLLECT Social-Network-Account, Additional-Device-Information, Zynga-Player-Profile, Zynga-Public-Player-Profile, Billing-Information, Contact-Information, Mobile-Number, Address-Book-Access-Password, Communications FOR anything
+	P COLLECT Mobile-Number FOR anything
+	P COLLECT Advertisement-purpose-Information FOR Financial, Advertising
+	P TRANSFER Zynga-Public-Player-Profile FOR anything
+	P TRANSFER Zynga-Activity FOR anything
+	P TRANSFER Billing-Information FOR Financial, Purchases
+	P TRANSFER Advertisement-purpose-Information FOR Financial, Business-Purposes
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER Zynga-Public-Player-Profile FOR Account, Interaction-With-Services, Registration
+	P TRANSFER Zynga-Public-Player-Profile, Zynga-Player-ID--Number FOR anything
+	P TRANSFER Zynga-Public-Player-Profile, Zynga-Player-ID--Number FOR anything
+	R TRANSFER Social-Network-Account, Additional-Device-Information, Zynga-Player-Profile, Zynga-Public-Player-Profile, Billing-Information, Contact-Information, Mobile-Number, Address-Book-Access-Password, Communications FOR Financial, Advertising
+	P TRANSFER Advertisement-purpose-Information FOR anything
+	P TRANSFER ALL-Information FOR Financial, Legal
+	P TRANSFER ALL-Information FOR Legal
+	P TRANSFER ALL-Information FOR Security, Criminal-Activity, Financial-Protection
+	P TRANSFER ALL-Information FOR Security, Health-Protection
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER Social-Network-ID-Number, Zynga-Player-ID--Number FOR Financial, Purchases, Security, Financial-Protection
+	P TRANSFER ALL-Information FOR Account, Provide-Support, Financial, Purchases, Advertising, Development, Provide-Services, Improve-Services
+	P TRANSFER ALL-Information FOR Financial, Business-Transition
+	P TRANSFER ALL-Information FOR Account, Interaction-With-Services
+	P TRANSFER ALL-Information FOR Financial, Business-Purposes
+	P TRANSFER ALL-Information FOR anything
+	P USE ALL-Information FOR Development, Provide-Services
+	P USE Technical-Device-Information FOR anything
+	P USE Contact-Information FOR Account, Contacts-Connection
+	P USE ALL-Information FOR Account, Contacts-Connection, Financial, Advertising
+	P USE ALL-Information FOR Development, Improve-Services
+	P USE ALL-Information FOR Development, Provide-Services, Improve-Services
+	P USE ALL-Information FOR Account, Interaction-With-Services, Registration
+	P USE ALL-Information FOR Development, Personalize-Services
+	P USE ALL-Information FOR Communication, Between-Players
+	P USE ALL-Information FOR Account, Provide-Support
+	P USE ALL-Information FOR Financial, Legal, Security, Financial-Protection, Rights
+	P USE ALL-Information FOR Financial, Advertising
+	P USE ALL-Information FOR Development, Provide-Services, Communication, Notifications
+	P USE ALL-Information FOR anything
+	P USE ALL-Information FOR Financial, Legal
+	P USE ALL-Information FOR Development, Improve-Services
+	P USE ALL-Information FOR Communication, Between-Players, Notifications
+	P USE Contact-Information FOR Account, Provide-Support, Communication, Between-Players, Notifications
+	P USE ALL-Information FOR Financial, Advertising, Development, Improve-Services
+	P USE Social-Network-Account, Technical-Device-Information, Additional-Device-Information FOR anything
+	P USE ALL-Information FOR anything

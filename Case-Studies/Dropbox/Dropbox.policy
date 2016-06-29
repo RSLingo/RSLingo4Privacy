@@ -1,0 +1,38 @@
+SPEC HEADER
+	ATTR NAMESPACE "http://gaius.isri.cmu.edu/example2.owl"
+	ATTR DESC "Dropbox Privacy Policy"
+	P Managing-Account > Account
+	P Interaction-With-Services > Account
+	P Provide-Services > Account
+	P Compliance > Legal
+	P Rights > Legal
+	P Disputes > Legal
+	P Handle-Prohibited-Activities > Security
+	P Protection > Security
+	D Account-Information > Name,-email,-phone-number,-payment-info,-physical-address
+	D Device-Information > IP-addresses,-the-type-of-browser-and-device-you-use,-the-web-page-you-visited-before-coming-to-our-sites,-identifiers-associated-with-your-devices.
+	D Location-Information > Location-information
+	D Files > Photos,-structured-data,-emails
+	D File-related-Information > Location-tags-in-photos
+	D Basic-Public-Information > Name,-email-address
+	D Complete-Public-Information > Name,-email-address,-IP-address
+	D Contacts > User-contacts
+	D ALL-Information > Account-Information,Device-Information,Location-Information,Files,File-related-Information,Basic-Public-Information,Complete-Public-Information,Contacts
+SPEC POLICY
+	P COLLECT Account-Information FOR anything
+	P COLLECT Device-Information FOR anything
+	P COLLECT Location-Information FOR anything
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER Files, File-related-Information FOR Account, Interaction-With-Services
+	P TRANSFER ALL-Information FOR Account, Managing-Account
+	P TRANSFER Basic-Public-Information FOR anything
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER Complete-Public-Information FOR anything
+	P TRANSFER ALL-Information FOR Legal, Compliance
+	P TRANSFER ALL-Information FOR Security, Protection
+	P TRANSFER ALL-Information FOR Security, Handle-Prohibited-Activities
+	P TRANSFER ALL-Information FOR Legal, Rights
+	P TRANSFER ALL-Information FOR Account, Provide-Services
+	P TRANSFER ALL-Information FOR anything
+	P USE Files, File-related-Information FOR Account, Interaction-With-Services
+	P USE ALL-Information FOR Account, Provide-Services

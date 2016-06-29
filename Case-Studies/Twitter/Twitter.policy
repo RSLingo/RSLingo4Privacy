@@ -1,0 +1,107 @@
+SPEC HEADER
+	ATTR NAMESPACE "http://gaius.isri.cmu.edu/example2.owl"
+	ATTR DESC "Twitter Privacy Policy"
+	A Members > Anyone
+	A Payment-Service-Provider > Service-Provider
+	A Card-Network > Service-Provider
+	P Registration/Authentication > Account
+	P Profile-Completion > Account
+	P Interaction-with-Services > Account
+	P Transactions > Financial
+	P Card-Linked-Services > Financial
+	P Handle-Prohibited-Activities > Security
+	P Protection > Security
+	P Disputes > Legal
+	P Rights > Legal
+	P Requests > Legal
+	P Service-Improvement > Development
+	P Feature-Development > Development
+	P Customization-of-Services > Development
+	D Account > Name-username-password-email-address-phone-number
+	D Public-Profile > Short-biography-location-website-picture
+	D User-Location > Location
+	D User-Interaction > Redirection-of-links
+	D Log-Data > IP-address-browser-type-operating-system-the-referring-web-page-pages-visited-location-mobile-carrier-device-information-including-device-and-application-IDs-search-terms-and-cookie-information
+	D Widget-Data > Web-page-visited-cookie-that-identifies-browser-
+	D Payment-Information > Credit-or-debit-card-number-card-expiration-date-CVV-code-billing-address
+	D User-Address > Shipping-address
+	D Payment-Cards-Information > Credit-or-debit-card-number
+	D Transaction-Data > Merchant’s-name-and-the-date-time-and-amount-of-the-transaction
+	D Registered-Card-Data > Merchant’s-name-and-the-date-time-and-amount-of-the-transaction
+	D Browser-Information > Cookies-IP-address
+	D Advertising-Information > Browser-cookie-ID-website-URL-visited-mobile-device-ID-or-cryptographic-hash-of-a-common-account-identifier-such-as-an-email-address
+	D User-Naming > Name-username
+	D Contact-Information > Email-address-phone-number
+	D User-Public-Information > Messages-the-user-Tweets-the-metadata-provided-with-Tweets-the-language-country-and-time-zone-associated-with-user-account-the-lists-the-user-creates-people-the-user-follows-Tweets-the-user-marks-as-favorites-or-Retweet-and-many-other-bits-of-information-that-result-from-the-use-of-the-Twitter-Services
+	D User-Shared-Information > Direct-messages-or-protected-Tweets
+	D User-Name > Name
+	D User-Email > Email
+	D Communication > Message-written-by-the-user
+	D Username > Username
+	D IP-Address > Full-IP-address
+	D Tailored-Content > Browser-cookies-or-device-Ids
+	D Simple-Payment-Information > Credit-or-debit-card-number-card-expiration-date-billing-address
+	D Public-Tweets > Public-tweets
+	D Non-private-aggregated-or-otherwise-non-personal-information > Public-user-profile-information-public-Tweets-the-people-a-user-follows-or-that-follow-him-or-her-the-number-of-users-who-clicked-on-a-particular-link-reports-to-advertisers-about-unique-users-who-saw-or-clicked-on-their-ads-after-we-have-removed-any-private-personal-information
+	D ALL-Information > Account,Public-Profile,User-Location,User-Interaction,Log-Data,Widget-Data,Payment-Information,User-Address,Payment-Cards-Information,Transaction-Data,Registered-Card-Data,Browser-Information,Advertising-Information,User-Naming,Contact-Information,User-Public-Information,User-Shared-Information,User-Name,User-Email,Communication,Username,IP-Address,Tailored-Content,Simple-Payment-Information,Public-Tweets,Non-private-aggregated-or-otherwise-non-personal-information
+SPEC POLICY
+	P COLLECT Account FOR Account, Registration/Authentication
+	P COLLECT Public-Profile FOR Account, Profile-Completion
+	P COLLECT Account, Public-Profile FOR anything
+	P COLLECT User-Location FOR anything
+	P COLLECT User-Interaction FOR anything
+	P COLLECT Log-Data FOR anything
+	P COLLECT Log-Data, Widget-Data FOR anything
+	P COLLECT Payment-Information, User-Address FOR Financial, Transactions
+	P COLLECT Payment-Cards-Information FOR Financial, Card-Linked-Services
+	P COLLECT Payment-Information, User-Address, Payment-Cards-Information FOR Financial, Transactions
+	P COLLECT Transaction-Data, Registered-Card-Data FOR Financial, Card-Linked-Services
+	P COLLECT Browser-Information FOR anything
+	P COLLECT ALL-Information FOR Financial, Advertising, Development, Service-Improvement
+	R COLLECT Account, Public-Profile, User-Location, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, Simple-Payment-Information, Public-Tweets, Non-private-aggregated-or-otherwise-non-personal-information FOR anything
+	P COLLECT Log-Data FOR Account, Registration/Authentication, Interaction-with-Services
+	P COLLECT Log-Data FOR Account, Interaction-with-Services
+	P COLLECT Advertising-Information FOR Financial, Advertising
+	P TRANSFER User-Naming FOR anything
+	P TRANSFER Contact-Information FOR anything
+	P TRANSFER User-Public-Information FOR anything
+	P TRANSFER User-Public-Information FOR anything
+	R TRANSFER Payment-Information, User-Address FOR anything
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER ALL-Information FOR anything
+	P TRANSFER User-Shared-Information FOR anything
+	P TRANSFER Account, Public-Profile, User-Location, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, Simple-Payment-Information, Public-Tweets, Non-private-aggregated-or-otherwise-non-personal-information FOR anything
+	P TRANSFER Account, Public-Profile, User-Location, Payment-Information, User-Address, Payment-Cards-Information, Transaction-Data, Registered-Card-Data, User-Naming, Contact-Information, User-Public-Information, User-Shared-Information, User-Name, User-Email, Communication, Username, Simple-Payment-Information, Public-Tweets, Non-private-aggregated-or-otherwise-non-personal-information FOR anything
+	P TRANSFER Payment-Information FOR Financial, Transactions
+	P TRANSFER Payment-Information FOR Security, Handle-Prohibited-Activities
+	P TRANSFER Payment-Information FOR Legal, Disputes
+	P TRANSFER Payment-Information FOR Financial, Transactions
+	P TRANSFER Payment-Cards-Information FOR Financial, Transactions, Card-Linked-Services
+	P TRANSFER Payment-Information, User-Address, Transaction-Data, User-Name, User-Email FOR Financial, Transactions, Legal, Disputes
+	P TRANSFER Payment-Information, User-Address, Transaction-Data, User-Name, User-Email FOR Security, Handle-Prohibited-Activities
+	P TRANSFER ALL-Information FOR Legal, Requests
+	P TRANSFER ALL-Information FOR Security, Protection
+	P TRANSFER ALL-Information FOR Security, Handle-Prohibited-Activities
+	P TRANSFER ALL-Information FOR Legal, Rights
+	P TRANSFER ALL-Information FOR Financial, Transactions
+	P TRANSFER ALL-Information FOR Financial, Advertising, Development, Service-Improvement
+	P TRANSFER Non-private-aggregated-or-otherwise-non-personal-information FOR anything
+	P USE Contact-Information FOR Development, Customization-of-Services
+	P USE Contact-Information FOR Communication
+	P USE Contact-Information FOR Communication
+	P USE Contact-Information FOR Security, Handle-Prohibited-Activities
+	P USE Contact-Information FOR Account, Interaction-with-Services
+	P USE Account, Public-Profile FOR Development, Service-Improvement
+	P USE Public-Profile, User-Public-Information, User-Shared-Information, User-Name, Username, Public-Tweets FOR Financial, Advertising, Customization-of-Services
+	P USE User-Location FOR Development, Feature-Development
+	P USE User-Location FOR Development, Customization-of-Services
+	P USE User-Interaction FOR Development, Service-Improvement
+	P USE User-Interaction FOR Financial, Advertising
+	P USE User-Interaction FOR Development, Service-Improvement
+	P USE Log-Data FOR Development, Service-Improvement
+	P USE Log-Data FOR Development, Customization-of-Services
+	P USE Log-Data FOR Financial, Advertising, Development, Customization-of-Services
+	P USE Widget-Data FOR Development, Customization-of-Services
+	P USE Registered-Card-Data FOR Financial, Card-Linked-Services
+	P USE Advertising-Information FOR Financial, Advertising
+	P USE ALL-Information FOR Financial, Advertising, Development, Service-Improvement

@@ -1,0 +1,269 @@
+IMDb Privacy Policy
+----------------------------------------
+
+#Enforcement
+------------------
+En1.Tools for Collecting and Measuring Session Information(Tool):
+During some visits we may use software tools such as JavaScript to measure and collect session information, including page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page.,
+En2.Cookies(Tool):
+We may also use browser data such as cookies, Flash cookies (also known as Flash Local Shared Objects), or similar data on certain parts of our Web site for fraud prevention and other purposes.,
+En3.Toolbar ('Help' portion)(Tool):
+The 'help' portion of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether.,
+En4.Used Technologies(Tool):
+We use web beacons (also known as “action tags” or “single-pixel gifs”) and other technologies to measure the effectiveness of certain site features and to conduct research and analysis.,
+En5.Managing Email(Process):
+If you do not want to receive e-mail or other mail from us, please use our User Administration pages to adjust your preferences.,
+En6.Managing Offer Selection(Process):
+If you do not want to receive offers to selected groups of IMDb users on behalf of other businesses, please use our User Administration pages to adjust your preferences.,
+En7.Advertisers Technologies(Tool):
+Third-party websites and advertisers, or Internet advertising companies working on their behalf, may also use cookies, JavaScript, web beacons (also known as action tags or single-pixel gifs), and other technologies to measure the effectiveness of their ads and to personalize advertising content.,
+En8.Managing Personal Information(Process):
+If you do not want us to use personal information that we gather to allow third parties to personalize advertisements we display to you, please adjust your Advertising Preferences.,
+En9.Subscriptions Protection(Algorithm):
+If you use our subscription service, we work to protect the security of your subscription information during transmission by using Secure Sockets Layer (SSL) software, which encrypts information you input.,
+En10.Children Advisoring(Action):
+IMDb is not intended for use by children under the age of 13. If you are under 13, you may not submit information about yourself to IMDb.,
+
+#Service
+------------------
+Account:,
+	Refers To PrivateData: All,
+Interaction With Services:register, search, post, participate in a contest or questionnaire, or communicate with us, interact with us, download or use apps created by IMDb, communicating with you, submit information about movies,
+	Service_Part: S1,
+	Refers To PrivateData: All,
+Perform Functions:perform functions on our behalf,
+	Service_Part: S1,
+	Refers To PrivateData: PD1, PD5, PD7, PD8,
+New Ownership:IMDb, Inc., or substantially all of its assets are acquired,
+	Service_Part: S1,
+	Refers To PrivateData: All,
+Commercial:commercial purposes,
+	Service_Part: S1,
+	Refers To PrivateData: PD1, PD5, PD7, PD8,
+Legal:,
+	Refers To PrivateData: PD1, PD5, PD7, PD8,
+Compliance:comply with law, enforce or apply our Terms and Conditions of Use and other agreements,
+	Service_Part: S6,
+	Refers To PrivateData: PD1, PD5, PD7, PD8,
+Rights:protect the rights, property,
+	Service_Part: S6,
+	Refers To PrivateData: PD1, PD5, PD7, PD8,
+Security:,
+	Refers To PrivateData: PD1, PD5, PD7, PD8,
+Protection:protect the safety of IMDb, our users, or others,
+	Service_Part: S9,
+	Refers To PrivateData: PD1, PD5, PD7, PD8,
+Financial:fraud protection and credit risk reduction.,
+	Service_Part: S9,
+	Refers To PrivateData: PD1, PD5, PD7, PD8,
+Advertising:send (or 'serve') the advertisements that appear on our website directly to your browser,
+	Refers To PrivateData: PD9,
+Development:,
+	Refers To PrivateData: All,
+Improve E-mails:make e-mails more useful and interesting,
+	Service_Part: S13,
+	Refers To PrivateData: PD4,
+Improve Services:personalize and continually improve your experience at IMDb, customizing future browsing for you, improving our site,
+	Service_Part: S13,
+	Refers To PrivateData: All,
+Provide Services:provide you with location-based services, such as advertising, local showtimes, search results, and other personalized content, correct our records and deliver your next communication more easily,
+	Service_Part: S13,
+	Refers To PrivateData: PD5, PD6, PD7,
+
+#Recipients
+------------------
+R1.Allowed third parties(External-Organization):
+   Allowed third parties, 
+R2.Parent corporation (Amazon.com, Inc.) and the subsidiaries it controls.(External-Organization):
+   Parent corporation (Amazon.com, Inc.) and the subsidiaries it controls., 
+R3.Affiliated business(Internal-Organization):
+   Affiliated business, 
+R4.Other companies and individuals employed by us(Internal-Individual/Organization):
+   Other companies and individuals employed by us, 
+R5.Other businesses(External-Organization):
+   Other businesses, 
+R6.Buyers/Sellers(External-Organization):
+   Buyers/Sellers, 
+R7.New owner(External-Organization):
+   New owner, 
+R8.Other companies and organizations(External-Organization):
+   Other companies and organizations, 
+R9.Advertisers or third-party websites(External-Organization):
+   Advertisers or third-party websites, 
+
+#PrivateData
+------------------
+PD1(PersonalInformation): Account Information,
+	Attribute: Name, e-mail address, physical address, zip code, phone number, your age, gender, the movies and actors you like or dislike, and your general movie preferences(Name, e-mail address, physical address, zip code, phone number, your age, gender, the movies and actors you like or dislike, and your general movie preferences)
+PD2(UsageInformation): User-IMDb Interaction Information,
+	Attribute: IP address used to connect your computer to the Internet, login, password, computer and connection information such as browser type and version, operating system, and platform, purchase history, the full URL clickstream to, through, and from our Web site, including date and time, cookie number and pages you viewed or searched for(IP address used to connect your computer to the Internet, login, password, computer and connection information such as browser type and version, operating system, and platform, purchase history, the full URL clickstream to, through, and from our Web site, including date and time, cookie number and pages you viewed or searched for)
+PD3(UsageInformation): Session Information,
+	Attribute: Page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs)(Page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs))
+PD4(UsageInformation): Email Confirmation,
+	Attribute: Email confirmation(Email confirmation)
+PD5(PersonalInformation): Location Information,
+	Attribute: Location(Location)
+PD6(UsageInformation): Device Information,
+	Attribute: Unique identifier for your device(Unique identifier for your device)
+PD7(PersonalInformation): Received Information,
+	Attribute: Updated delivery and address information(Updated delivery and address information)
+PD8(PersonalInformation): Basic Account Information,
+	Attribute: Name and e-mail address(Name and e-mail address)
+PD9(UsageInformation): Basic Device Information,
+	Attribute: IP address(IP address)
+PD10(UsageInformation): Movie Information,
+	Attribute: Information you submit to us about movies you own or have watched(Information you submit to us about movies you own or have watched)
+
+#Collection
+------------------
+St1(Permitted): We receive any information you enter on our Web site when you register, search, post, participate in a contest or questionnaire, or communicate with us.,
+Refers To Service: S1, S2,
+Refers To PrivateData: All,
+St2(Permitted): You might supply us with information such as your name, e-mail address, physical address, zip code, phone number, your age, gender, the movies and actors you like or dislike, and your general movie preferences.,
+Refers To PrivateData: PD1,
+St3(Permitted): We receive certain types of information whenever you interact with us including the IP address used to connect your computer to the Internet, login, password, computer and connection information such as browser type and version, operating system, and platform, purchase history, the full URL clickstream to, through, and from our Web site, including date and time, cookie number and pages you viewed or searched for.,
+Refers To Service: S1, S2,
+Refers To PrivateData: PD2,
+St4(Permitted): During some visits we may use software tools such as JavaScript to measure and collect session information, including page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page.,
+Refers To PrivateData: PD3,
+Refers To Enforcement: En1,
+St5(Permitted): To help us make e-mails more useful and interesting, we often receive a confirmation when you open e-mail from IMDb if your computer supports such capabilities.,
+Refers To Service: S13, S14,
+Refers To PrivateData: PD4,
+St6(Permitted): When you download or use apps created by IMDb, we may receive information about your location and your mobile device, including a unique identifier for your device.,
+Refers To Service: S1, S2,
+Refers To PrivateData: PD5, PD6,
+St7(Permitted): We might receive information about you from other sources and add it to our account information, including updated delivery and address information.,
+Refers To PrivateData: PD7,
+
+#Disclosure
+------------------
+St8(Forbidden): We do not provide personal information to third parties that are allowed to place web beacons and other technologies on our site to conduct research and analysis.,
+Refers To Recipient: R1,
+St9(Permitted): We share user information with our parent corporation (Amazon.com, Inc.) and the subsidiaries it controls.,
+Refers To Recipient: R2,
+St10(Permitted): You can tell when another affiliated business is involved in the offering, and we share user information related to those offerings with that business.,
+Refers To Recipient: R3,
+St11(Permitted): Other companies and individuals employed by us to perform functions on our behalf have access to personal information needed to perform their functions, but may not use it for other purposes.,
+Refers To Recipient: R4,
+Refers To Service: S1, S3,
+St12(Forbidden): When we send offers to selected groups of IMDb users on behalf of other businesses, we do not give that business your name and e-mail address.,
+Refers To Recipient: R5,
+St13(Permitted): When selling or buying additional services or business units, user information generally is transferred along with the rest of the service or business unit.,
+Refers To Recipient: R6,
+St14(Permitted): Also, in the event that IMDb, Inc., or substantially all of its assets are acquired, user information will of course be included in the transaction.,
+Refers To Recipient: R7,
+Refers To Service: S1, S4,
+St15(Permitted): Releasing account and other personal information when we believe release is appropriate includes exchanging information with other companies and organizations for fraud protection and credit risk reduction. ,
+Refers To Recipient: R8,
+Refers To Service: S9, S11,
+St16(Forbidden): Obviously, however, exchanging information with other companies and organizations does not include selling, renting, sharing, or otherwise disclosing personally identifiable information from customers for commercial purposes in violation of the commitments set forth in this Privacy Notice.,
+Refers To Recipient: R8,
+Refers To Service: S1, S5,
+St17(Forbidden): We do not provide any personally identifiable customer information to advertisers or third-party websites.,
+Refers To Recipient: R9,
+St18(Permitted): Third-party websites and advertisers, or Internet advertising companies working on their behalf, sometimes use technology to send (or 'serve') the advertisements that appear on our website directly to your browser automatically receiving your IP address.,
+Refers To Recipient: R9,
+Refers To Service: S9, S12,
+
+#Retention
+------------------
+St19(Permitted-Unlimited): We store any information you enter on our Web site when you register, search, post, participate in a contest or questionnaire, or communicate with us.,
+Refers To Service: S1, S2,
+Refers To PrivateData: All,
+St20(Permitted-Unlimited): We store certain types of information whenever you interact with us including the IP address used to connect your computer to the Internet, login, password, computer and connection information such as browser type and version, operating system, and platform, purchase history, the full URL clickstream to, through, and from our Web site, including date and time, cookie number and pages you viewed or searched for.,
+Refers To Service: S1, S2,
+Refers To PrivateData: PD2,
+St21(Permitted-Unlimited): We release account and other personal information when we believe release is appropriate to comply with law.,
+Refers To Service: S6, S7,
+Refers To PrivateData: PD1, PD5, PD7, PD8,
+St22(Permitted-Unlimited): We release account and other personal information when we believe release is appropriate to enforce or apply our Terms and Conditions of Use and other agreements.,
+Refers To Service: S6, S7,
+Refers To PrivateData: PD1, PD5, PD7, PD8,
+St23(Permitted-Unlimited): We release account and other personal information when we believe release is appropriate to protect the rights, property, or safety of IMDb, our users, or others.,
+Refers To Service: S6, S8, S9, S10,
+Refers To PrivateData: PD1, PD5, PD7, PD8,
+St24(Permitted-Unlimited): When you update information, we usually keep a copy of the prior version for our records.,
+Refers To PrivateData: All,
+
+#Usage
+------------------
+St25(Permitted): The information we learn from users helps us personalize and continually improve your experience at IMDb.,
+Refers To Service: S13, S15,
+Refers To PrivateData: All,
+St26(Permitted): We use the information that you provide for responding to your requests.,
+Refers To PrivateData: All,
+St27(Permitted): We use the information that you provide for customizing future browsing for you.,
+Refers To Service: S13, S15,
+Refers To PrivateData: All,
+St28(Permitted): We use the information that you provide for improving our site.,
+Refers To Service: S13, S15,
+Refers To PrivateData: All,
+St29(Permitted): We use the information that you provide for communicating with you.,
+Refers To Service: S1, S2,
+Refers To PrivateData: All,
+St30(Permitted): We may use information about your location and your mobile device to provide you with location-based services, such as advertising, local showtimes, search results, and other personalized content.,
+Refers To Service: S13, S16,
+Refers To PrivateData: PD5, PD6,
+St31(Permitted): We use the information we receive about you from other sources so that we can correct our records and deliver your next communication more easily.,
+Refers To Service: S13, S16,
+Refers To PrivateData: PD7,
+St32(Permitted): IMDb also displays personalized third-party advertising based on personal information about users, such as information you submit to us about movies you own or have watched.,
+Refers To Service: S1, S2,
+Refers To PrivateData: PD10,
+
+#Informative
+------------------
+St33(Permitted): You can choose not to provide certain information, but then you might not be able to take advantage of many of our features.,
+St34(Permitted): We may also use browser data such as cookies, Flash cookies (also known as Flash Local Shared Objects), or similar data on certain parts of our Web site for fraud prevention and other purposes.,
+Refers To Enforcement: En2,
+St35(Permitted): If you do not want to receive e-mail or other mail from us, please use our User Administration pages to adjust your preferences.,
+St36(Permitted): Most mobile devices allow you to turn off location services.,
+St37(Permitted): Cookies are alphanumeric identifiers that we transfer to your computer's hard drive through your Web browser to enable our systems to recognize your browser and to provide features such as My Movies, local show times, and browsing preferences.,
+St38(Permitted): The 'help' portion of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether.,
+Refers To Enforcement: En3,
+St39(Permitted): Additionally, you can disable or delete similar data used by browser add-ons, such as Flash cookies, by changing the add-on's settings or visiting the Web site of its manufacturer. However, because cookies allow you to take full advantage of some of IMDb's essential features, we recommend that you leave them turned on.,
+St40(Permitted): We use web beacons (also known as “action tags” or “single-pixel gifs”) and other technologies to measure the effectiveness of certain site features and to conduct research and analysis.,
+Refers To Enforcement: En4,
+St41(Permitted): We also allow third parties to place web beacons and other technologies on our site to conduct research and analysis.,
+St42(Permitted): Information about our users is an important part of our business, and we are not in the business of selling it to others.,
+St43(Permitted): We work closely with our affiliated businesses.,
+St44(Permitted): In some cases, we will include offerings from the affiliated businesses on IMDb. In other cases, we may include joint offerings from IMDb and the affiliated businesses on IMDb.,
+St45(Permitted): We employ other companies and individuals to perform functions on our behalf including sending e-mail, removing repetitive information from user lists, analyzing data, and providing marketing assistance.,
+Refers To Enforcement: En5,
+St46(Permitted): Sometimes we send offers to selected groups of IMDb users on behalf of other businesses.,
+St47(Permitted): If you do not want to receive offers to selected groups of IMDb users on behalf of other businesses, please use our User Administration pages to adjust your preferences.,
+Refers To Enforcement: En6,
+St48(Permitted): As we continue to develop our business, we might sell or buy additional services or business units.,
+St49(Permitted): Our site includes third-party advertising and links to other websites.,
+St50(Permitted): Third-party websites and advertisers, or Internet advertising companies working on their behalf, may also use cookies, JavaScript, web beacons (also known as action tags or single-pixel gifs), and other technologies to measure the effectiveness of their ads and to personalize advertising content.,
+Refers To Enforcement: En7,
+St51(Permitted): We do not have access to or control over cookies or other features that third-party websites and advertisers, or Internet advertising companies working on their behalf, may use, and the information practices of these advertisers and third-party websites are not covered by this Privacy Notice. ,
+St52(Permitted): If you do not want us to use personal information that we gather to allow third parties to personalize advertisements we display to you, please adjust your Advertising Preferences.,
+Refers To Enforcement: En8,
+St53(Permitted): If you use our subscription service, we work to protect the security of your subscription information during transmission by using Secure Sockets Layer (SSL) software, which encrypts information you input.,
+Refers To Enforcement: En9,
+St54(Permitted): It is important for you to protect against unauthorized access to your password and to your computer. Be sure to sign off when finished using a shared computer.,
+St55(Permitted): As discussed above, you can always choose not to provide information, even though it might be needed to take advantage of such IMDb features as My Movies and local show times.,
+St56(Permitted): You can add or update certain information, such as your e-mail address, by using our User Administration pages.,
+St57(Permitted): If you do not want to receive legal notices from us, such as this Privacy Notice, those notices will still govern your use of IMDb, and it is your responsibility to review them for changes.,
+St58(Permitted): IMDb is not intended for use by children under the age of 13. If you are under 13, you may not submit information about yourself to IMDb.,
+St59(Permitted): As a subsidiary of Amazon.com, Inc., IMDb.com is a participant in the Safe Harbor program developed by the U.S. Department of Commerce and (1) the European Union and (2) Switzerland, respectively.,
+Refers To Enforcement: En10,
+St60(Permitted): Amazon has certified that we adhere to the Safe Harbor Privacy Principles agreed upon by the U.S. and (1) the European Union and (2) Switzerland, respectively.,
+St61(Permitted): For more information about the Safe Harbor and to view our certification, visit the U.S. Department of Commerce's Safe Harbor Web site.,
+St62(Permitted): In compliance with the US-EU and US-Swiss Safe Harbor Principles, we endeavor to resolve all complaints about privacy and the collection or use of customer information.,
+St63(Permitted): If you have questions about our participation in the Safe Harbor program or have a complaint, please send an e-mail to safeharbor@amazon.com.,
+St64(Permitted): Under the Safe Harbor program, any unresolved privacy complaints can be referred to an independent dispute resolution mechanism.,
+St65(Permitted): We use the BBB EU Safe Harbor Program, which is operated by the Council of Better Business Bureaus.,
+St66(Permitted): If you feel that we have not satisfactorily addressed your complaint, you can visit the BBB EU Safe Harbor Program web site at www.bbb.org/us/safe-harbor-complaints for more information on how to file a complaint.,
+St67(Permitted): If you choose to visit IMDb, your visit and any dispute over privacy is subject to this Notice and our Terms and Conditions of Use, including limitations on damages, resolution of disputes, and application of the law of the state of Washington.,
+St68(Permitted): If you have any concern about privacy at IMDb, please send us a thorough description to our help desk, and we will try to resolve it.,
+St69(Permitted): Our business changes constantly.,
+St70(Permitted): This Notice and the Terms and Conditions of Use will change also, and use of information that we gather now is subject to the Privacy Notice in effect at the time of use.,
+St71(Permitted): We may e-mail periodic reminders of our notices and conditions, unless you have instructed us not to, but you should check our Web site frequently to see recent changes.,
+St72(Permitted): Unless stated otherwise, our current Privacy Notice applies to all information that we have about you and your account.,
+St73(Permitted): We stand behind the promises we make, however, and will never materially change our policies and practices to make them less protective of customer information collected in the past without the consent of affected customers.,
+St74(Permitted): You will always receive notice when information about you might go to third parties, and you will have an opportunity to choose not to share the information.,
+St75(Permitted): Although IMDb does not provide any personal information to advertisers, advertisers (including ad-serving companies) may assume that users who interact with or click on a personalized advertisement meet their criteria to personalize the ad.,
+St76(Permitted): We also compare our user list to lists received from other companies, in an effort to avoid sending unnecessary messages to our users.,
