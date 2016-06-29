@@ -8,8 +8,7 @@ The main goal of this project is to improve privacy by providing companies a set
 
 Download the ready-to-use Eclipse IDE version of RSLingo4Privacy Studio through the following link: https://goo.gl/ImyHFG
 
---
-# References
+## References
 
 [FS2012] D. Ferreira, A. R. Silva, "RSLingo: An Information Extraction Approach toward Formal Requirements Specifications", Second IEEE International Workshop on Model-Driven Requirements Engineering (MoDRE 2012), IEEE Computer Society, 2012.
 
