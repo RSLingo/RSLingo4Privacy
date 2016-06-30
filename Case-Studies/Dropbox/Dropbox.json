@@ -1,550 +1,478 @@
 {
-		"name": "Dropbox",
-		"Collections": [
-	    	{
-	    			"ID": "St1",
-	    			"Description": "We collect, and associate with your account, information like your name, email address, phone number, payment info, and physical address.",
-	    			"Condition": "",
-	    			"PrivateDatums": ["PD1"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St2",
-	    			"Description": "We collect information from and about the devices you use to access the Services, including things like IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, and identifiers associated with your devices.",
-	    			"Condition": "",
-	    			"PrivateDatums": ["PD2"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St3",
-	    			"Description": "Your devices (depending on their settings) may also transmit location information to the Services.",
-	    			"Condition": "",
-	    			"PrivateDatums": ["PD3"],
-	    			"Type": "Prohibition"
-	    		}
-	    ],
-	    "Disclosure": [
-	    	{
-	    			"ID": "St4",
-	    			"Description": "Some of our services let you access your accounts and your information with other service providers.",
-	    			"Condition": "",
-	    			"Recipients": ["R1"],
-	    			"PrivateDatums": ["All"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St5",
-	    			"Description": "When you use our Services, we transmit your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos).",
-	    			"Condition": "",
-	    			"Recipients": ["R7"],
-	    			"PrivateDatums": ["PD4", "PD5"],
-	    			"Services": ["S1", "S3"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St6",
-	    			"Description": "Dropbox's trusted third parties will access your information only to perform tasks on our behalf and in compliance with this Privacy Policy.",
-	    			"Condition": "",
-	    			"Recipients": ["R2"],
-	    			"PrivateDatums": ["All"],
-	    			"Services": ["S1", "S2"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St7",
-	    			"Description": "Our Services display information like your name and email address to other users in places like your user profile and sharing notifications.",
-	    			"Condition": "",
-	    			"Recipients": ["R3"],
-	    			"PrivateDatums": ["PD6"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St8",
-	    			"Description": "You can also give third parties access to your information and account - for example, via Dropbox APIs.",
-	    			"Condition": "",
-	    			"Recipients": ["R2"],
-	    			"PrivateDatums": ["All"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St9",
-	    			"Description": "If you are not a Dropbox for Business user but interact with a Dropbox for Business user (by, for example, joining a shared folder or accessing stuff shared by that user), members of that organization may be able to view the name, email address and IP address that were associated with your account at the time of that interaction.",
-	    			"Condition": "",
-	    			"Recipients": ["R4"],
-	    			"PrivateDatums": ["PD7"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St10",
-	    			"Description": "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to comply with the law.",
-	    			"Condition": "",
-	    			"Recipients": ["R5"],
-	    			"PrivateDatums": ["All"],
-	    			"Services": ["S5", "S6"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St11",
-	    			"Description": "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to protect any person from death or serious bodily injury.",
-	    			"Condition": "",
-	    			"Recipients": ["R5"],
-	    			"PrivateDatums": ["All"],
-	    			"Services": ["S9", "S11"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St12",
-	    			"Description": "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to prevent fraud or abuse of Dropbox or our users.",
-	    			"Condition": "",
-	    			"Recipients": ["R5"],
-	    			"PrivateDatums": ["All"],
-	    			"Services": ["S9", "S10"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St13",
-	    			"Description": "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to protect Dropbox's property rights.",
-	    			"Condition": "",
-	    			"Recipients": ["R5"],
-	    			"PrivateDatums": ["All"],
-	    			"Services": ["S5", "S7"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St14",
-	    			"Description": "To provide you with the Services, we may transmit information in locations around the world - including those outside your country.",
-	    			"Condition": "",
-	    			"Recipients": ["R7"],
-	    			"PrivateDatums": ["All"],
-	    			"Services": ["S1", "S4"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St15",
-	    			"Description": "If we are involved in a reorganization, merger, acquisition or sale of our assets, your information may be transferred as part of that deal.",
-	    			"Condition": "",
-	    			"Recipients": ["R6"],
-	    			"PrivateDatums": ["All"],
-	    			"Type": "Prohibition"
-	    		}
-	    ],
-	    "Retention": [
-	    	{
-	    			"ID": "St16",
-	    			"Description": "When you use our Services, we store your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos).",
-	    			"Condition": "",
-	    			"PrivateDatums": ["PD4", "PD5"],
-	    			"Services": ["S1", "S3"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St17",
-	    			"Description": "If you give us access to your contacts, we'll store those contacts on our servers for you to use.",
-	    			"Condition": "",
-	    			"PrivateDatums": ["PD8"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St18",
-	    			"Description": "We'll retain information you store on our Services for as long as we need it to provide you the Services.",
-	    			"Condition": "",
-	    			"PrivateDatums": ["All"],
-	    			"Services": ["S1", "S4"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St19",
-	    			"Description": "If you delete your account, we'll also delete the information you store on our Services.",
-	    			"Condition": "",
-	    			"PrivateDatums": ["All"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St20",
-	    			"Description": "We may retain the information you store on our Services if necessary to comply with our legal obligations, resolve disputes, or enforce our agreements.",
-	    			"Condition": "",
-	    			"PrivateDatums": ["All"],
-	    			"Services": ["S5", "S6", "S8"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St21",
-	    			"Description": "To provide you with the Services, we may store information in locations around the world - including those outside your country.",
-	    			"Condition": "",
-	    			"PrivateDatums": ["All"],
-	    			"Services": ["S1", "S4"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St22",
-	    			"Description": "Information may also be stored locally on the devices you use to access the Services.",
-	    			"Condition": "",
-	    			"PrivateDatums": ["All"],
-	    			"Type": "Prohibition"
-	    		}
-	    ],
-	    "Usage": [
-	    	{
-	    			"ID": "St23",
-	    			"Description": "When you use our Services, we process your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos).",
-	    			"Condition": "",
-	    			"PrivateDatums": ["PD4", "PD5"],
-	    			"Services": ["S1", "S3"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St24",
-	    			"Description": "To provide you with the Services, we may process information in locations around the world - including those outside your country.",
-	    			"Condition": "",
-	    			"PrivateDatums": ["All"],
-	    			"Services": ["S1", "S4"],
-	    			"Type": "Prohibition"
-	    		}
-	    ],
-	    "Informative": [
-	    	{
-	    			"ID": "St25",
-	    			"Description": "This will make it easy for you to do things like share your stuff, send emails, and invite others to use the Services.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St26",
-	    			"Description": "We use technologies like cookies and pixel tags to provide, improve, protect and promote our Services.",
-	    			"Condition": "",
-	    			"Enforcements": ["En1"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St27",
-	    			"Description": " You can set your browser to not accept cookies, but this may limit your ability to use the Services.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St28",
-	    			"Description": "We won't sell information to advertisers or other third-parties.",
-	    			"Condition": "",
-	    			"PrivateDatums": ["All"],
-	    			"Enforcements": ["En2"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St29",
-	    			"Description": "Dropbox uses certain trusted third parties to help us provide, improve, protect, and promote our Services.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St30",
-	    			"Description": "Certain features let you make additional information available to other users.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St31",
-	    			"Description": "The use of your information by third parties will be governed by their privacy policies and terms.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St32",
-	    			"Description": "If you are a Dropbox for Business user, your administrator may have the ability to access and control your Dropbox for Business account. Please refer to your employer's internal policies if you have questions about this.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St33",
-	    			"Description": "Stewardship of your data is critical to us and a responsibility that we embrace.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St34",
-	    			"Description": "We believe that our users' data should receive the same legal protections regardless of whether it's stored on our services or on their home computer's hard drive.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St35",
-	    			"Description": "When receiving, scrutinizing and responding to government requests for our users' data, we must be transparent, fight blanket requests, protect all users, and provide trusted services.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St36",
-	    			"Description": "We have a team dedicated to keeping your information secure and testing for vulnerabilities.",
-	    			"Condition": "",
-	    			"Enforcements": ["En3"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St37",
-	    			"Description": "We also continue to work on features to keep your information safe in addition to things like two-factor authentication, encryption of files at rest, and alerts when new devices and apps are linked to your account.",
-	    			"Condition": "",
-	    			"Enforcements": ["En4"],
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St38",
-	    			"Description": "There might be some latency in deleting the information you store on our Services from our servers and back-up storage",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St39",
-	    			"Description": "Dropbox complies with the EU-U.S. and Swiss-U.S. Safe Harbor ('Safe Harbor') frameworks and principles.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St40",
-	    			"Description": "We will notify you (for example, via a message to the email address associated with your account) of any reorganization, merger, acquisition or sale of our assets and outline your choices in that event.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St41",
-	    			"Description": "We may revise this Privacy Policy from time to time, and will post the most current version on our website.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		},
-	    	{
-	    			"ID": "St42",
-	    			"Description": "If a revision meaningfully reduces your rights, we will notify you.",
-	    			"Condition": "",
-	    			"Type": "Prohibition"
-	    		}
-	    ],
-	     "PrivateDatums": [
-	    	{
-	    			"ID": "PD1",
-	    			"Description": "Account Information",
-	    			"Type": "PersonalInformation",
-	    			"Attributes": [
-	    				{
-	    						"name": "Name, email, phone number, payment info, physical address",
-	    						"Description": "Name, email, phone number, payment info, physical address"
-	    					}
-	    			]
-	    		},
-	    	{
-	    			"ID": "PD2",
-	    			"Description": "Device Information",
-	    			"Type": "UsageInformation",
-	    			"Attributes": [
-	    				{
-	    						"name": "IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, identifiers associated with your devices.",
-	    						"Description": "IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, identifiers associated with your devices."
-	    					}
-	    			]
-	    		},
-	    	{
-	    			"ID": "PD3",
-	    			"Description": "Location Information",
-	    			"Type": "UsageInformation",
-	    			"Attributes": [
-	    				{
-	    						"name": "Location information",
-	    						"Description": "Location information"
-	    					}
-	    			]
-	    		},
-	    	{
-	    			"ID": "PD4",
-	    			"Description": "Files",
-	    			"Type": "PersonalInformation",
-	    			"Attributes": [
-	    				{
-	    						"name": "Photos, structured data, emails",
-	    						"Description": "Photos, structured data, emails"
-	    					}
-	    			]
-	    		},
-	    	{
-	    			"ID": "PD5",
-	    			"Description": "File-related Information",
-	    			"Type": "PersonalInformation",
-	    			"Attributes": [
-	    				{
-	    						"name": "Location tags in photos",
-	    						"Description": "Location tags in photos"
-	    					}
-	    			]
-	    		},
-	    	{
-	    			"ID": "PD6",
-	    			"Description": "Basic Public Information",
-	    			"Type": "PersonalInformation",
-	    			"Attributes": [
-	    				{
-	    						"name": "Name, email address",
-	    						"Description": "Name, email address"
-	    					}
-	    			]
-	    		},
-	    	{
-	    			"ID": "PD7",
-	    			"Description": "Complete Public Information",
-	    			"Type": "PersonalInformation",
-	    			"Attributes": [
-	    				{
-	    						"name": "Name, email address, IP address",
-	    						"Description": "Name, email address, IP address"
-	    					}
-	    			]
-	    		},
-	    	{
-	    			"ID": "PD8",
-	    			"Description": "Contacts",
-	    			"Type": "PersonalInformation",
-	    			"Attributes": [
-	    				{
-	    						"name": "User contacts",
-	    						"Description": "User contacts"
-	    					}
-	    			]
-	    		}
-	    ],
-	     "Recipients": [
-	    	{
-	    			"ID": "R1",
-	    			"Name": "Service providers",
-	    			"Description": "Service providers",
-	    			"Type": "Organization",
-	    			"Scope": "Internal/External"
-	    		},
-	    	{
-	    			"ID": "R2",
-	    			"Name": "Dropbox's trusted third parties",
-	    			"Description": "Dropbox's trusted third parties",
-	    			"Type": "Organization",
-	    			"Scope": "External"
-	    		},
-	    	{
-	    			"ID": "R3",
-	    			"Name": "Members",
-	    			"Description": "Members",
-	    			"Type": "Individual/Organization",
-	    			"Scope": "Internal"
-	    		},
-	    	{
-	    			"ID": "R4",
-	    			"Name": "Dropbox for Business users",
-	    			"Description": "Dropbox for Business users",
-	    			"Type": "Individual",
-	    			"Scope": "Internal/External"
-	    		},
-	    	{
-	    			"ID": "R5",
-	    			"Name": "Third parties",
-	    			"Description": "Third parties",
-	    			"Type": "Organization",
-	    			"Scope": "External"
-	    		},
-	    	{
-	    			"ID": "R6",
-	    			"Name": "Owner",
-	    			"Description": "Owner",
-	    			"Type": "Organization",
-	    			"Scope": "Internal"
-	    		},
-	    	{
-	    			"ID": "R7",
-	    			"Name": "Anyone",
-	    			"Description": "Anyone",
-	    			"Type": "Individual/Organization",
-	    			"Scope": "Internal/External"
-	    		}
-	    ],
-	    "Services": [
-	    	{
-	    			"ID": "S1",
-	    			"Description": "",
-	    			"PrivateDatums": ["All"],
-	    		},
-	    	{
-	    			"ID": "S2",
-	    			"Description": "perform tasks on our behalf and in compliance with this Privacy Policy",
-	    			"PrivateDatums": ["All"],
-	    			"Service_Parts": ["S1"]
-	    		},
-	    	{
-	    			"ID": "S3",
-	    			"Description": "use our Services",
-	    			"PrivateDatums": ["PD4", "PD5"],
-	    			"Service_Parts": ["S1"]
-	    		},
-	    	{
-	    			"ID": "S4",
-	    			"Description": "provide you with the Services",
-	    			"PrivateDatums": ["All"],
-	    			"Service_Parts": ["S1"]
-	    		},
-	    	{
-	    			"ID": "S5",
-	    			"Description": "",
-	    			"PrivateDatums": ["All"],
-	    		},
-	    	{
-	    			"ID": "S6",
-	    			"Description": "comply with the law, legal obligation, enforce our agreements",
-	    			"PrivateDatums": ["All"],
-	    			"Service_Parts": ["S5"]
-	    		},
-	    	{
-	    			"ID": "S7",
-	    			"Description": "protect Dropbox's property rights",
-	    			"PrivateDatums": ["All"],
-	    			"Service_Parts": ["S5"]
-	    		},
-	    	{
-	    			"ID": "S8",
-	    			"Description": "resolve disputes",
-	    			"Service_Parts": ["S5"]
-	    		},
-	    	{
-	    			"ID": "S9",
-	    			"Description": "",
-	    			"PrivateDatums": ["All"],
-	    		},
-	    	{
-	    			"ID": "S10",
-	    			"Description": "prevent fraud or abuse of Dropbox or our users",
-	    			"PrivateDatums": ["All"],
-	    			"Service_Parts": ["S9"]
-	    		},
-	    	{
-	    			"ID": "S11",
-	    			"Description": "protect any person from death or serious bodily injury",
-	    			"PrivateDatums": ["All"],
-	    			"Service_Parts": ["S9"]
-	    		}
-	    ],
-	    "Enforcements": [
-	    	{
-	    			"ID": "En1",
-	    			"Name": "Cookies and Other Technologies",
-	    			"Description": "We use technologies like cookies and pixel tags to provide, improve, protect and promote our Services.",
-	    			"Type": "Tool"
-	    		},
-	    	{
-	    			"ID": "En2",
-	    			"Name": "Selling Information",
-	    			"Description": "We won't sell information to advertisers or other third-parties.",
-	    			"Type": "Action"
-	    		},
-	    	{
-	    			"ID": "En3",
-	    			"Name": "Team for Managing Information",
-	    			"Description": "We have a team dedicated to keeping your information secure and testing for vulnerabilities.",
-	    			"Type": "Action"
-	    		},
-	    	{
-	    			"ID": "En4",
-	    			"Name": "Feature Improvement",
-	    			"Description": "We also continue to work on features to keep your information safe in addition to things like two-factor authentication, encryption of files at rest, and alerts when new devices and apps are linked to your account.",
-	    			"Type": "Algorithm"
-	    		}
-	    ]
-	}
+	"name": "Dropbox",
+	"Collections": [
+    {
+    	"ID": "St1",
+    	"Description": "We collect, and associate with your account, information like your name, email address, phone number, payment info, and physical address.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD1"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St2",
+    	"Description": "We collect information from and about the devices you use to access the Services, including things like IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, and identifiers associated with your devices.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD2"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St3",
+    	"Description": "Your devices (depending on their settings) may also transmit location information to the Services.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD3"],
+    	"Type": "Prohibition"
+    }],
+    "Disclosure": [
+    {
+    	"ID": "St4",
+    	"Description": "Some of our services let you access your accounts and your information with other service providers.",
+    	"Condition": "",
+    	"Recipients": ["R1"],
+    	"PrivateDatums": ["All"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St5",
+    	"Description": "When you use our Services, we transmit your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos).",
+    	"Condition": "",
+    	"Recipients": ["R7"],
+    	"PrivateDatums": ["PD4", "PD5"],
+    	"Services": ["S1", "S3"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St6",
+    	"Description": "Dropbox's trusted third parties will access your information only to perform tasks on our behalf and in compliance with this Privacy Policy.",
+    	"Condition": "",
+    	"Recipients": ["R2"],
+    	"PrivateDatums": ["All"],
+    	"Services": ["S1", "S2"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St7",
+    	"Description": "Our Services display information like your name and email address to other users in places like your user profile and sharing notifications.",
+    	"Condition": "",
+    	"Recipients": ["R3"],
+    	"PrivateDatums": ["PD6"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St8",
+    	"Description": "You can also give third parties access to your information and account - for example, via Dropbox APIs.",
+    	"Condition": "",
+    	"Recipients": ["R2"],
+    	"PrivateDatums": ["All"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St9",
+    	"Description": "If you are not a Dropbox for Business user but interact with a Dropbox for Business user (by, for example, joining a shared folder or accessing stuff shared by that user), members of that organization may be able to view the name, email address and IP address that were associated with your account at the time of that interaction.",
+    	"Condition": "",
+    	"Recipients": ["R4"],
+    	"PrivateDatums": ["PD7"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St10",
+    	"Description": "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to comply with the law.",
+    	"Condition": "",
+    	"Recipients": ["R5"],
+    	"PrivateDatums": ["All"],
+    	"Services": ["S5", "S6"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St11",
+    	"Description": "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to protect any person from death or serious bodily injury.",
+    	"Condition": "",
+    	"Recipients": ["R5"],
+    	"PrivateDatums": ["All"],
+    	"Services": ["S9", "S11"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St12",
+    	"Description": "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to prevent fraud or abuse of Dropbox or our users.",
+    	"Condition": "",
+    	"Recipients": ["R5"],
+    	"PrivateDatums": ["All"],
+    	"Services": ["S9", "S10"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St13",
+    	"Description": "We may disclose your information to third parties if we determine that such disclosure is reasonably necessary to protect Dropbox's property rights.",
+    	"Condition": "",
+    	"Recipients": ["R5"],
+    	"PrivateDatums": ["All"],
+    	"Services": ["S5", "S7"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St14",
+    	"Description": "To provide you with the Services, we may transmit information in locations around the world - including those outside your country.",
+    	"Condition": "",
+    	"Recipients": ["R7"],
+    	"PrivateDatums": ["All"],
+    	"Services": ["S1", "S4"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St15",
+    	"Description": "If we are involved in a reorganization, merger, acquisition or sale of our assets, your information may be transferred as part of that deal.",
+    	"Condition": "",
+    	"Recipients": ["R6"],
+    	"PrivateDatums": ["All"],
+    	"Type": "Prohibition"
+    }],
+    "Retention": [
+    {
+    	"ID": "St16",
+    	"Description": "When you use our Services, we store your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos).",
+    	"Condition": "",
+    	"PrivateDatums": ["PD4", "PD5"],
+    	"Services": ["S1", "S3"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St17",
+    	"Description": "If you give us access to your contacts, we'll store those contacts on our servers for you to use.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD8"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St18",
+    	"Description": "We'll retain information you store on our Services for as long as we need it to provide you the Services.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Services": ["S1", "S4"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St19",
+    	"Description": "If you delete your account, we'll also delete the information you store on our Services.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St20",
+    	"Description": "We may retain the information you store on our Services if necessary to comply with our legal obligations, resolve disputes, or enforce our agreements.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Services": ["S5", "S6", "S8"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St21",
+    	"Description": "To provide you with the Services, we may store information in locations around the world - including those outside your country.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Services": ["S1", "S4"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St22",
+    	"Description": "Information may also be stored locally on the devices you use to access the Services.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Type": "Prohibition"
+    }],
+    "Usage": [
+    {
+    	"ID": "St23",
+    	"Description": "When you use our Services, we process your files (including stuff like your photos, structured data and emails) and information related to them (for example, location tags in photos).",
+    	"Condition": "",
+    	"PrivateDatums": ["PD4", "PD5"],
+    	"Services": ["S1", "S3"],
+    	"Type": "Prohibition"
+    },{
+    	"ID": "St24",
+    	"Description": "To provide you with the Services, we may process information in locations around the world - including those outside your country.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Services": ["S1", "S4"],
+    	"Type": "Prohibition"
+    }],
+    "Informative": [
+    {
+    	"ID": "St25",
+    	"Description": "This will make it easy for you to do things like share your stuff, send emails, and invite others to use the Services.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St26",
+    	"Description": "We use technologies like cookies and pixel tags to provide, improve, protect and promote our Services.",
+    	"Condition": "",
+    	"Enforcements": ["En1"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St27",
+    	"Description": " You can set your browser to not accept cookies, but this may limit your ability to use the Services.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St28",
+    	"Description": "We won't sell information to advertisers or other third-parties.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Enforcements": ["En2"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St29",
+    	"Description": "Dropbox uses certain trusted third parties to help us provide, improve, protect, and promote our Services.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St30",
+    	"Description": "Certain features let you make additional information available to other users.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St31",
+    	"Description": "The use of your information by third parties will be governed by their privacy policies and terms.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St32",
+    	"Description": "If you are a Dropbox for Business user, your administrator may have the ability to access and control your Dropbox for Business account. Please refer to your employer's internal policies if you have questions about this.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St33",
+    	"Description": "Stewardship of your data is critical to us and a responsibility that we embrace.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St34",
+    	"Description": "We believe that our users' data should receive the same legal protections regardless of whether it's stored on our services or on their home computer's hard drive.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St35",
+    	"Description": "When receiving, scrutinizing and responding to government requests for our users' data, we must be transparent, fight blanket requests, protect all users, and provide trusted services.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St36",
+    	"Description": "We have a team dedicated to keeping your information secure and testing for vulnerabilities.",
+    	"Condition": "",
+    	"Enforcements": ["En3"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St37",
+    	"Description": "We also continue to work on features to keep your information safe in addition to things like two-factor authentication, encryption of files at rest, and alerts when new devices and apps are linked to your account.",
+    	"Condition": "",
+    	"Enforcements": ["En4"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St38",
+    	"Description": "There might be some latency in deleting the information you store on our Services from our servers and back-up storage",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St39",
+    	"Description": "Dropbox complies with the EU-U.S. and Swiss-U.S. Safe Harbor ('Safe Harbor') frameworks and principles.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St40",
+    	"Description": "We will notify you (for example, via a message to the email address associated with your account) of any reorganization, merger, acquisition or sale of our assets and outline your choices in that event.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St41",
+    	"Description": "We may revise this Privacy Policy from time to time, and will post the most current version on our website.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St42",
+    	"Description": "If a revision meaningfully reduces your rights, we will notify you.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }],
+    "PrivateDatums": [
+    {
+    	"ID": "PD1",
+    	"Description": "Account Information",
+    	"Type": "PersonalInformation",
+    	"Attributes": [
+    	{
+    		"name": "Name, email, phone number, payment info, physical address",
+    		"Description": "Name, email, phone number, payment info, physical address"
+    	}
+    	]
+    }, {
+    	"ID": "PD2",
+    	"Description": "Device Information",
+    	"Type": "UsageInformation",
+    	"Attributes": [
+    	{
+    		"name": "IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, identifiers associated with your devices.",
+    		"Description": "IP addresses, the type of browser and device you use, the web page you visited before coming to our sites, identifiers associated with your devices."
+    	}
+    	]
+    }, {
+    	"ID": "PD3",
+    	"Description": "Location Information",
+    	"Type": "UsageInformation",
+    	"Attributes": [
+    	{
+    		"name": "Location information",
+    		"Description": "Location information"
+    	}
+    	]
+    }, {
+    	"ID": "PD4",
+    	"Description": "Files",
+    	"Type": "PersonalInformation",
+    	"Attributes": [
+    	{
+    		"name": "Photos, structured data, emails",
+    		"Description": "Photos, structured data, emails"
+    	}
+    	]
+    }, {
+    	"ID": "PD5",
+    	"Description": "File-related Information",
+    	"Type": "PersonalInformation",
+    	"Attributes": [
+    	{
+    		"name": "Location tags in photos",
+    		"Description": "Location tags in photos"
+    	}
+    	]
+    }, {
+    	"ID": "PD6",
+    	"Description": "Basic Public Information",
+    	"Type": "PersonalInformation",
+    	"Attributes": [
+    	{
+    		"name": "Name, email address",
+    		"Description": "Name, email address"
+    	}
+    	]
+    }, {
+    	"ID": "PD7",
+    	"Description": "Complete Public Information",
+    	"Type": "PersonalInformation",
+    	"Attributes": [
+    	{
+    		"name": "Name, email address, IP address",
+    		"Description": "Name, email address, IP address"
+    	}
+    	]
+    }, {
+    	"ID": "PD8",
+    	"Description": "Contacts",
+    	"Type": "PersonalInformation",
+    	"Attributes": [
+    	{
+    		"name": "User contacts",
+    		"Description": "User contacts"
+    	}
+    	]
+    }],
+    "Recipients": [
+    {
+    	"ID": "R1",
+    	"Name": "Service providers",
+    	"Description": "Service providers",
+    	"Type": "Organization",
+    	"Scope": "Internal/External"
+    }, {
+    	"ID": "R2",
+    	"Name": "Dropbox's trusted third parties",
+    	"Description": "Dropbox's trusted third parties",
+    	"Type": "Organization",
+    	"Scope": "External"
+    }, {
+    	"ID": "R3",
+    	"Name": "Members",
+    	"Description": "Members",
+    	"Type": "Individual/Organization",
+    	"Scope": "Internal"
+    }, {
+    	"ID": "R4",
+    	"Name": "Dropbox for Business users",
+    	"Description": "Dropbox for Business users",
+    	"Type": "Individual",
+    	"Scope": "Internal/External"
+    }, {
+    	"ID": "R5",
+    	"Name": "Third parties",
+    	"Description": "Third parties",
+    	"Type": "Organization",
+    	"Scope": "External"
+    }, {
+    	"ID": "R6",
+    	"Name": "Owner",
+    	"Description": "Owner",
+    	"Type": "Organization",
+    	"Scope": "Internal"
+    }, {
+    	"ID": "R7",
+    	"Name": "Anyone",
+    	"Description": "Anyone",
+    	"Type": "Individual/Organization",
+    	"Scope": "Internal/External"
+    }],
+    "Services": [
+    {
+    	"ID": "S1",
+    	"Description": "",
+    	"PrivateDatums": ["All"],
+    }, {
+    	"ID": "S2",
+    	"Description": "perform tasks on our behalf and in compliance with this Privacy Policy",
+    	"PrivateDatums": ["All"],
+    	"Service_Parts": ["S1"]
+    }, {
+    	"ID": "S3",
+    	"Description": "use our Services",
+    	"PrivateDatums": ["PD4", "PD5"],
+    	"Service_Parts": ["S1"]
+    }, {
+    	"ID": "S4",
+    	"Description": "provide you with the Services",
+    	"PrivateDatums": ["All"],
+    	"Service_Parts": ["S1"]
+    }, {
+    	"ID": "S5",
+    	"Description": "",
+    	"PrivateDatums": ["All"],
+    }, {
+    	"ID": "S6",
+    	"Description": "comply with the law, legal obligation, enforce our agreements",
+    	"PrivateDatums": ["All"],
+    	"Service_Parts": ["S5"]
+    }, {
+    	"ID": "S7",
+    	"Description": "protect Dropbox's property rights",
+    	"PrivateDatums": ["All"],
+    	"Service_Parts": ["S5"]
+    }, {
+    	"ID": "S8",
+    	"Description": "resolve disputes",
+    	"Service_Parts": ["S5"]
+    }, {
+    	"ID": "S9",
+    	"Description": "",
+    	"PrivateDatums": ["All"],
+    }, {
+    	"ID": "S10",
+    	"Description": "prevent fraud or abuse of Dropbox or our users",
+    	"PrivateDatums": ["All"],
+    	"Service_Parts": ["S9"]
+    }, {
+    	"ID": "S11",
+    	"Description": "protect any person from death or serious bodily injury",
+    	"PrivateDatums": ["All"],
+    	"Service_Parts": ["S9"]
+    }],
+    "Enforcements": [
+    {
+    	"ID": "En1",
+    	"Name": "Cookies and Other Technologies",
+    	"Description": "We use technologies like cookies and pixel tags to provide, improve, protect and promote our Services.",
+    	"Type": "Tool"
+    }, {
+    	"ID": "En2",
+    	"Name": "Selling Information",
+    	"Description": "We won't sell information to advertisers or other third-parties.",
+    	"Type": "Action"
+    }, {
+    	"ID": "En3",
+    	"Name": "Team for Managing Information",
+    	"Description": "We have a team dedicated to keeping your information secure and testing for vulnerabilities.",
+    	"Type": "Action"
+    }, {
+    	"ID": "En4",
+    	"Name": "Feature Improvement",
+    	"Description": "We also continue to work on features to keep your information safe in addition to things like two-factor authentication, encryption of files at rest, and alerts when new devices and apps are linked to your account.",
+    	"Type": "Algorithm"
+    }]
+}

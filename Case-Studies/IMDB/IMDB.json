@@ -1,0 +1,754 @@
+{
+	"name": "IMDb",
+	"Collections": [
+    {
+    	"ID": "St1",
+    	"Description": "We receive any information you enter on our Web site when you register, search, post, participate in a contest or questionnaire, or communicate with us.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Services": ["S1", "S2"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St2",
+    	"Description": "You might supply us with information such as your name, e-mail address, physical address, zip code, phone number, your age, gender, the movies and actors you like or dislike, and your general movie preferences.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD1"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St3",
+    	"Description": "We receive certain types of information whenever you interact with us including the IP address used to connect your computer to the Internet, login, password, computer and connection information such as browser type and version, operating system, and platform, purchase history, the full URL clickstream to, through, and from our Web site, including date and time, cookie number and pages you viewed or searched for.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD2"],
+    	"Services": ["S1", "S2"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St4",
+    	"Description": "During some visits we may use software tools such as JavaScript to measure and collect session information, including page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD3"],
+    	"Enforcements": ["En1"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St5",
+    	"Description": "To help us make e-mails more useful and interesting, we often receive a confirmation when you open e-mail from IMDb if your computer supports such capabilities.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD4"],
+    	"Services": ["S13", "S14"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St6",
+    	"Description": "When you download or use apps created by IMDb, we may receive information about your location and your mobile device, including a unique identifier for your device.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD5", "PD6"],
+    	"Services": ["S1", "S2"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St7",
+    	"Description": "We might receive information about you from other sources and add it to our account information, including updated delivery and address information.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD7"],
+    	"Type": "Prohibition"
+    }],
+    "Disclosure": [
+    {
+    	"ID": "St8",
+    	"Description": "We do not provide personal information to third parties that are allowed to place web beacons and other technologies on our site to conduct research and analysis.",
+    	"Condition": "",
+    	"Recipients": ["R1"],
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St9",
+    	"Description": "We share user information with our parent corporation (Amazon.com, Inc.) and the subsidiaries it controls.",
+    	"Condition": "",
+    	"Recipients": ["R2"],
+    	"PrivateDatums": ["All"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St10",
+    	"Description": "You can tell when another affiliated business is involved in the offering, and we share user information related to those offerings with that business.",
+    	"Condition": "",
+    	"Recipients": ["R3"],
+    	"PrivateDatums": ["All"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St11",
+    	"Description": "Other companies and individuals employed by us to perform functions on our behalf have access to personal information needed to perform their functions, but may not use it for other purposes.",
+    	"Condition": "",
+    	"Recipients": ["R4"],
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Services": ["S1", "S3"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St12",
+    	"Description": "When we send offers to selected groups of IMDb users on behalf of other businesses, we do not give that business your name and e-mail address.",
+    	"Condition": "",
+    	"Recipients": ["R5"],
+    	"PrivateDatums": ["PD8"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St13",
+    	"Description": "When selling or buying additional services or business units, user information generally is transferred along with the rest of the service or business unit.",
+    	"Condition": "",
+    	"Recipients": ["R6"],
+    	"PrivateDatums": ["All"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St14",
+    	"Description": "Also, in the event that IMDb, Inc., or substantially all of its assets are acquired, user information will of course be included in the transaction.",
+    	"Condition": "",
+    	"Recipients": ["R7"],
+    	"PrivateDatums": ["All"],
+    	"Services": ["S1", "S4"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St15",
+    	"Description": "Releasing account and other personal information when we believe release is appropriate includes exchanging information with other companies and organizations for fraud protection and credit risk reduction. ",
+    	"Condition": "",
+    	"Recipients": ["R8"],
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Services": ["S9", "S11"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St16",
+    	"Description": "Obviously, however, exchanging information with other companies and organizations does not include selling, renting, sharing, or otherwise disclosing personally identifiable information from customers for commercial purposes in violation of the commitments set forth in this Privacy Notice.",
+    	"Condition": "",
+    	"Recipients": ["R8"],
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Services": ["S1", "S5"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St17",
+    	"Description": "We do not provide any personally identifiable customer information to advertisers or third-party websites.",
+    	"Condition": "",
+    	"Recipients": ["R9"],
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St18",
+    	"Description": "Third-party websites and advertisers, or Internet advertising companies working on their behalf, sometimes use technology to send (or 'serve') the advertisements that appear on our website directly to your browser automatically receiving your IP address.",
+    	"Condition": "",
+    	"Recipients": ["R9"],
+    	"PrivateDatums": ["PD9"],
+    	"Services": ["S9", "S12"],
+    	"Type": "Prohibition"
+    }],
+    "Retention": [
+    {
+    	"ID": "St19",
+    	"Description": "We store any information you enter on our Web site when you register, search, post, participate in a contest or questionnaire, or communicate with us.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Services": ["S1", "S2"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St20",
+    	"Description": "We store certain types of information whenever you interact with us including the IP address used to connect your computer to the Internet, login, password, computer and connection information such as browser type and version, operating system, and platform, purchase history, the full URL clickstream to, through, and from our Web site, including date and time, cookie number and pages you viewed or searched for.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD2"],
+    	"Services": ["S1", "S2"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St21",
+    	"Description": "We release account and other personal information when we believe release is appropriate to comply with law.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Services": ["S6", "S7"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St22",
+    	"Description": "We release account and other personal information when we believe release is appropriate to enforce or apply our Terms and Conditions of Use and other agreements.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Services": ["S6", "S7"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St23",
+    	"Description": "We release account and other personal information when we believe release is appropriate to protect the rights, property, or safety of IMDb, our users, or others.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Services": ["S6", "S8", "S9", "S10"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St24",
+    	"Description": "When you update information, we usually keep a copy of the prior version for our records.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Type": "Prohibition"
+    }],
+    "Usage": [
+    {
+    	"ID": "St25",
+    	"Description": "The information we learn from users helps us personalize and continually improve your experience at IMDb.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Services": ["S13", "S15"],
+    	"Type": "Prohibition"
+    },{
+    	"ID": "St26",
+    	"Description": "We use the information that you provide for responding to your requests.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Type": "Prohibition"
+    },{
+    	"ID": "St27",
+    	"Description": "We use the information that you provide for customizing future browsing for you.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Services": ["S13", "S15"],
+    	"Type": "Prohibition"
+    },{
+    	"ID": "St28",
+    	"Description": "We use the information that you provide for improving our site.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Services": ["S13", "S15"],
+    	"Type": "Prohibition"
+    },{
+    	"ID": "St29",
+    	"Description": "We use the information that you provide for communicating with you.",
+    	"Condition": "",
+    	"PrivateDatums": ["All"],
+    	"Services": ["S1", "S2"],
+    	"Type": "Prohibition"
+    },{
+    	"ID": "St30",
+    	"Description": "We may use information about your location and your mobile device to provide you with location-based services, such as advertising, local showtimes, search results, and other personalized content.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD5", "PD6"],
+    	"Services": ["S13", "S16"],
+    	"Type": "Prohibition"
+    },{
+    	"ID": "St31",
+    	"Description": "We use the information we receive about you from other sources so that we can correct our records and deliver your next communication more easily.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD7"],
+    	"Services": ["S13", "S16"],
+    	"Type": "Prohibition"
+    },{
+    	"ID": "St32",
+    	"Description": "IMDb also displays personalized third-party advertising based on personal information about users, such as information you submit to us about movies you own or have watched.",
+    	"Condition": "",
+    	"PrivateDatums": ["PD10"],
+    	"Services": ["S1", "S2"],
+    	"Type": "Prohibition"
+    }],
+    "Informative": [
+    {
+    	"ID": "St33",
+    	"Description": "You can choose not to provide certain information, but then you might not be able to take advantage of many of our features.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St34",
+    	"Description": "We may also use browser data such as cookies, Flash cookies (also known as Flash Local Shared Objects), or similar data on certain parts of our Web site for fraud prevention and other purposes.",
+    	"Condition": "",
+    	"Enforcements": ["En2"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St35",
+    	"Description": "If you do not want to receive e-mail or other mail from us, please use our User Administration pages to adjust your preferences.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St36",
+    	"Description": "Most mobile devices allow you to turn off location services.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St37",
+    	"Description": "Cookies are alphanumeric identifiers that we transfer to your computer's hard drive through your Web browser to enable our systems to recognize your browser and to provide features such as My Movies, local show times, and browsing preferences.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St38",
+    	"Description": "The 'help' portion of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether.",
+    	"Condition": "",
+    	"Enforcements": ["En3"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St39",
+    	"Description": "Additionally, you can disable or delete similar data used by browser add-ons, such as Flash cookies, by changing the add-on's settings or visiting the Web site of its manufacturer. However, because cookies allow you to take full advantage of some of IMDb's essential features, we recommend that you leave them turned on.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St40",
+    	"Description": "We use web beacons (also known as “action tags” or “single-pixel gifs”) and other technologies to measure the effectiveness of certain site features and to conduct research and analysis.",
+    	"Condition": "",
+    	"Enforcements": ["En4"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St41",
+    	"Description": "We also allow third parties to place web beacons and other technologies on our site to conduct research and analysis.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St42",
+    	"Description": "Information about our users is an important part of our business, and we are not in the business of selling it to others.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St43",
+    	"Description": "We work closely with our affiliated businesses.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St44",
+    	"Description": "In some cases, we will include offerings from the affiliated businesses on IMDb. In other cases, we may include joint offerings from IMDb and the affiliated businesses on IMDb.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St45",
+    	"Description": "We employ other companies and individuals to perform functions on our behalf including sending e-mail, removing repetitive information from user lists, analyzing data, and providing marketing assistance.",
+    	"Condition": "",
+    	"Enforcements": ["En5"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St46",
+    	"Description": "Sometimes we send offers to selected groups of IMDb users on behalf of other businesses.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St47",
+    	"Description": "If you do not want to receive offers to selected groups of IMDb users on behalf of other businesses, please use our User Administration pages to adjust your preferences.",
+    	"Condition": "",
+    	"Enforcements": ["En6"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St48",
+    	"Description": "As we continue to develop our business, we might sell or buy additional services or business units.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St49",
+    	"Description": "Our site includes third-party advertising and links to other websites.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St50",
+    	"Description": "Third-party websites and advertisers, or Internet advertising companies working on their behalf, may also use cookies, JavaScript, web beacons (also known as action tags or single-pixel gifs), and other technologies to measure the effectiveness of their ads and to personalize advertising content.",
+    	"Condition": "",
+    	"Enforcements": ["En7"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St51",
+    	"Description": "We do not have access to or control over cookies or other features that third-party websites and advertisers, or Internet advertising companies working on their behalf, may use, and the information practices of these advertisers and third-party websites are not covered by this Privacy Notice. ",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St52",
+    	"Description": "If you do not want us to use personal information that we gather to allow third parties to personalize advertisements we display to you, please adjust your Advertising Preferences.",
+    	"Condition": "",
+    	"Enforcements": ["En8"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St53",
+    	"Description": "If you use our subscription service, we work to protect the security of your subscription information during transmission by using Secure Sockets Layer (SSL) software, which encrypts information you input.",
+    	"Condition": "",
+    	"Enforcements": ["En9"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St54",
+    	"Description": "It is important for you to protect against unauthorized access to your password and to your computer. Be sure to sign off when finished using a shared computer.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St55",
+    	"Description": "As discussed above, you can always choose not to provide information, even though it might be needed to take advantage of such IMDb features as My Movies and local show times.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St56",
+    	"Description": "You can add or update certain information, such as your e-mail address, by using our User Administration pages.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St57",
+    	"Description": "If you do not want to receive legal notices from us, such as this Privacy Notice, those notices will still govern your use of IMDb, and it is your responsibility to review them for changes.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St58",
+    	"Description": "IMDb is not intended for use by children under the age of 13. If you are under 13, you may not submit information about yourself to IMDb.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St59",
+    	"Description": "As a subsidiary of Amazon.com, Inc., IMDb.com is a participant in the Safe Harbor program developed by the U.S. Department of Commerce and (1) the European Union and (2) Switzerland, respectively.",
+    	"Condition": "",
+    	"Enforcements": ["En10"],
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St60",
+    	"Description": "Amazon has certified that we adhere to the Safe Harbor Privacy Principles agreed upon by the U.S. and (1) the European Union and (2) Switzerland, respectively.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St61",
+    	"Description": "For more information about the Safe Harbor and to view our certification, visit the U.S. Department of Commerce's Safe Harbor Web site.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St62",
+    	"Description": "In compliance with the US-EU and US-Swiss Safe Harbor Principles, we endeavor to resolve all complaints about privacy and the collection or use of customer information.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St63",
+    	"Description": "If you have questions about our participation in the Safe Harbor program or have a complaint, please send an e-mail to safeharbor@amazon.com.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St64",
+    	"Description": "Under the Safe Harbor program, any unresolved privacy complaints can be referred to an independent dispute resolution mechanism.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St65",
+    	"Description": "We use the BBB EU Safe Harbor Program, which is operated by the Council of Better Business Bureaus.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St66",
+    	"Description": "If you feel that we have not satisfactorily addressed your complaint, you can visit the BBB EU Safe Harbor Program web site at www.bbb.org/us/safe-harbor-complaints for more information on how to file a complaint.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St67",
+    	"Description": "If you choose to visit IMDb, your visit and any dispute over privacy is subject to this Notice and our Terms and Conditions of Use, including limitations on damages, resolution of disputes, and application of the law of the state of Washington.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St68",
+    	"Description": "If you have any concern about privacy at IMDb, please send us a thorough description to our help desk, and we will try to resolve it.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St69",
+    	"Description": "Our business changes constantly.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St70",
+    	"Description": "This Notice and the Terms and Conditions of Use will change also, and use of information that we gather now is subject to the Privacy Notice in effect at the time of use.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St71",
+    	"Description": "We may e-mail periodic reminders of our notices and conditions, unless you have instructed us not to, but you should check our Web site frequently to see recent changes.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St72",
+    	"Description": "Unless stated otherwise, our current Privacy Notice applies to all information that we have about you and your account.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St73",
+    	"Description": "We stand behind the promises we make, however, and will never materially change our policies and practices to make them less protective of customer information collected in the past without the consent of affected customers.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St74",
+    	"Description": "You will always receive notice when information about you might go to third parties, and you will have an opportunity to choose not to share the information.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St75",
+    	"Description": "Although IMDb does not provide any personal information to advertisers, advertisers (including ad-serving companies) may assume that users who interact with or click on a personalized advertisement meet their criteria to personalize the ad.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }, {
+    	"ID": "St76",
+    	"Description": "We also compare our user list to lists received from other companies, in an effort to avoid sending unnecessary messages to our users.",
+    	"Condition": "",
+    	"Type": "Prohibition"
+    }],
+    "PrivateDatums": [
+    {
+    	"ID": "PD1",
+    	"Description": "Account Information",
+    	"Type": "PersonalInformation",
+    	"Attributes": [
+    	{
+    		"name": "Name, e-mail address, physical address, zip code, phone number, your age, gender, the movies and actors you like or dislike, and your general movie preferences",
+    		"Description": "Name, e-mail address, physical address, zip code, phone number, your age, gender, the movies and actors you like or dislike, and your general movie preferences"
+    	}
+    	]
+    }, {
+    	"ID": "PD2",
+    	"Description": "User-IMDb Interaction Information",
+    	"Type": "UsageInformation",
+    	"Attributes": [
+    	{
+    		"name": "IP address used to connect your computer to the Internet, login, password, computer and connection information such as browser type and version, operating system, and platform, purchase history, the full URL clickstream to, through, and from our Web site, including date and time, cookie number and pages you viewed or searched for",
+    		"Description": "IP address used to connect your computer to the Internet, login, password, computer and connection information such as browser type and version, operating system, and platform, purchase history, the full URL clickstream to, through, and from our Web site, including date and time, cookie number and pages you viewed or searched for"
+    	}
+    	]
+    }, {
+    	"ID": "PD3",
+    	"Description": "Session Information",
+    	"Type": "UsageInformation",
+    	"Attributes": [
+    	{
+    		"name": "Page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs)",
+    		"Description": "Page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs)"
+    	}
+    	]
+    }, {
+    	"ID": "PD4",
+    	"Description": "Email Confirmation",
+    	"Type": "UsageInformation",
+    	"Attributes": [
+    	{
+    		"name": "Email confirmation",
+    		"Description": "Email confirmation"
+    	}
+    	]
+    }, {
+    	"ID": "PD5",
+    	"Description": "Location Information",
+    	"Type": "PersonalInformation",
+    	"Attributes": [
+    	{
+    		"name": "Location",
+    		"Description": "Location"
+    	}
+    	]
+    }, {
+    	"ID": "PD6",
+    	"Description": "Device Information",
+    	"Type": "UsageInformation",
+    	"Attributes": [
+    	{
+    		"name": "Unique identifier for your device",
+    		"Description": "Unique identifier for your device"
+    	}
+    	]
+    }, {
+    	"ID": "PD7",
+    	"Description": "Received Information",
+    	"Type": "PersonalInformation",
+    	"Attributes": [
+    	{
+    		"name": "Updated delivery and address information",
+    		"Description": "Updated delivery and address information"
+    	}
+    	]
+    }, {
+    	"ID": "PD8",
+    	"Description": "Basic Account Information",
+    	"Type": "PersonalInformation",
+    	"Attributes": [
+    	{
+    		"name": "Name and e-mail address",
+    		"Description": "Name and e-mail address"
+    	}
+    	]
+    }, {
+    	"ID": "PD9",
+    	"Description": "Basic Device Information",
+    	"Type": "UsageInformation",
+    	"Attributes": [
+    	{
+    		"name": "IP address",
+    		"Description": "IP address"
+    	}
+    	]
+    }, {
+    	"ID": "PD10",
+    	"Description": "Movie Information",
+    	"Type": "UsageInformation",
+    	"Attributes": [
+    	{
+    		"name": "Information you submit to us about movies you own or have watched",
+    		"Description": "Information you submit to us about movies you own or have watched"
+    	}
+    	]
+    }],
+    "Recipients": [
+    {
+    	"ID": "R1",
+    	"Name": "Allowed third parties",
+    	"Description": "Allowed third parties",
+    	"Type": "Organization",
+    	"Scope": "External"
+    }, {
+    	"ID": "R2",
+    	"Name": "Parent corporation (Amazon.com, Inc.) and the subsidiaries it controls.",
+    	"Description": "Parent corporation (Amazon.com, Inc.) and the subsidiaries it controls.",
+    	"Type": "Organization",
+    	"Scope": "External"
+    }, {
+    	"ID": "R3",
+    	"Name": "Affiliated business",
+    	"Description": "Affiliated business",
+    	"Type": "Organization",
+    	"Scope": "Internal"
+    }, {
+    	"ID": "R4",
+    	"Name": "Other companies and individuals employed by us",
+    	"Description": "Other companies and individuals employed by us",
+    	"Type": "Individual/Organization",
+    	"Scope": "Internal"
+    }, {
+    	"ID": "R5",
+    	"Name": "Other businesses",
+    	"Description": "Other businesses",
+    	"Type": "Organization",
+    	"Scope": "External"
+    }, {
+    	"ID": "R6",
+    	"Name": "Buyers/Sellers",
+    	"Description": "Buyers/Sellers",
+    	"Type": "Organization",
+    	"Scope": "External"
+    }, {
+    	"ID": "R7",
+    	"Name": "New owner",
+    	"Description": "New owner",
+    	"Type": "Organization",
+    	"Scope": "External"
+    }, {
+    	"ID": "R8",
+    	"Name": "Other companies and organizations",
+    	"Description": "Other companies and organizations",
+    	"Type": "Organization",
+    	"Scope": "External"
+    }, {
+    	"ID": "R9",
+    	"Name": "Advertisers or third-party websites",
+    	"Description": "Advertisers or third-party websites",
+    	"Type": "Organization",
+    	"Scope": "External"
+    }],
+    "Services": [
+    {
+    	"ID": "S1",
+    	"Description": "",
+    	"PrivateDatums": ["All"],
+    }, {
+    	"ID": "S2",
+    	"Description": "register, search, post, participate in a contest or questionnaire, or communicate with us, interact with us, download or use apps created by IMDb, communicating with you, submit information about movies",
+    	"PrivateDatums": ["All"],
+    	"Service_Parts": ["S1"]
+    }, {
+    	"ID": "S3",
+    	"Description": "perform functions on our behalf",
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Service_Parts": ["S1"]
+    }, {
+    	"ID": "S4",
+    	"Description": "IMDb, Inc., or substantially all of its assets are acquired",
+    	"PrivateDatums": ["All"],
+    	"Service_Parts": ["S1"]
+    }, {
+    	"ID": "S5",
+    	"Description": "commercial purposes",
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Service_Parts": ["S1"]
+    }, {
+    	"ID": "S6",
+    	"Description": "",
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    }, {
+    	"ID": "S7",
+    	"Description": "comply with law, enforce or apply our Terms and Conditions of Use and other agreements",
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Service_Parts": ["S6"]
+    }, {
+    	"ID": "S8",
+    	"Description": "protect the rights, property",
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Service_Parts": ["S6"]
+    }, {
+    	"ID": "S9",
+    	"Description": "",
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    }, {
+    	"ID": "S10",
+    	"Description": "protect the safety of IMDb, our users, or others",
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Service_Parts": ["S9"]
+    }, {
+    	"ID": "S11",
+    	"Description": "fraud protection and credit risk reduction.",
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"Service_Parts": ["S9"]
+    }, {
+    	"ID": "S12",
+    	"Description": "send (or 'serve') the advertisements that appear on our website directly to your browser",
+    	"PrivateDatums": ["PD9"],
+    }, {
+    	"ID": "S13",
+    	"Description": "",
+    	"PrivateDatums": ["All"],
+    }, {
+    	"ID": "S14",
+    	"Description": "make e-mails more useful and interesting",
+    	"PrivateDatums": ["PD4"],
+    	"Service_Parts": ["S13"]
+    }, {
+    	"ID": "S15",
+    	"Description": "personalize and continually improve your experience at IMDb, customizing future browsing for you, improving our site",
+    	"PrivateDatums": ["All"],
+    	"Service_Parts": ["S13"]
+    }, {
+    	"ID": "S16",
+    	"Description": "provide you with location-based services, such as advertising, local showtimes, search results, and other personalized content, correct our records and deliver your next communication more easily",
+    	"PrivateDatums": ["PD5", "PD6", "PD7"],
+    	"Service_Parts": ["S13"]
+    }],
+    "Enforcements": [
+    {
+    	"ID": "En1",
+    	"Name": "Tools for Collecting and Measuring Session Information",
+    	"Description": "During some visits we may use software tools such as JavaScript to measure and collect session information, including page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page.",
+    	"Type": "Tool"
+    }, {
+    	"ID": "En2",
+    	"Name": "Cookies",
+    	"Description": "We may also use browser data such as cookies, Flash cookies (also known as Flash Local Shared Objects), or similar data on certain parts of our Web site for fraud prevention and other purposes.",
+    	"Type": "Tool"
+    }, {
+    	"ID": "En3",
+    	"Name": "Toolbar ('Help' portion)",
+    	"Description": "The 'help' portion of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether.",
+    	"Type": "Tool"
+    }, {
+    	"ID": "En4",
+    	"Name": "Used Technologies",
+    	"Description": "We use web beacons (also known as “action tags” or “single-pixel gifs”) and other technologies to measure the effectiveness of certain site features and to conduct research and analysis.",
+    	"Type": "Tool"
+    }, {
+    	"ID": "En5",
+    	"Name": "Managing Email",
+    	"Description": "If you do not want to receive e-mail or other mail from us, please use our User Administration pages to adjust your preferences.",
+    	"Type": "Process"
+    }, {
+    	"ID": "En6",
+    	"Name": "Managing Offer Selection",
+    	"Description": "If you do not want to receive offers to selected groups of IMDb users on behalf of other businesses, please use our User Administration pages to adjust your preferences.",
+    	"Type": "Process"
+    }, {
+    	"ID": "En7",
+    	"Name": "Advertisers Technologies",
+    	"Description": "Third-party websites and advertisers, or Internet advertising companies working on their behalf, may also use cookies, JavaScript, web beacons (also known as action tags or single-pixel gifs), and other technologies to measure the effectiveness of their ads and to personalize advertising content.",
+    	"Type": "Tool"
+    }, {
+    	"ID": "En8",
+    	"Name": "Managing Personal Information",
+    	"Description": "If you do not want us to use personal information that we gather to allow third parties to personalize advertisements we display to you, please adjust your Advertising Preferences.",
+    	"Type": "Process"
+    }, {
+    	"ID": "En9",
+    	"Name": "Subscriptions Protection",
+    	"Description": "If you use our subscription service, we work to protect the security of your subscription information during transmission by using Secure Sockets Layer (SSL) software, which encrypts information you input.",
+    	"Type": "Algorithm"
+    }, {
+    	"ID": "En10",
+    	"Name": "Children Advisoring",
+    	"Description": "IMDb is not intended for use by children under the age of 13. If you are under 13, you may not submit information about yourself to IMDb.",
+    	"Type": "Action"
+    }]
+}
