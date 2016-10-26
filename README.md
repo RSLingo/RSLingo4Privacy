@@ -27,3 +27,9 @@ Download the ready-to-use Eclipse IDE version of RSLingo4Privacy Studio through 
 [BR2013] T. D. Breaux, A. Rao, "Formal Analysis of Privacy Requirements Specifications for Multi-Tier Applications", IEEE 21st International Requirements Engineering Conference (RE), 2013.
 
 [BHR2014] T. D. Breaux, H. Hibshi, A. Rao, "Eddy, A Formal Language for Specifying and Analyzing Data Flow Specifications for Conflicting Privacy Requirements", Requirements Engineering Journal, Springer, 2014.
+
+Licence
+--------------------------------------------------------------------------------------
+This material is released under the Eclipse Public License (EPL) - Version 1.0.
+
+http://www.eclipse.org/legal/epl-v10.html 
