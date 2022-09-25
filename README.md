@@ -10,6 +10,8 @@ Download the ready-to-use Eclipse IDE version of RSLingo4Privacy Studio through 
 
 ## References
 
+[CSM+19] J. Caramujo, A. R. Silva, S. Monfared, A. Ribeiro, P. Calado, T. Breaux, "RSL-IL4Privacy: a domain-specific language for the rigorous specification of privacy policies", Requirements Engineering, 24 (1), 1-26, 2019, Springer. https://link.springer.com/article/10.1007/s00766-018-0305-2
+
 [FS2012] D. Ferreira, A. R. Silva, "RSLingo: An Information Extraction Approach toward Formal Requirements Specifications", Second IEEE International Workshop on Model-Driven Requirements Engineering (MoDRE 2012), IEEE Computer Society, 2012. https://www.researchgate.net/publication/235975393_RSLingo_An_Information_Extraction_Approach_toward_Formal_Requirements_Specifications
 
 [FS2013] D. Ferreira, A. R. Silva, "RSL-IL: An Interlingua for Formally Documenting Requirements”, Third IEEE International Workshop on Model-Driven Requirements Engineering (MoDRE 2013), IEEE Computer Society, 2013. https://www.researchgate.net/publication/271496281_RSL-IL_An_interlingua_for_formally_documenting_requirements
