@@ -27,10 +27,3 @@ Download the ready-to-use Eclipse IDE version of RSLingo4Privacy Studio through 
 [FS2013a] D. Ferreira, A. R. Silva, "RSL-PL: A Linguistic Pattern Language for Documenting Software Requirements", Third International Workshop on Requirements Patterns (RePa 2013), IEEE Computer Society, 2013. https://www.researchgate.net/publication/261096369_RSL-PL_A_linguistic_pattern_language_for_documenting_software_requirements
 
 [FS2012] D. Ferreira, A. R. Silva, "RSLingo: An Information Extraction Approach toward Formal Requirements Specifications", Second IEEE International Workshop on Model-Driven Requirements Engineering (MoDRE 2012), IEEE Computer Society, 2012. https://www.researchgate.net/publication/235975393_RSLingo_An_Information_Extraction_Approach_toward_Formal_Requirements_Specifications
-
-
-## Licence
-
-This material is released under the Eclipse Public License (EPL) - Version 1.0.
-
-http://www.eclipse.org/legal/epl-v10.html 
