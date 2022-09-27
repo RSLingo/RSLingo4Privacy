@@ -273,7 +273,7 @@
     	"Type": "Prohibition"
     }, {
     	"ID": "St40",
-    	"Description": "We use web beacons (also known as “action tags” or “single-pixel gifs”) and other technologies to measure the effectiveness of certain site features and to conduct research and analysis.",
+    	"Description": "We use web beacons (also known as ï¿½action tagsï¿½ or ï¿½single-pixel gifsï¿½) and other technologies to measure the effectiveness of certain site features and to conduct research and analysis.",
     	"Condition": "",
     	"Enforcements": ["En4"],
     	"Type": "Prohibition"
@@ -626,7 +626,7 @@
     {
     	"ID": "S1",
     	"Description": "",
-    	"PrivateDatums": ["All"],
+    	"PrivateDatums": ["All"]
     }, {
     	"ID": "S2",
     	"Description": "register, search, post, participate in a contest or questionnaire, or communicate with us, interact with us, download or use apps created by IMDb, communicating with you, submit information about movies",
@@ -650,7 +650,7 @@
     }, {
     	"ID": "S6",
     	"Description": "",
-    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"]
     }, {
     	"ID": "S7",
     	"Description": "comply with law, enforce or apply our Terms and Conditions of Use and other agreements",
@@ -664,7 +664,7 @@
     }, {
     	"ID": "S9",
     	"Description": "",
-    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"],
+    	"PrivateDatums": ["PD1", "PD5", "PD7", "PD8"]
     }, {
     	"ID": "S10",
     	"Description": "protect the safety of IMDb, our users, or others",
@@ -678,11 +678,11 @@
     }, {
     	"ID": "S12",
     	"Description": "send (or 'serve') the advertisements that appear on our website directly to your browser",
-    	"PrivateDatums": ["PD9"],
+    	"PrivateDatums": ["PD9"]
     }, {
     	"ID": "S13",
     	"Description": "",
-    	"PrivateDatums": ["All"],
+    	"PrivateDatums": ["All"]
     }, {
     	"ID": "S14",
     	"Description": "make e-mails more useful and interesting",
@@ -718,7 +718,7 @@
     }, {
     	"ID": "En4",
     	"Name": "Used Technologies",
-    	"Description": "We use web beacons (also known as “action tags” or “single-pixel gifs”) and other technologies to measure the effectiveness of certain site features and to conduct research and analysis.",
+    	"Description": "We use web beacons (also known as ï¿½action tagsï¿½ or ï¿½single-pixel gifsï¿½) and other technologies to measure the effectiveness of certain site features and to conduct research and analysis.",
     	"Type": "Tool"
     }, {
     	"ID": "En5",
